@@ -13,3 +13,4 @@ iOS-Tripartite-Libraries-inCollection常用三方库集合！
 ####3、[LCActionSheet](https://github.com/LeoiOS/LCActionSheet),一个简约优雅的ActionSheet。微信和新浪微博也是采取类似的ActionSheet。
 
 ####4、[PopViewDemo](),一个简单的PopView，就在此项目中。
+####5、[IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager),是iOS中解决键盘弹起遮挡UITextField/UITextView的一种很实用的工具。 无需输入任何代码,不需要额外的设置。 使用IQKeyboardManager的你只需要将源文件添加到项目。
