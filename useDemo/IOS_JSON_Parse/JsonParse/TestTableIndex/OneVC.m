@@ -30,9 +30,6 @@
     NSString *path=[[NSBundle mainBundle]pathForResource:@"stations" ofType:@"json"];
     NSData *data=[NSData dataWithContentsOfFile:path];
     
-    NSDictionary *dic = [Util dictionaryWithData:data];
-    
-    
     //使用IOS自带的JSON组件来解析URL，获得解析结果weatherJSON.如果要向IOS5一下兼容，请使用JSONKit进行解析。
     station= [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
     
