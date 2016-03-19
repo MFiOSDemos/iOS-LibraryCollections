@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4CE8CEBD30C524FACC4D61595D2E41D89AA890B8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EF51387A5AF28E4351AFB0302884600583A438B5" : 0,
+    "4CE8CEBD30C524FACC4D61595D2E41D89AA890B8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "795CAAFE-B7EB-4E68-A74A-9C07C9853885",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EF51387A5AF28E4351AFB0302884600583A438B5" : "IOS-JSON-ChineseCities\/JsonParse\/TestTableIndex\/JSONKit\/",
+    "4CE8CEBD30C524FACC4D61595D2E41D89AA890B8" : "IOS-JSON-ChineseCities\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "JsonParse",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "JsonParse\/JsonParse.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mengtuo\/IOS-JSON-ChineseCities.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4CE8CEBD30C524FACC4D61595D2E41D89AA890B8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/johnezang\/JSONKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EF51387A5AF28E4351AFB0302884600583A438B5"
+    }
+  ]
+}
