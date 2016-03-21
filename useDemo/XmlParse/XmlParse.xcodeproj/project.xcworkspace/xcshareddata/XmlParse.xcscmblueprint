@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E2884FF9C56F63E0218EFEF17A3FEB100DC82ED5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E2884FF9C56F63E0218EFEF17A3FEB100DC82ED5" : 0,
+    "4A1D46B07E84B0F91A48D4D1A69ABE38B0C8633B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7679E669-37B8-42BA-A201-5017D0940549",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E2884FF9C56F63E0218EFEF17A3FEB100DC82ED5" : "iOS-Tripartite-Libraries-inCollection\/",
+    "4A1D46B07E84B0F91A48D4D1A69ABE38B0C8633B" : "..\/..\/Downloads\/github%E4%B8%B4%E6%97%B6\/XMLParse"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "XmlParse",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "useDemo\/XmlParse\/XmlParse.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hongfenglt\/XMLParse.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4A1D46B07E84B0F91A48D4D1A69ABE38B0C8633B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mrhyh\/iOS-Tripartite-Libraries-inCollection.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E2884FF9C56F63E0218EFEF17A3FEB100DC82ED5"
+    }
+  ]
+}
