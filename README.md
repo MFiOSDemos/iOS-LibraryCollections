@@ -18,4 +18,4 @@ iOS-Tripartite-Libraries-inCollection常用三方库集合！
 ####7、[openshare](https://github.com/100apps/openshare)一款非常赞的三方登录分享的库，不用官方SDK，利用社交软件移动客户端(微信/QQ/微博/人人/支付宝)分享/登录/支付。
 ####8、[TOWebViewController] (https://github.com/TimOliver/TOWebViewController)，（内置浏览器） A view controller class for iOS that allows users to view web pages directly within an app.
 ####9、[iOS9AdaptationTips](https://github.com/ChenYilong/iOS9AdaptationTips) iOS9全方面适配方法集合！
-####10、[HZPhotoBrowser](https://github.com/chennyhuang/HZPhotoBrowser) 图片浏览器，photoBrowser ，新浪微博，picture,pictureBrowser,sina,weibo
+####10、[HZPhotoBrowser](https://github.com/chennyhuang/HZPhotoBrowser)  图片浏览器，photoBrowser ，新浪微博，
