@@ -27,7 +27,9 @@
         
         if([data length] > 0 && connectionError == nil){
             
-            NSDictionary *weatherDic = [Util dictionaryWithData:data]; 
+            NSDictionary *weatherDic = [Util dictionaryOrArrayWithData:data];
+            NSArray *weatherArr = [Util dictionaryOrArrayWithData:data];
+            NSLog(@"weatherArr=%@",weatherArr);
             NSDictionary *weatherInfo = [weatherDic objectForKey:@"weatherinfo"];
             
             dispatch_async(dispatch_get_main_queue(), ^{

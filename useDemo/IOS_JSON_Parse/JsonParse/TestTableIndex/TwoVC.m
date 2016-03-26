@@ -33,8 +33,10 @@
             NSLog(@"解析后的json格式字符串%@",stringJson);
             
             //方法二（推荐）
-            NSDictionary *weatherDic = [Util dictionaryWithJsonString:stringJson];
-            
+            NSDictionary *weatherDic = [Util dictionaryOrArrayWithJsonString:stringJson];
+            NSLog(@"weatherDic=%@",weatherDic);
+            NSArray *weatherArr = [Util dictionaryOrArrayWithJsonString:stringJson];
+            NSLog(@"weatherArr=%@",weatherArr);
             //方法一
             //IOS5自带解析类NSJSONSerialization从response中解析出数据放到字典中
             //NSDictionary *weatherDic = [NSJSONSerialization JSONObjectWithData:responseData options:NSJSONReadingAllowFragments error:nil]; //这个转换的字典显示不全

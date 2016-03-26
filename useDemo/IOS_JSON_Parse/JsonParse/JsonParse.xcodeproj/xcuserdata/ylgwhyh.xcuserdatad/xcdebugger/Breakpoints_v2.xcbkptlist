@@ -64,54 +64,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TestTableIndex/ThreeVC.m"
-            timestampString = "480059784.372543"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "-viewDidLoad"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__22-[ThreeVC viewDidLoad]_block_invoke"
-                  moduleName = "JsonParse"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hyh/Downloads/github%E4%B8%B4%E6%97%B6/IOS-JSON-ChineseCities/JsonParse/TestTableIndex/ThreeVC.m"
-                  timestampString = "480059784.383877"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "248">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__22-[ThreeVC viewDidLoad]_block_invoke_2"
-                  moduleName = "JsonParse"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hyh/Downloads/github%E4%B8%B4%E6%97%B6/IOS-JSON-ChineseCities/JsonParse/TestTableIndex/ThreeVC.m"
-                  timestampString = "480059784.384304"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "22">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -148,7 +100,7 @@
                   moduleName = "JsonParse"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/hyh/%E7%99%BE%E5%BA%A6%E4%BA%91%E5%90%8C%E6%AD%A5%E7%9B%98/Github%E4%B8%AA%E4%BA%BA%E9%9B%86%E5%90%88/iOS-Tripartite-Libraries-inCollection/useDemo/IOS_JSON_Parse/JsonParse/TestTableIndex/FourVC.m"
-                  timestampString = "480061590.349656"
+                  timestampString = "480672918.065985"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "41"
@@ -163,7 +115,7 @@
                   moduleName = "JsonParse"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/hyh/%E7%99%BE%E5%BA%A6%E4%BA%91%E5%90%8C%E6%AD%A5%E7%9B%98/Github%E4%B8%AA%E4%BA%BA%E9%9B%86%E5%90%88/iOS-Tripartite-Libraries-inCollection/useDemo/IOS_JSON_Parse/JsonParse/TestTableIndex/FourVC.m"
-                  timestampString = "480061590.349868"
+                  timestampString = "480672918.066552"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "41"
