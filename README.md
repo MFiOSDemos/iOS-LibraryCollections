@@ -33,3 +33,4 @@ iOS-Tripartite-Libraries-inCollection常用三方库集合！
 ####16 [OpenSSL](https://github.com/krzyzanowskim/OpenSSL) OpenSSL CocoaPod for iOS and OSX
 ####17 [Reachability](https://github.com/tonymillion/Reachability) 一个iOS下检测,iOS设备网络环境用的库。
 ####18 [ZipArchive](https://github.com/ZipArchive/ZipArchive) ZipArchive is a simple utility class for zipping and unzipping files on iOS and Mac.
+####19 [ZXingObjC](https://github.com/TheLevelUp/ZXingObjC) 扫描和二维码生成
