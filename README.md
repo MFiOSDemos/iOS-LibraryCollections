@@ -20,3 +20,6 @@ iOS-Tripartite-Libraries-inCollection常用三方库集合！
 ####9、[iOS9AdaptationTips](https://github.com/ChenYilong/iOS9AdaptationTips) iOS9全方面适配方法集合！
 ####10、[HZPhotoBrowser](https://github.com/chennyhuang/HZPhotoBrowser)  图片浏览器，photoBrowser ，类似新浪微博博文图片显示。
 ####11、[CocoaAsyncSocket](https://github.com/robbiehanson/CocoaAsyncSocket) Asynchronous socket networking library for Mac and iOS
+
+####12.2 [ELCImagePickerController](https://github.com/B-Sides/ELCImagePickerController)多资源选择器，可以在一个iOS应用界面同时选择多个图片、文件、音乐等资源。
+
