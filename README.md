@@ -32,3 +32,4 @@ iOS-Tripartite-Libraries-inCollection常用三方库集合！
 ####15 [iRate](https://github.com/nicklockwood/iRate)每次打开应用有时会弹出一个提示框让用户去AppStore评分，iRate就是一个封装好的评分框架。
 ####16 [OpenSSL](https://github.com/krzyzanowskim/OpenSSL) OpenSSL CocoaPod for iOS and OSX
 ####17 [Reachability](https://github.com/tonymillion/Reachability) 一个iOS下检测,iOS设备网络环境用的库。
+####18 [ZipArchive](https://github.com/ZipArchive/ZipArchive) ZipArchive is a simple utility class for zipping and unzipping files on iOS and Mac.
