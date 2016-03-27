@@ -29,3 +29,4 @@ iOS-Tripartite-Libraries-inCollection常用三方库集合！
 ####15 [FXBlurView](https://github.com/nicklockwood/FXBlurView) FXBlurView 是一个 UIView 的子类，复制了 iOS7 的实时背景模糊效果，但是可以运行在 iOS5 以上的版本。它的设计简单易用。FXBlurView 提供两种模式：静态模糊和动态模糊。
 ####15 [iRate](https://github.com/nicklockwood/iRate)每次打开应用有时会弹出一个提示框让用户去AppStore评分，iRate就是一个封装好的评分框架。
 ####16 [OpenSSL](https://github.com/krzyzanowskim/OpenSSL) OpenSSL CocoaPod for iOS and OSX
+####17 [Reachability](https://github.com/tonymillion/Reachability) 一个iOS下检测,iOS设备网络环境用的库。
