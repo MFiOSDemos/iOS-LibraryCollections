@@ -24,4 +24,5 @@ iOS-Tripartite-Libraries-inCollection常用三方库集合！
 
 ####12.2 [ELCImagePickerController](https://github.com/B-Sides/ELCImagePickerController)多资源选择器，可以在一个iOS应用界面同时选择多个图片、文件、音乐等资源。
 
-####13 [FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture)A UINavigationController's category to enable fullscreen pop gesture with iOS7+ system style.(是一款无需改动即可整合进入现有项目的全局手势操作，使用这个即可以在左侧边缘拖拽的时候返回上一级的效果。)
+####13 [FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture) A UINavigationController's category to enable fullscreen pop gesture with iOS7+ system style.(是一款无需改动即可整合进入现有项目的全局手势操作，使用这个即可以在左侧边缘拖拽的时候返回上一级的效果。)
+####14 [Font-Awesome](https://github.com/FortAwesome/Font-Awesome)  一套绝佳的图标字体库和CSS框架
