@@ -27,3 +27,4 @@ iOS-Tripartite-Libraries-inCollection常用三方库集合！
 ####13 [FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture) A UINavigationController's category to enable fullscreen pop gesture with iOS7+ system style.(是一款无需改动即可整合进入现有项目的全局手势操作，使用这个即可以在左侧边缘拖拽的时候返回上一级的效果。)
 ####14 [Font-Awesome](https://github.com/FortAwesome/Font-Awesome)  一套绝佳的图标字体库和CSS框架
 ####15 [FXBlurView](https://github.com/nicklockwood/FXBlurView) FXBlurView 是一个 UIView 的子类，复制了 iOS7 的实时背景模糊效果，但是可以运行在 iOS5 以上的版本。它的设计简单易用。FXBlurView 提供两种模式：静态模糊和动态模糊。
+####15 [iRate](https://github.com/nicklockwood/iRate)每次打开应用有时会弹出一个提示框让用户去AppStore评分，iRate就是一个封装好的评分框架。
