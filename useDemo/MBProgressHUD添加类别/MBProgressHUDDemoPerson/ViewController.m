@@ -11,17 +11,22 @@
 #import "MBProgressHUD+YL.h"
 #import "Common.h"
 
-#define IPHONE_HEIGHT   [UIScreen mainScreen].bounds.size.height
-#define IPHONE_WIDTH   [UIScreen mainScreen].bounds.size.width
+
 
 @interface ViewController ()
 
+@property (nonatomic) NSString *str;
 
 - (IBAction)testHUD:(id)sender;
 - (IBAction)testHUD2:(id)sender;
 - (IBAction)testHUDChrysanthemum:(id)sender;
 
 - (IBAction)cancelChrysanthemum:(id)sender;
+
+
+- (IBAction)testAddHUDToView:(id)sender;
+- (IBAction)testHideHUDFromView:(id)sender;
+- (IBAction)testShowMessageInFullView:(id)sender;
 
 @end
 
@@ -30,7 +35,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -45,8 +49,7 @@
 }
 
 - (IBAction)testHUD2:(id)sender {
-    
- [MBProgressHUD showPromptingWithCustomImage:@"测试的" imageName:@"crying"];
+    [MBProgressHUD showMessage:@"测试的" imageName:@"crying"];
 }
 
 - (IBAction)testHUDChrysanthemum:(id)sender {
@@ -66,13 +69,34 @@
 }
 
 - (IBAction)cancelChrysanthemum:(id)sender {
-    
-    [MBProgressHUD showPrompting:@"请骚等一会儿"];
-    
+    [MBProgressHUD showMessage:@"请骚等一会儿"];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
-        
         [MBProgressHUD hideHUD];
     });
+
+}
+
+- (IBAction)testAddHUDToView:(id)sender {
+    [MBProgressHUD showMessage:@"在某个view上显示..." toView:self.view];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+
+        [MBProgressHUD hideHUDForView:self.view];
+    });
+}
+
+- (IBAction)testHideHUDFromView:(id)sender {
+    
+    [MBProgressHUD hideHUD];
+}
+
+- (IBAction)testShowMessageInFullView:(id)sender {
+    [MBProgressHUD showMessage:@"正在拼命加载..."];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+        [MBProgressHUD hideHUD];
+    });
+    
 }
 
 - (void)prompt{

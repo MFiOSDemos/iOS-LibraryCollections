@@ -8,6 +8,11 @@
 
 #import "MBProgressHUD+YL.h"
 
+
+@interface MBProgressHUD()
+
+@end
+
 @implementation MBProgressHUD (YL)
 
 #define IPHONE_HEIGHT_MBProgressHUD_YL   [UIScreen mainScreen].bounds.size.height
@@ -17,18 +22,23 @@
 #define RGB_MBProgressHUD(r, g, b) [UIColor colorWithRed:(r) / 255.0f green:(g) / 255.0f blue:(b) / 255.0f alpha:1]
 #define RGBA_MBProgressHUD(r, g, b, a) [UIColor colorWithRed:r / 255.0f green:g / 255.0f blue:b / 255.0f alpha:a]
 
-+ (void)showPrompting:(NSString *)promptTitle{
-    [self show:promptTitle icon:nil view:nil];
+
+#pragma mark 显示正确或错误信息
++ (void)showError:(NSString *)error toView:(UIView *)view{
+    [self show:error icon:@"error.png" view:view];
+}
++ (void)showSuccess:(NSString *)success toView:(UIView *)view
+{
+    [self show:success icon:@"success.png" view:view];
 }
 
-+ (void)showPromptingWithDefaultImage:(NSString *)promptTitle{
-    [self show:promptTitle icon:nil view:nil];
-}
 
-+ (void)showPromptingWithCustomImage:(NSString *)promptTitle imageName:(NSString *)imageString{
-    [self show:promptTitle icon:imageString view:nil];
++ (void)showMessage:(NSString *)message imageName:(NSString *)imageName{
+    [self show:message icon:imageName view:nil];
 }
-
++ (void)showMessage:(NSString *)message imageName:(NSString *)imageName toView:(UIView *)view{
+    [self showMessage:message imageName:imageName toView:view];
+}
 
 + (void)show:(NSString *)text icon:(NSString *)icon view:(UIView *)view
 {
@@ -42,13 +52,12 @@
     hud.color = RGBA_MBProgressHUD(90, 91, 92, 0.7); //矩形框背景色
     
     if(icon != nil){
-        
         UIImageView *imageView = [[UIImageView alloc] initWithImage:[[UIImage imageNamed:icon] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
         imageView.center = CGPointMake(IPHONE_WIDTH_MBProgressHUD_YL/2, IPHONE_HEIGHT_MBProgressHUD_YL/2);
         imageView.bounds = CGRectMake(0, 10, 20, 20);
         
-        // 设置图片(从Bundle文件)
-        //hud.customView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"MBProgressHUD.bundle/%@", icon]]];
+        // 设置图片(从Bundle文件目录读取)
+        hud.customView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"MBProgressHUD.bundle/%@", icon]]];
         
         hud.customView = imageView;
         hud.mode = MBProgressHUDModeCustomView;
@@ -63,22 +72,42 @@
     [hud hide:YES afterDelay:0.9];
 }
 
-+ (void)showSuccess:(NSString *)success toView:(UIView *)view {
-    
-    [self show:success icon:@"crying.png" view:view];
+
+#pragma mark 显示一些信息
++ (MBProgressHUD *)showMessage:(NSString *)message toView:(UIView *)view {
+    if (view == nil) view = [[UIApplication sharedApplication].windows lastObject];
+    // 快速显示一个提示信息
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
+    hud.labelText = message;
+    // 隐藏时候从父控件中移除
+    hud.removeFromSuperViewOnHide = YES;
+    // YES代表需要蒙版效果
+    hud.dimBackground = YES;
+    return hud;
 }
++ (void)hideMessage:(NSString *)message toView:(UIView *)view{
+    
+    MBProgressHUD *hud = [self HUDForView:view];
+    if (hud != nil) {
+        hud.removeFromSuperViewOnHide = YES;
+    }
+}
+
++ (MBProgressHUD *)showMessage:(NSString *)message{
+    return [self showMessage:message toView:nil];
+}
+
+#pragma mark 隐藏HUD
 
 + (void)hideHUD
 {
-    UIView *view = [[UIApplication sharedApplication].windows lastObject];
-    [self hideHUDForView:view];
+    [self hideHUDForView:nil];
 }
 
-
-+ (void) hideHUDForView:(UIView *)view
++ (void)hideHUDForView:(UIView *)view
 {
+    if (view == nil) view = [[UIApplication sharedApplication].windows lastObject];
     [self hideHUDForView:view animated:YES];
 }
-
 
 @end

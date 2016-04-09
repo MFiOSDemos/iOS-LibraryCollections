@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MBProgressHUDDemoPerson/ViewController.m"
-            timestampString = "479737823.447161"
+            timestampString = "481893754.659673"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "-testHUD2:"
             landmarkType = "5">
          </BreakpointContent>

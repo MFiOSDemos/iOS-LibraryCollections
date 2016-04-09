@@ -52,8 +52,8 @@
 #define AppNavTextColor [UIColor whiteColor] //系统导航白色文字颜色
 
 //屏膜宽高
-#define IPHONE_WIDTH ([UIScreen mainScreen].applicationFrame.size.width)
-#define IPHONE_HEIGHT ([UIScreen mainScreen].applicationFrame.size.height) //没状态栏高度
+#define IPHONE_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define IPHONE_HEIGHT ([UIScreen mainScreen].bounds.size.height)//没状态栏高度
 
 //config
 #define APPWINDOWWIDTH               [UIScreen mainScreen].bounds.size.width

@@ -18,22 +18,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TbV-tz-cLp">
-                                <rect key="frame" x="62" y="127" width="63" height="30"/>
-                                <state key="normal" title="测试HUD"/>
+                                <rect key="frame" x="13" y="127" width="162" height="30"/>
+                                <state key="normal" title="测试HUD-直接调用HUD"/>
                                 <connections>
                                     <action selector="testHUD:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sVn-XA-BOd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Awz-IF-bJk">
-                                <rect key="frame" x="62" y="182" width="72" height="30"/>
-                                <state key="normal" title="测试HUD2"/>
-                                <connections>
-                                    <action selector="testHUD2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ppA-dD-m3e"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iW5-rH-ShU">
-                                <rect key="frame" x="63" y="236" width="60" height="30"/>
-                                <state key="normal" title="测试菊花"/>
+                                <rect key="frame" x="12" y="236" width="163" height="30"/>
+                                <state key="normal" title="测试菊花(直接调用HUD)"/>
                                 <connections>
                                     <action selector="testHUDChrysanthemum:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ixz-oq-nYq"/>
                                 </connections>
@@ -43,6 +36,34 @@
                                 <state key="normal" title="测试菊花2"/>
                                 <connections>
                                     <action selector="cancelChrysanthemum:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N2e-ve-lRP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Tx-lc-max">
+                                <rect key="frame" x="39" y="317" width="109" height="30"/>
+                                <state key="normal" title="AddHUDToView"/>
+                                <connections>
+                                    <action selector="testAddHUDToView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oqt-tw-YHe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7a-pD-Six">
+                                <rect key="frame" x="27" y="355" width="132" height="30"/>
+                                <state key="normal" title="HideHUDFromView"/>
+                                <connections>
+                                    <action selector="testHideHUDFromView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qjy-vw-kvD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXz-X9-gta">
+                                <rect key="frame" x="32" y="387" width="120" height="30"/>
+                                <state key="normal" title="全屏变暗显示信息"/>
+                                <connections>
+                                    <action selector="testShowMessageInFullView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Kb-aI-pdI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Awz-IF-bJk">
+                                <rect key="frame" x="16" y="174" width="139" height="30"/>
+                                <state key="normal" title="测试HUD2-封装了下"/>
+                                <connections>
+                                    <action selector="testHUD2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ppA-dD-m3e"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -13,30 +13,34 @@
 
 #pragma mark 当 MBProgressHUD 更新的时候，只需要将本程序中另外的的两个文件替换即可。
 
++ (void)showSuccess:(NSString *)success toView:(UIView *)view;
++ (void)showError:(NSString *)error toView:(UIView *)view;
+
+/******************显示一会儿后自动隐藏的*******************/
 /**
- *  只显示文字提示
- *
- *  @param promptTitle 要显示的文字
+ * 显示到windows,只显示文字
  */
-+ (void)showPrompting:(NSString *)promptTitle;
++ (MBProgressHUD *)showMessage:(NSString *)message;
 
 /**
- *  显示带默认图片的提示
- *
- *  @param promptTitle 要显示的文字
+ *  显示到windows,显示文字和图片
+ *  @param 图片名必须为png格式
  */
-+ (void)showPromptingWithDefaultImage:(NSString *)promptTitle;
++ (void)showMessage:(NSString *)message imageName:(NSString *)imageName;
++ (void)showMessage:(NSString *)message imageName:(NSString *)imageName toView:(UIView *)view;
 
-/**
- *  显示自定义图片提示
- *
- *  @param promptTitle 要显示的文字 imageString 要显示的图片名，必须为png格式
- */
-+ (void)showPromptingWithCustomImage:(NSString *)promptTitle imageName:(NSString *)imageString;
+/******************显示后需要手动关闭*******************/
++ (MBProgressHUD *)showMessage:(NSString *)message toView:(UIView *)view;
 
 
 /**
- *  隐藏 HUD
+ *  隐藏加载到windows上的HUD
  */
 + (void)hideHUD;
+/**
+ *  隐藏加载到view上的HUD
+ *  @param view
+ */
++ (void)hideHUDForView:(UIView *)view;
+
 @end
