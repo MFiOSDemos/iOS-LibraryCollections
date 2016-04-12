@@ -25,22 +25,22 @@
 
 #pragma mark 显示正确或错误信息
 + (void)showError:(NSString *)error toView:(UIView *)view{
-    [self show:error icon:@"error.png" view:view];
+    [self show:error icon:@"error.png" view:view hide:YES dimBackground:NO];
 }
 + (void)showSuccess:(NSString *)success toView:(UIView *)view
 {
-    [self show:success icon:@"success.png" view:view];
+    [self show:success icon:@"success.png" view:view hide:YES dimBackground:NO];
 }
 
 
 + (void)showMessage:(NSString *)message imageName:(NSString *)imageName{
-    [self show:message icon:imageName view:nil];
+    [self show:message icon:imageName view:nil hide:YES dimBackground:NO];
 }
 + (void)showMessage:(NSString *)message imageName:(NSString *)imageName toView:(UIView *)view{
     [self showMessage:message imageName:imageName toView:view];
 }
 
-+ (void)show:(NSString *)text icon:(NSString *)icon view:(UIView *)view
++ (void)show:(NSString *)text icon:(NSString *)icon view:(UIView *)view hide:(BOOL)isAutoHide dimBackground:(BOOL)dimBackground
 {
     if (view == nil) view = [[UIApplication sharedApplication].windows lastObject];
     
@@ -67,23 +67,19 @@
     
     //隐藏时候从父控件中移除
     hud.removeFromSuperViewOnHide = YES;
+    hud.dimBackground = dimBackground; // YES代表需要蒙版效果
+    if(isAutoHide){
+        //0.9秒之后再消失
+        [hud hide:YES afterDelay:0.9];
+    }
     
-    //0.9秒之后再消失
-    [hud hide:YES afterDelay:0.9];
 }
 
 
 #pragma mark 显示一些信息
-+ (MBProgressHUD *)showMessage:(NSString *)message toView:(UIView *)view {
-    if (view == nil) view = [[UIApplication sharedApplication].windows lastObject];
-    // 快速显示一个提示信息
-    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
-    hud.labelText = message;
-    // 隐藏时候从父控件中移除
-    hud.removeFromSuperViewOnHide = YES;
-    // YES代表需要蒙版效果
-    hud.dimBackground = YES;
-    return hud;
++ (void)showMessageWait:(NSString *)message toView:(UIView *)view {
+    
+    [self show:message icon:nil view:view hide:NO dimBackground:YES];
 }
 + (void)hideMessage:(NSString *)message toView:(UIView *)view{
     
@@ -93,8 +89,8 @@
     }
 }
 
-+ (MBProgressHUD *)showMessage:(NSString *)message{
-    return [self showMessage:message toView:nil];
++ (void)showMessageWait:(NSString *)message{
+    [self showMessageWait:message toView:nil];
 }
 
 #pragma mark 隐藏HUD

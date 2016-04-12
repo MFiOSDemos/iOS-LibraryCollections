@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "823FA7801445CB41A1B20407B9AF1CDEA08EB4A1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "823FA7801445CB41A1B20407B9AF1CDEA08EB4A1" : 0,
+    "E2884FF9C56F63E0218EFEF17A3FEB100DC82ED5" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F5DDC2A8-13E1-4DA3-ADC8-BB2C856028DC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "823FA7801445CB41A1B20407B9AF1CDEA08EB4A1" : "iRate\/",
+    "E2884FF9C56F63E0218EFEF17A3FEB100DC82ED5" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iPhoneDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Examples\/iPhone Demo\/iPhoneDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nicklockwood\/iRate.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "823FA7801445CB41A1B20407B9AF1CDEA08EB4A1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mrhyh\/iOS-Tripartite-Libraries-inCollection.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E2884FF9C56F63E0218EFEF17A3FEB100DC82ED5"
+    }
+  ]
+}

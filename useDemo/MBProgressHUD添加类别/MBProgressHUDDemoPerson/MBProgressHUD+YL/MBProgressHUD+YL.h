@@ -17,30 +17,17 @@
 + (void)showError:(NSString *)error toView:(UIView *)view;
 
 /******************显示一会儿后自动隐藏的*******************/
-/**
- * 显示到windows,只显示文字
- */
-+ (MBProgressHUD *)showMessage:(NSString *)message;
-
-/**
- *  显示到windows,显示文字和图片
- *  @param 图片名必须为png格式
- */
++ (void)showMessage:(NSString *)message;
 + (void)showMessage:(NSString *)message imageName:(NSString *)imageName;
 + (void)showMessage:(NSString *)message imageName:(NSString *)imageName toView:(UIView *)view;
 
 /******************显示后需要手动关闭*******************/
-+ (MBProgressHUD *)showMessage:(NSString *)message toView:(UIView *)view;
++ (void)showMessageWait:(NSString *)message toView:(UIView *)view;
++ (void)showMessageWait:(NSString *)message;
++ (void)showMessageWait:(NSString *)message imageName:(NSString *)imageName toView:(UIView *)view;
 
-
-/**
- *  隐藏加载到windows上的HUD
- */
+/*****************隐藏HUD*******************/
 + (void)hideHUD;
-/**
- *  隐藏加载到view上的HUD
- *  @param view
- */
 + (void)hideHUDForView:(UIView *)view;
 
 @end

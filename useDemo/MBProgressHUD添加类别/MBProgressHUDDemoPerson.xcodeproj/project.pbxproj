@@ -16,7 +16,6 @@
 		EB145ABB1C92771D00F75B0D /* VIMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = EB145ABA1C92771D00F75B0D /* VIMessage.m */; };
 		EB145AC11C92778600F75B0D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EB145ABD1C92778600F75B0D /* LICENSE */; };
 		EB145AC21C92778600F75B0D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EB145ABF1C92778600F75B0D /* MBProgressHUD.m */; };
-		EB145AC31C92778600F75B0D /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = EB145AC01C92778600F75B0D /* README.mdown */; };
 		EB31D5A61C9843CC00338333 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EB31D5A51C9843CC00338333 /* MBProgressHUD.bundle */; };
 		EB7D93AF1C983673007CA0FB /* MBProgressHUD+YL.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7D93AE1C983673007CA0FB /* MBProgressHUD+YL.m */; };
 /* End PBXBuildFile section */
@@ -37,7 +36,6 @@
 		EB145ABD1C92778600F75B0D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EB145ABE1C92778600F75B0D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		EB145ABF1C92778600F75B0D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		EB145AC01C92778600F75B0D /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
 		EB145AC91C9299FE00F75B0D /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		EB31D5A51C9843CC00338333 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		EB7D93AD1C983673007CA0FB /* MBProgressHUD+YL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+YL.h"; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 				EB145ABD1C92778600F75B0D /* LICENSE */,
 				EB145ABE1C92778600F75B0D /* MBProgressHUD.h */,
 				EB145ABF1C92778600F75B0D /* MBProgressHUD.m */,
-				EB145AC01C92778600F75B0D /* README.mdown */,
 			);
 			path = MBProgressHUD;
 			sourceTree = "<group>";
@@ -196,7 +193,6 @@
 				EB145AAA1C92759F00F75B0D /* ViewController.m in Sources */,
 				EB145AA71C92759F00F75B0D /* AppDelegate.m in Sources */,
 				EB145AC21C92778600F75B0D /* MBProgressHUD.m in Sources */,
-				EB145AC31C92778600F75B0D /* README.mdown in Sources */,
 				EB145ABB1C92771D00F75B0D /* VIMessage.m in Sources */,
 				EB7D93AF1C983673007CA0FB /* MBProgressHUD+YL.m in Sources */,
 				EB145AA41C92759F00F75B0D /* main.m in Sources */,
