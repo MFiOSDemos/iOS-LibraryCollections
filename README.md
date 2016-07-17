@@ -3,13 +3,21 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 
 重点说明：此库完全在[TimLiu-iOS](https://github.com/Tim9Liu9/TimLiu-iOS)（大概16-7-9日fork）的基础上面更新，因我没能得到权限跟原作者一起维护他的那个优秀的三方库，同时我也有不同的想法，因此fork了Tim9Liu9的这个项目，并重新发布我的修改版本（初次只有略微修改），希望能对大家有帮助，同时非常感谢Tim9Liu9贡献出这么优秀的库出来，向您致敬。
 
-外国人收集的三方库集合，非常赞：[awesome-ios](https://github.com/vsouza/awesome-ios)
+主要工作说明，国内外iOS的开源项目非常的丰富，所以整理工作简单分步进行。第一步就是利其器。
+
+工作安排
+1. 收集、整理Xcode好用的插件。（进行中。。。）
+
+
+外国人收集的三方库集合（OC版本），非常赞：[awesome-ios](https://github.com/vsouza/awesome-ios)
+                  （Swift版本）[Awesome-Swift-Education](https://github.com/hsavit1/Awesome-Swift-Education)
 
 ###  目录
 - [UI](#UI)
 - [FaceBook](#iOS库)
 - [完整App](#完整App)
 - [App框架](#App框架)
+- [Xcode插件](#Xcode插件)
 - [下拉刷新](#下拉刷新)
 - [模糊效果](#模糊效果)
 - [AutoLayout](#AutoLayout)
@@ -55,7 +63,6 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [VPN](#VPN)
 - [完整项目](#完整项目)
 - [好的文章](#好的文章)
-- [Xcode插件](#Xcode插件)
 - [美工资源](#美工资源)
 - [开发资源](#开发资源)
 - [开发资料](#开发资料)
@@ -1230,6 +1237,12 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 
 ========
 #### Xcode插件
+* [Alcatraz](http://alcatraz.io/) -使用Alcatraz来管理Xcode插件
+* [Polychromatic](https://github.com/kolinkrewinkel/Polychromatic)  为不同的变量类型赋予不同的颜色
+* [ClangFormat-Xcode](https://github.com/travisjeffery/ClangFormat-Xcode) clang-format 代码格式化
+* [BBUncrustifyPlugin-Xcode](https://github.com/benoitsan/BBUncrustifyPlugin-Xcode)  Uncrustify格式化
+
+
 * [iOS开发进阶，从Xcode开始](http://www.cocoachina.com/special/xcode/) - 学习使用Xcode构建出色的应用程序！
 * 在Xcode启动的时候，Xcode将会寻找位于~/Library/Application Support/Developer/Shared/Xcode/Plug-ins文件夹中的后缀名为.xcplugin的bundle作为插件进行加载（运行其中的可执行文件）。[Xcode5 Plugins 开发简介](http://studentdeng.github.io/blog/2014/02/21/xcode-plugin-fun/)  [写个自己的Xcode4插件](http://joeyio.com/ios/2013/07/25/write_xcode4_plugin_of_your_own/)
 * [Xcode 4 插件制作入门](https://www.onevcat.com/2013/02/xcode-plugin/) - Xcode 4 插件制作入门:Xcode所使用的所有库都包含在Xcode.app/Contents/的Frameworks，SharedFrameworks和OtherFrameworks三个文件夹下。其中和Xcode关系最为直接以及最为重要的是Frameworks中的IDEKit和IDEFoundation，以及SharedFrameworks中的DVTKit和DVTFoundation四个。
@@ -1248,7 +1261,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
                                                                                                                                                               http://tangqiaoboy.gitcafe.io/blog/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/)。
 * [Peckham](https://github.com/markohlebar/Peckham) - 添加import语句比较麻烦，此插件 按Command-Control-P，给出的选项列表中选择要的头文件。先要安装[Alcatraz](http://alcatraz.io/) ,在终端输入： **curl -fsSL https://raw.github.com/supermarin/Alcatraz/master/Scripts/install.sh | sh** ； 重启xcode-》window-》Package Manager：搜索 **Peckham** 安装，打开Peckham.xcodeproj，编译 Peckham target，重启Xcode 。
 * [Auto-Importer](https://github.com/citrusbyte/Auto-Importer-for-Xcode) - Auto-Importer是一个自动导入类对应的头文件的Xcode插件。
-* [Alcatraz](http://alcatraz.io/) -使用Alcatraz来管理Xcode插件 [使用说明](http://tangqiaoboy.gitcafe.io/blog/2014/03/05/use-alcatraz-to-manage-xcode-plugins/) 。
+
 * [KSHObjcUML](https://github.com/kimsungwhee/KSHObjcUML) -KSHObjcUML 是一个 Objective-C 类引用关系图的 Xcode 插件。
 * [ColorSense-for-Xcode](https://github.com/omz/ColorSense-for-Xcode) - 颜色插件，安装之后，就不用根据RGB选择颜色，直接从取色板中取颜色，会自动补齐RGB代码。
 * [10款提高iOS开发效率的XCode插件](http://www.codeceo.com/article/10-ios-xcode-plugins.html) - 10款提高iOS开发效率的XCode插件：1. XcodeColors；5. ACCodeSnippetRepository；10. [Dash for Xcode](https://github.com/omz/Dash-Plugin-for-Xcode)。
