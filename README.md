@@ -71,7 +71,11 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 * [pop](https://github.com/facebook/pop) - facebook出品的非常赞的动画引擎。
 
 ##### 完整App
-* [Coding-iOS] (https://github.com/Coding/Coding-iOS) - Coding iOS 客户端源代码
+* [Coding-iOS](https://github.com/Coding/Coding-iOS) - Coding iOS 客户端源代码
+* [Voice2Note](https://github.com/liaojinxing/Voice2Note) - 懒人笔记iOS客户端
+* [V2EXClient](https://github.com/liaojinxing/V2EXClient) - Swift实现的V2EX iOS
+客户端
+
 
 ##### 下拉刷新
 * [EGOTableViewPullRefresh](https://github.com/enormego/EGOTableViewPullRefresh) - 最早的下拉刷新控件。
