@@ -1,4 +1,4 @@
-# iOS-Tripartite-Libraries-inCollection  
+# iOS-LibraryCollections  
 iOS开发常用三方库、插件、知名博客等等，大家可以一览无余了，期待大家和我一起共同维护，同时也期望大家随时能提出宝贵的意见，持续更新。。。
 
 重点说明：此库完全在[TimLiu-iOS](https://github.com/Tim9Liu9/TimLiu-iOS)（大概16-7-9日fork）的基础上面更新，因我没能得到权限跟原作者一起维护他的那个优秀的三方库，同时我也有不同的想法，因此fork了Tim9Liu9的这个项目，并重新发布我的修改版本（初次只有略微修改），希望能对大家有帮助，同时非常感谢Tim9Liu9贡献出这么优秀的库出来，向您致敬。
@@ -69,7 +69,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [swift](#swift)
 - [他人开源总结](#他人开源总结)
 - [开发博客列表](#开发博客列表)
-
+- [学习笔记](#学习笔记)
 
 ========
 ### 具体内容 =============================
@@ -1405,5 +1405,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 [里脊串的开发随笔](http://adad184.com) | <http://adad184.com/atom.xml>
 [ibireme伽蓝之堂](http://blog.ibireme.com/) | <http://blog.ibireme.com/feed/>
 
+#### 学习笔记
+* A-[iOS-Note](https://github.com/seedante/iOS-Note) 非常好的学习笔记，主要目录1.Core Data 笔记2.Photos 笔记3.转场动画详解4.自定义容器控制器转场5.交互式动画
 #### 物联网
 * [awesome-iot](https://github.com/phodal/awesome-iot) - 这份物联网学习参考大全太给力。从物联网协议、嵌入式系统、相关开源库、相关书籍、博客、学习笔记、标准应有尽有。
