@@ -74,6 +74,30 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 * [Coding-iOS](https://github.com/Coding/Coding-iOS) - Coding iOS 客户端源代码
 * [Voice2Note](https://github.com/liaojinxing/Voice2Note) - 懒人笔记iOS客户端
 * [V2EXClient](https://github.com/liaojinxing/V2EXClient) - Swift实现的V2EX iOS
+* [Coding-iOS](https://github.com/Coding/Coding-iOS) - Coding iOS 客户端源代码
+* [Coding-iPad](https://github.com/Coding/Coding-iPad) - Coding iPad 客户端源代码
+* [Monkey](https://github.com/coderyi/Monkey) - GitHub第三方iOS客户端
+* [firefox-ios](https://github.com/mozilla/firefox-ios) Firefox for iOS
+* [RSSRead](https://github.com/ming1016/RSSRead) “已阅”（iOS上开源RSS新闻阅读器）
+* [Watch](https://github.com/tuesda/Watch) Dribbble第三方客户端。Dribbble是目前最有影响力、最被人讨论的针对设计者的线上社区之一。 许多设计师为了寻找灵感，与设计师同行进行交流切磋等都会到这里来。
+* [zulip-ios](https://github.com/zulip/zulip-ios) Dropbox收购公司内部社交服务商Zulip,然后全部开源，这是iOS App
+* [ChatSecure-iOS](https://github.com/ChatSecure/ChatSecure-iOS) - Objective-C写的XMPP聊天应用
+* [FirebaseChat](https://github.com/relatedcode/FirebaseChat) - Objective-C写的完整的聊天应用
+* [Meizi](https://github.com/Sunnyyoung/Meizi) - 豆瓣妹子图iOS客户端
+* A-[PlainReader](https://github.com/guojiubo/PlainReader) 简阅是一款 iOS(iPhone + iPad) 新闻类客户端，内容抓取自 cnBeta.COM。在售期间倍受好评，但由于版权问题已于今年一月从 AppStore 下架，下架至今，每天仍有几千人在使用这款 App。
+* [ECMobile_iOS](https://github.com/GeekZooStudio/ECMobile_iOS) 基于ECShop的手机商城客户端
+* [ECMobile_Universal](https://github.com/GeekZooStudio/ECMobile_Universal)基于ECShop的手机商城客户端
+* [wikipedia-ios](https://github.com/wikimedia/wikipedia-ios) 维基百科官方App, 已上架
+* [Sol](https://github.com/comyarzaheri/Sol) 漂亮的扁平风格的天气App
+* [v2ex](https://github.com/singro/v2ex)v2ex第三方iOS客户端。V2EX是一个知名技术创意网站，由设计师、程序员及有创意的人参与的社区。 它基于兴趣将用户创建的内容组织分类成不同“节点”，网站以内容的活跃程度决定在首页排序的位置。
+* [MyOne-iOS](https://github.com/meilbn/MyOne-iOS)我的《一个》 iOS 客户端（OC）
+* [WNXHuntForCity](https://github.com/ZhongTaoTian/WNXHuntForCity)城觅By-Objective-C
+* [viewfinder](https://github.com/viewfinderco/viewfinder) 移动支付公司 Square 将去年收购的照片应用 Viewfinder 开源了，包含服务端、iOS 和 Android 应用代码
+* [novel-design](https://github.com/ltebean/novel-design) 品趣iOS客户端
+* [breadwallet](https://github.com/voisine/breadwallet) breadwallet - bitcoin wallet
+* [GreatReader](https://github.com/semweb/GreatReader) GreatReader PDF阅读客户端
+
+
 客户端
 
 
