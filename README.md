@@ -12,6 +12,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [AutoLayout](#AutoLayout)
 - [富文本](#富文本)
 - [图表](#图表)
+- [颜色](#颜色)
 - [表相关与Tabbar](#表相关与Tabbar)
 - [隐藏与显示](#隐藏与显示)
 - [HUD与Toast](#HUD与Toast)
@@ -79,7 +80,6 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 * [Monkey](https://github.com/coderyi/Monkey) - GitHub第三方iOS客户端
 * [firefox-ios](https://github.com/mozilla/firefox-ios) Firefox for iOS
 * [RSSRead](https://github.com/ming1016/RSSRead) “已阅”（iOS上开源RSS新闻阅读器）
-* [Watch](https://github.com/tuesda/Watch) Dribbble第三方客户端。Dribbble是目前最有影响力、最被人讨论的针对设计者的线上社区之一。 许多设计师为了寻找灵感，与设计师同行进行交流切磋等都会到这里来。
 * [zulip-ios](https://github.com/zulip/zulip-ios) Dropbox收购公司内部社交服务商Zulip,然后全部开源，这是iOS App
 * [ChatSecure-iOS](https://github.com/ChatSecure/ChatSecure-iOS) - Objective-C写的XMPP聊天应用
 * [FirebaseChat](https://github.com/relatedcode/FirebaseChat) - Objective-C写的完整的聊天应用
@@ -96,9 +96,13 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 * [novel-design](https://github.com/ltebean/novel-design) 品趣iOS客户端
 * [breadwallet](https://github.com/voisine/breadwallet) breadwallet - bitcoin wallet
 * [GreatReader](https://github.com/semweb/GreatReader) GreatReader PDF阅读客户端
-
-
+* [Tropos](https://github.com/thoughtbot/Tropos)天气客户端
+* [Brushes](https://github.com/sprang/Brushes)绘图应用. Painting app for the iPhone and iPad.
 客户端
+* [WordPress-iOS](https://github.com/wordpress-mobile/WordPress-iOS)WordPress iOS官方客户端. 笔者强烈推荐的开源项目.
+* [TeamTalk](https://github.com/mogujie/TeamTalk) 蘑菇街TeamTalk. 开源IM. 笔者强烈推荐.
+* [MessageDisplayKit](https://github.com/xhzengAIB/MessageDisplayKit)一个类似微信App的IM应用，拥有发送文字、图片、语音、视频、地理位置消息，管理本地通信录、分享朋友 圈、漂流交友、摇一摇和更多有趣的功能。笔者推荐的学习IM的好东西.
+* [shadowsocks-iOS/tree/2.6.3](https://github.com/shadowsocks/shadowsocks-iOS/tree/2.6.3)翻墙工具Shadowsocks. Github目前代码已经被移除, 不过2.6.3的还是保留着.
 
 
 ##### 下拉刷新
@@ -210,6 +214,9 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [XYPieChart](https://github.com/xyfeng/XYPieChart) -XYPieChart:饼状图,  饼图,  数据统计,  数据可视化,可以在图形上标注数据。效果十分漂亮，而且没有用到一张图片。
 * [ZFChart](https://github.com/Zirkfied/ZFChart) - 模仿PNChart写的一个图表库，用法简单，暂时有柱状图，线状图，饼图三种类型，后续可能会更新新的类型。
 * [Scrollable-GraphView.swift](https://github.com/philackm/Scrollable-GraphView) - 灵动感十足的自适应、可定制滚动曲（折）线图表库。
+
+##### 颜色
+* [Colours](https://github.com/bennyguitar/Colours) Colours–颜色库,包含100种预定义的颜色和方法
 
 ##### 表相关与Tabbar
 * [SWTableViewCell](https://github.com/onevcat/SWTableViewCell) - 国内开源作者，带很多手势的表单元格。
