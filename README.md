@@ -7,6 +7,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [UI](#UI)
 - [FaceBook](#iOS库)
 - [完整App](#完整App)
+- [App框架](#App框架)
 - [下拉刷新](#下拉刷新)
 - [模糊效果](#模糊效果)
 - [AutoLayout](#AutoLayout)
@@ -20,6 +21,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [状态栏](#状态栏)
 - [其他UI](#其他UI)
 - [动画](#动画)
+- [游戏](#cocos2d-objc)
 - [侧滑与右滑返回手势](#侧滑与右滑返回手势)
 - [gif动画](#gif动画)
 - [其他动画](#其他动画)
@@ -104,6 +106,8 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 * [MessageDisplayKit](https://github.com/xhzengAIB/MessageDisplayKit)一个类似微信App的IM应用，拥有发送文字、图片、语音、视频、地理位置消息，管理本地通信录、分享朋友 圈、漂流交友、摇一摇和更多有趣的功能。笔者推荐的学习IM的好东西.
 * [shadowsocks-iOS/tree/2.6.3](https://github.com/shadowsocks/shadowsocks-iOS/tree/2.6.3)翻墙工具Shadowsocks. Github目前代码已经被移除, 不过2.6.3的还是保留着.
 
+##### App框架
+* [nimbus](https://github.com/jverkoey/nimbus) Nimbus是一个开源的iOS框架，比起Three20，Nimbus的文档更为全面、丰富，能够实现很多非常炫的界面特效。因此，开发者可以借助Nimbus来降低项目设计的复杂度。
 
 ##### 下拉刷新
 * [EGOTableViewPullRefresh](https://github.com/enormego/EGOTableViewPullRefresh) - 最早的下拉刷新控件。
@@ -451,6 +455,9 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [Core Animation笔记，基本的使用方法](http://www.starming.com/index.php?v=index&view=62) - Core Animation笔记，基本的使用方法：1.基本动画，2.多步动画，3.沿路径的动画，4.时间函数，5.动画组。
 * [awesome-ios-animation](https://github.com/sxyx2008/awesome-ios-animation) - [iOS Animation 主流炫酷动画框架(特效)收集整理](https://github.com/sxyx2008/DevArticles/issues/91) 收集整理了下iOS平台下比较主流炫酷的几款动画框架。
 * [awesome-animation](https://github.com/Animatious/awesome-animation) -  在内的十多位童鞋们一起发起的一起动画开源组正式成立啦~Github组织名称：Animatious，这是我们第一期成员先前开源的一些动效库，我们的第一个合作开源项目正在紧锣密鼓的准备~请大家期待设计和代码的碰撞吧。
+
+##### 游戏
+* [cocos2d-objc](https://github.com/cocos2d/cocos2d-objc) Cocos2d for iOS and OS X, built using Objective-C
 
 ##### 侧滑与右滑返回手势
 * [SloppySwiper](https://github.com/fastred/SloppySwiper) - iOS系统自带的UINavigationController要7.0才支持，但不过该手势只能从屏幕左侧边缘识别，如果要扩大到整个屏幕范围怎么办？配合一个SloppySwiper无需代码就可以轻松实现。此库支持iOS5.0以上版本（另外：Nav的title滑动不明显，本人写了2个类似的控件），[SloppySwiper-demo](https://github.com/Tim9Liu9/SloppySwiper-Example) ：代码方式与storyboard方式。
