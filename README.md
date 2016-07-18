@@ -1275,7 +1275,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [java2Objective-c](https://github.com/google/j2objc) - Google公司出得java转Obje-C转换工具，转换逻辑，不转换UI。
 * [RegX](https://github.com/kzaher/RegX) - 专治代码强迫症的 Xcode 插件，使用 Swift 和 Objective-C 编写。其用竖向对齐特定源代码的元素，使得代码更易读和易理解。[说明](http://www.cocoachina.com/ios/20141224/10743.html) ； 菜单：xcode——》Edit-》Regx 。
 * [CodePilot](https://github.com/macoscope/CodePilot) Code Pilot是一款在项目中快速方便地查找文件、方法和符号，Xcode 5的扩充开源插件，开发者无需鼠标进行操作。
-* [](https://github.com/XVimProject/XVim) 支持绑定VIM快捷键
+* [XVim](https://github.com/XVimProject/XVim) 支持绑定VIM快捷键
 
 * [CATweaker](https://github.com/keefo/CATweaker) CATweaker – 一个用于创建漂亮的CAMediaTimingFunction 曲线的插件. XcodeWay – 便捷地导航到多个地方
 * [FuzzyAutocomplete](https://github.com/FuzzyAutocomplete/FuzzyAutocompletePlugin) - Xcode的实现自动完成还不完美，此插件能给出你所期望或想要的建议，设置：xcode-》Editor-》FuzzyAutocomplete-》plugin settings。
