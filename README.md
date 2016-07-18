@@ -82,7 +82,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 ##### Github用法
 
 * [lark](https://github.com/larkjs/lark/wiki/怎样贡献代码) 怎样在Github上面贡献代码
-
+* [my-git](https://github.com/xirong/my-git)有关 git 的学习资料
 
 ##### FaceBook
 * [KVOController] (https://github.com/facebook/KVOController)  是一个简单安全的KVO（Key-value Observing，键-值观察）工具，用于iOS 和OS X 应用开发中，开源自facebook。 在项目中有使用 KVO ，那么 KVOController 绝对是个好选择。
@@ -1253,6 +1253,16 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [HOStringSense-for-Xcode](https://github.com/holtwick/HOStringSense-for-Xcode)有图，点进去一看就明白了，代码编辑器里的字符串编辑器，粘贴大段 HTML 字符串之类的很方便，自动转义。
 * [ZLGotoSandboxPlugin](https://github.com/MakeZL/ZLGotoSandboxPlugin) - 支持Xcode快捷键了跳转当前应用沙盒了！快捷键是 Shift+Common+w。
 * [cocoapods-xcode-plugin](https://github.com/kattrali/cocoapods-xcode-plugin) - 该CocoaPods的插件增加了一个CocoaPods菜单到Xcode的产品菜单。如果你不喜欢命令行，那么你一定会喜欢这个插件。
+* [KSImageNamed](https://github.com/ksuther/KSImageNamed-Xcode) - 自动完成，特别是如果你正在写Objective-C，如果Xcode能自动完成文件名难道不会很伟大吗？比如图像文件的名称。
+* [KFCocoaPodsPlugin](https://github.com/ricobeck/KFCocoaPodsPlugin)	Xcode插件 cocoapod, 方便编辑Podfile，显示构建日志
+* [XCActionBar](https://github.com/pdcgomes/XCActionBar) 是一个用于 Xcoded 的通用生产工具。
+* [XcodeBoost](https://github.com/fortinmike/XcodeBoost) XcodeBoost 是一款可以让开发者轻而易举地检查和修改 Objective-C 代码的插件。XcodeBoost 能够自动进行一些繁琐的操作，比如方法的定义与声明、添加基于命令行的代码处理（剪切/复制/粘贴/重复/删除行）、持续高亮等。
+* [SCXcodeSwitchExpander](https://github.com/stefanceriu/SCXcodeSwitchExpander)在写switch时，自动补全所有选项 (只支持NS_ENUM)
+* [ColorSense-for-Xcode](https://github.com/omz/ColorSense-for-Xcode)ColorSense是一款Xcode颜色插件，可让UIColor和NSColor更加可视化。虽然已经有很多工具允许你从取色板插入UIColor/NSColor或者从屏幕上取色，但这些工具并不会记忆你此前你的常用选择。不过ColorSense可以解决这个问题，把插入符放在代码上即可展示实际颜色，并可以使用标准的Mac OS X颜色选择器进行调整。此外，该插件还在编辑菜单上添加了可插入颜色或者暂时禁用颜色高亮的项目，这些菜单项目没有默认的快捷键，但是你可以通过系统的键盘设置偏好进行设置。
+* [tween-o-matic](https://github.com/simonwhitaker/tween-o-matic) 编辑CAMediaTimingFunction动画曲线
+* [iOS-Universal-Framework] (https://github.com/kstenerud/iOS-Universal-Framework) 	编译iOS的Framework的通用模板 支持armv7s
+* [iOS-Framework](https://github.com/jverkoey/iOS-Framework) 编译iOS的Framework的通用模板
+
 
 
 * [iOS开发进阶，从Xcode开始](http://www.cocoachina.com/special/xcode/) - 学习使用Xcode构建出色的应用程序！
@@ -1264,11 +1274,18 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [Reveal-Plugin-for-XCode](https://github.com/shjborage/Reveal-Plugin-for-XCode) - 一个Reveal插件，可以使工程不作任何修改的情况下使用Reveal，该插件已在Alcatraz上架。[Reveal：分析iOS UI的利器](http://security.ios-wiki.com/issue-3-4/) 。
 * [java2Objective-c](https://github.com/google/j2objc) - Google公司出得java转Obje-C转换工具，转换逻辑，不转换UI。
 * [RegX](https://github.com/kzaher/RegX) - 专治代码强迫症的 Xcode 插件，使用 Swift 和 Objective-C 编写。其用竖向对齐特定源代码的元素，使得代码更易读和易理解。[说明](http://www.cocoachina.com/ios/20141224/10743.html) ； 菜单：xcode——》Edit-》Regx 。
-* [KSImageNamed](https://github.com/ksuther/KSImageNamed-Xcode) - 自动完成，特别是如果你正在写Objective-C，如果Xcode能自动完成文件名难道不会很伟大吗？比如图像文件的名称。
+* [CodePilot](https://github.com/macoscope/CodePilot) Code Pilot是一款在项目中快速方便地查找文件、方法和符号，Xcode 5的扩充开源插件，开发者无需鼠标进行操作。
+* [](https://github.com/XVimProject/XVim) 支持绑定VIM快捷键
+
+* [CATweaker](https://github.com/keefo/CATweaker) CATweaker – 一个用于创建漂亮的CAMediaTimingFunction 曲线的插件. XcodeWay – 便捷地导航到多个地方
 * [FuzzyAutocomplete](https://github.com/FuzzyAutocomplete/FuzzyAutocompletePlugin) - Xcode的实现自动完成还不完美，此插件能给出你所期望或想要的建议，设置：xcode-》Editor-》FuzzyAutocomplete-》plugin settings。
 * [GitDiff](https://github.com/johnno1962/GitDiff) - Xcode的代码编辑器的一个微妙的补强，加上了足够的可见信息以了解上次git提交以来发生了什么变化，设置：xcode-》Edit-》GitDiff。
 * [XToDo](https://github.com/trawor/XToDo) - 这个插件不仅凸显TODO，FIXME，???，以及！！！注释，也在便利列表呈现他们。 菜单：xcode-》view-》snippets;   调出列表显示: xcode-》view-》ToDo List ： ctrl + T 。
 * [Backlight](https://github.com/limejelly/Backlight-for-XCode) - 突出显示当前正在编辑的行。菜单：xcode-》view-》Backlight 。
+
+
+
+
 
 
 
