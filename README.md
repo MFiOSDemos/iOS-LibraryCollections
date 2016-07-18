@@ -1,5 +1,5 @@
-# iOS-LibraryCollections  
-iOS开发常用三方库、插件、知名博客等等，大家可以一览无余了，期待大家和我一起共同维护，同时也期望大家随时能提出宝贵的意见，持续更新。。。
+# iOS-LibraryCollections  持续更新。。。
+iOS开发常用三方库、插件、知名博客等等，大家可以一览无余了，期待大家和我一起共同维护，同时也期望大家随时能提出宝贵的意见。
 
 重点说明：此库完全在[TimLiu-iOS](https://github.com/Tim9Liu9/TimLiu-iOS)（大概16-7-9日fork）的基础上面更新，因我没能得到权限跟原作者一起维护他的那个优秀的三方库，同时我也有不同的想法，因此fork了Tim9Liu9的这个项目，并重新发布我的修改版本（初次只有略微修改），希望能对大家有帮助，同时非常感谢Tim9Liu9贡献出这么优秀的库出来，向您致敬。
 
@@ -14,6 +14,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 
 ###  目录
 - [UI](#UI)
+- [GitHub](#GitHub用法)
 - [FaceBook](#iOS库)
 - [完整App](#完整App)
 - [App框架](#App框架)
@@ -69,12 +70,20 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [swift](#swift)
 - [他人开源总结](#他人开源总结)
 - [开发博客列表](#开发博客列表)
-- [学习笔记](#学习笔记)
+- [学习笔记、书籍](#学习笔记、书籍)
+- [好用的软件](#好用的软件)
 
+- [设计](#设计)
 ========
 ### 具体内容 =============================
 ========
 #### UI
+
+##### Github用法
+
+* [lark](https://github.com/larkjs/lark/wiki/怎样贡献代码) 怎样在Github上面贡献代码
+
+
 ##### FaceBook
 * [KVOController] (https://github.com/facebook/KVOController)  是一个简单安全的KVO（Key-value Observing，键-值观察）工具，用于iOS 和OS X 应用开发中，开源自facebook。 在项目中有使用 KVO ，那么 KVOController 绝对是个好选择。
  * [AsyncDisplayKit.swift] (https://github.com/facebook/AsyncDisplayKit) - AsyncDisplayKit.swift是 facebook的提供异步的界面高流畅性切换及更灵敏的响应框架。
@@ -1240,7 +1249,10 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [Alcatraz](http://alcatraz.io/) -使用Alcatraz来管理Xcode插件
 * [Polychromatic](https://github.com/kolinkrewinkel/Polychromatic)  为不同的变量类型赋予不同的颜色
 * [ClangFormat-Xcode](https://github.com/travisjeffery/ClangFormat-Xcode) clang-format 代码格式化
-* [BBUncrustifyPlugin-Xcode](https://github.com/benoitsan/BBUncrustifyPlugin-Xcode)  Uncrustify格式化
+* [BBUncrustifyPlugin-Xcode](https://github.com/benoitsan/BBUncrustifyPlugin-Xcode) 代码格式化
+* [HOStringSense-for-Xcode](https://github.com/holtwick/HOStringSense-for-Xcode)有图，点进去一看就明白了，代码编辑器里的字符串编辑器，粘贴大段 HTML 字符串之类的很方便，自动转义。
+* [ZLGotoSandboxPlugin](https://github.com/MakeZL/ZLGotoSandboxPlugin) - 支持Xcode快捷键了跳转当前应用沙盒了！快捷键是 Shift+Common+w。
+* [cocoapods-xcode-plugin](https://github.com/kattrali/cocoapods-xcode-plugin) - 该CocoaPods的插件增加了一个CocoaPods菜单到Xcode的产品菜单。如果你不喜欢命令行，那么你一定会喜欢这个插件。
 
 
 * [iOS开发进阶，从Xcode开始](http://www.cocoachina.com/special/xcode/) - 学习使用Xcode构建出色的应用程序！
@@ -1257,15 +1269,17 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [GitDiff](https://github.com/johnno1962/GitDiff) - Xcode的代码编辑器的一个微妙的补强，加上了足够的可见信息以了解上次git提交以来发生了什么变化，设置：xcode-》Edit-》GitDiff。
 * [XToDo](https://github.com/trawor/XToDo) - 这个插件不仅凸显TODO，FIXME，???，以及！！！注释，也在便利列表呈现他们。 菜单：xcode-》view-》snippets;   调出列表显示: xcode-》view-》ToDo List ： ctrl + T 。
 * [Backlight](https://github.com/limejelly/Backlight-for-XCode) - 突出显示当前正在编辑的行。菜单：xcode-》view-》Backlight 。
-* [CocoaPods](https://github.com/kattrali/cocoapods-xcode-plugin) - 该CocoaPods的插件增加了一个CocoaPods菜单到Xcode的产品菜单。如果你不喜欢命令行，那么你一定会喜欢这个插件。 [用CocoaPods做iOS程序的依赖管理 ](
-                                                                                                                                                              http://tangqiaoboy.gitcafe.io/blog/2014/05/25/use-cocoapod-to-manage-ios-lib-dependency/)。
+
+
+
+
 * [Peckham](https://github.com/markohlebar/Peckham) - 添加import语句比较麻烦，此插件 按Command-Control-P，给出的选项列表中选择要的头文件。先要安装[Alcatraz](http://alcatraz.io/) ,在终端输入： **curl -fsSL https://raw.github.com/supermarin/Alcatraz/master/Scripts/install.sh | sh** ； 重启xcode-》window-》Package Manager：搜索 **Peckham** 安装，打开Peckham.xcodeproj，编译 Peckham target，重启Xcode 。
 * [Auto-Importer](https://github.com/citrusbyte/Auto-Importer-for-Xcode) - Auto-Importer是一个自动导入类对应的头文件的Xcode插件。
 
 * [KSHObjcUML](https://github.com/kimsungwhee/KSHObjcUML) -KSHObjcUML 是一个 Objective-C 类引用关系图的 Xcode 插件。
 * [ColorSense-for-Xcode](https://github.com/omz/ColorSense-for-Xcode) - 颜色插件，安装之后，就不用根据RGB选择颜色，直接从取色板中取颜色，会自动补齐RGB代码。
 * [10款提高iOS开发效率的XCode插件](http://www.codeceo.com/article/10-ios-xcode-plugins.html) - 10款提高iOS开发效率的XCode插件：1. XcodeColors；5. ACCodeSnippetRepository；10. [Dash for Xcode](https://github.com/omz/Dash-Plugin-for-Xcode)。
-* [ZLGotoSandboxPlugin](https://github.com/MakeZL/ZLGotoSandboxPlugin) - 支持Xcode快捷键了跳转当前应用沙盒了！快捷键是 Shift+Common+w。
+
 * [XcodeSwiftSnippets](https://github.com/burczyk/XcodeSwiftSnippets) - XcodeSwiftSnippets, 提供了很多可在 Xcode 上使用的 Swift 代码片段, 通过自动补全的方式极大的提高了开发效率， [另外还有 Objective-C 版的](https://github.com/Xcode-Snippets/Objective-C)。
 * [CoPilot](https://vimeo.com/128713880) - 通过此插件， Xcode 可以协同编程了（采用 WebSocket 通讯）。如此强大的“黑工具”，不爱它能行吗。
 * [ESJsonFormat-Xcode](https://github.com/EnjoySR/ESJsonFormat-Xcode) - 将Json格式化输出为模型的属性。
@@ -1301,6 +1315,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 ========
 #### 开发资源
 ##### 开发资料
+* A-[awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)  GitHub上所有Awesome Awesomeness 系列集合. 这个系列集合收集上GitHub上优秀的开源项目、框架、书籍、网站、类库等实用资源的集合。
 * [豆瓣iOS开源库列表](https://www.douban.com/note/276160185/?type=like) - 豆瓣iOS开源库列表，很多开源项目。
 * [iOS-Core-Animation-Advanced-Techniques](https://github.com/AttackOnDobby/iOS-Core-Animation-Advanced-Techniques) - 中文版iOS 高级动画技术。
 * [iOS开发的一些奇巧淫技1](http://www.jianshu.com/p/50b63a221f09) - TableView不显示没内容的Cell怎么办; 键盘事件：[IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager);  app不流畅:[KMCGeigerCounter](https://github.com/kconner/KMCGeigerCounter);  CoreData用起来好烦:[MagicalRecord](https://github.com/magicalpanda/MagicalRecord);  CollectionView实现悬停的header:[CSStickyHeaderFlowLayout](https://github.com/jamztang/CSStickyHeaderFlowLayout)。
@@ -1407,5 +1422,12 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 
 #### 学习笔记
 * A-[iOS-Note](https://github.com/seedante/iOS-Note) 非常好的学习笔记，主要目录1.Core Data 笔记2.Photos 笔记3.转场动画详解4.自定义容器控制器转场5.交互式动画
+* [growth-ebook](https://github.com/phodal/growth-ebook) Growth Engineering: The Definitive Guide。全栈增长工程师指南
+
+#### 好用的软件
+[gitbook](https://github.com/GitbookIO/gitbook) GitBook 是一个基于Node.js 的命令行工具，可使用Github/Git 和Markdown 来制作精美的电子书。 GitBook需要使用markdown格式编写，如果你不了解可以看看这里。
+#### 设计
+* [design-resource](https://github.com/timmy3131/design-resource) 设计师资源列表
+
 #### 物联网
 * [awesome-iot](https://github.com/phodal/awesome-iot) - 这份物联网学习参考大全太给力。从物联网协议、嵌入式系统、相关开源库、相关书籍、博客、学习笔记、标准应有尽有。
