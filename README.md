@@ -46,6 +46,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [Model](#Model)
 - [通讯录](#通讯录)
 - [其他库](#其他库)
+- [三方分享、支付、登录等等](#三方分享、支付、登录等等)
 - [数据库](#数据库)
 - [缓存处理](#缓存处理)
 - [PDF](#PDF)
@@ -72,7 +73,6 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [开发博客列表](#开发博客列表)
 - [学习笔记、书籍](#学习笔记、书籍)
 - [好用的软件](#好用的软件)
-
 - [设计](#设计)
 ========
 ### 具体内容 =============================
@@ -241,6 +241,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [Colours](https://github.com/bennyguitar/Colours) Colours–颜色库,包含100种预定义的颜色和方法
 
 ##### 表相关与Tabbar
+* [VVeboTableViewDemo](https://github.com/johnil/VVeboTableViewDemo) 此项目由VVebo剥离，希望你能通过这个demo看到我是如何进行TableView流畅度优化的。
 * [SWTableViewCell](https://github.com/onevcat/SWTableViewCell) - 国内开源作者，带很多手势的表单元格。
 * [MCSwipeTableViewCell](https://github.com/alikaragoz/MCSwipeTableViewCell) - 带很多手势的表单元格。
 * [TMQuiltView](https://github.com/1000Memories/TMQuiltView) - 瀑布流。
@@ -723,6 +724,9 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 #### 通讯录
 * [快速查找联系人](http://code.cocoachina.com/view/128245) - 类似微信联系人搜索的界面,快速查找联系人,并支持点击查询结果 。
 
+========
+###三方分享、支付、登录等等
+* [openshare](https://github.com/100apps/openshare) - 不用官方SDK，利用社交软件移动客户端(微信/QQ/微博/人人/支付宝)分享/登录/支付。
 
 ========
 #### 其他库
@@ -779,7 +783,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [SwiftSequence](https://github.com/oisdk/SwiftSequence) - 简洁、灵活、多变的操作 SequenceType 的类库（基于微框架（μframework）设计思想）。
 * [IDNFeedParser](https://github.com/photondragon/IDNFeedParser) - 一个简单易用的Rss解析库。
 * [CoreUmeng](https://github.com/CharlinFeng/CoreUmeng) - 简单：友盟分享封装。
-* [openshare](https://github.com/100apps/openshare) - 不用官方SDK，利用社交软件移动客户端(微信/QQ/微博/人人/支付宝)分享/登录/支付。
+
 * [Swifternalization](https://github.com/tomkowz/Swifternalization) - 一套实用的本地化工具库。使用教程及 API 文档完整。值得收入项目的“轮子”。
 * [Localize-Swift](https://github.com/marmelroy/Localize-Swift) - Localize-Swift一款开发者不可或缺的国际化及本地化字符串框架支持类库。同样地，使用简单、直观又方便。
 * [apous](https://github.com/owensd/apous) - 一款有趣的 Swift 应用 － 让 Swift 成为脚本语言。
@@ -809,7 +813,6 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [MapManager.swift](https://github.com/varshylmobile/MapManager) - MapManager.swift地图及路径管理封装库。
 * [eviltransform.swift](https://github.com/googollee/eviltransform) - eviltransform.swift解决国内GPS地图坐标偏移问题,它将政府加密过的GCJ-02坐标，转成世界通用的WGS-84坐标。
 * [batteryLevelTest](https://github.com/colin1994/batteryLevelTest) - runtime精准获取电池电量，[文档](http://www.jianshu.com/p/11c1afdf5415)。
-* [openshare](https://github.com/100apps/openshare) - 不用官方SDK，利用社交软件移动客户端(微信/QQ/微博/人人/支付宝)分享/登录/支付。
 * [DateTools](https://github.com/MatthewYork/DateTools) - 用于提高Objective-C中日期和时间相关操作的效率。灵感来源于 DateTime和Time Period Library。
 * [DDSlackFeedback](https://github.com/deepdevelop/DDSlackFeedback) - 用这个接口实现的摇一摇上传文字或者截屏反馈到你的 Slack channel，特别适合测试 app 的时候用，集成也很简单。
 * [BabyBluetooth](https://github.com/coolnameismy/BabyBluetooth) - 是一个非常容易使用的蓝牙库, 适用于 iOS 和 Mac OS, 基于原生 CoreBluetooth 框架封装, 可以帮开发者们更简单地使用 CoreBluetooth API, 使用链式方法体, 使得代码更简洁、优雅。[iOS蓝牙开发（四）：BabyBluetooth蓝牙库介绍](http://www.cocoachina.com/ios/20160219/15301.html)
@@ -1022,6 +1025,8 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [MiaowShow] (https://github.com/SunLiner/MiaowShow) iOS视频直播项目
 * [KrVideoPlayerPlus] (https://github.com/PlutusCat/KrVideoPlayerPlus) 根据36Kr开源的KRVideoPlayer 进行修改和补充实现一个轻量级的视频播放器，满足大部分视频播放需求
 * [TBPlayer](https://github.com/suifengqjn/TBPlayer) 视频变下变播，把播放器播放过的数据流缓存到本地，支持拖动。采用avplayer
+* [520Linkee](https://github.com/GrayJIAXU/520Linkee) 本项目实现了作为一个直播App的基本功能，比如本地视频流采集、播放、美颜、礼物、点赞出心等。
+
 
 ========
 #### 响应式框架
@@ -1221,6 +1226,8 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [XCFApp-2](https://github.com/STShenZhaoliang/XCFAPP) - 高仿下厨房APP。
 * [YoCelsius](https://github.com/YouXianMing/YoCelsius) - 已经上线的一款天气预报的应用,几乎所有的交互动画效果，想学习动画的开发人员可以作为参考。
 * [XiMaLaYa-by-HansRove-](https://github.com/HansRove/XiMaLaYa-by-HansRove-) - 仿喜马拉雅FM, 对AVFoundation框架的一次尝试，采用MVVM模式，[教程](http://ios.jobbole.com/85275/)。
+* [DayDayNews](https://github.com/gaoyuhang/DayDayNews) 仿网易新闻客户端，实现新闻浏览，视频播放，仿搜狐视频、百思不得姐等当前主流视频播放器，实现流媒体播放，自动监听屏幕转动，实现横屏播放 , 抓取百度图片，瀑布流显示，夜间模式，环信即时通讯
+
 
 ========
 #### 好的文章
@@ -1263,7 +1270,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [tween-o-matic](https://github.com/simonwhitaker/tween-o-matic) 编辑CAMediaTimingFunction动画曲线
 * [iOS-Universal-Framework] (https://github.com/kstenerud/iOS-Universal-Framework) 	编译iOS的Framework的通用模板 支持armv7s
 * [iOS-Framework](https://github.com/jverkoey/iOS-Framework) 编译iOS的Framework的通用模板
-
+[Xcode-Plugin-Template ](https://github.com/kattrali/Xcode-Plugin-Template）
 
 
 * [iOS开发进阶，从Xcode开始](http://www.cocoachina.com/special/xcode/) - 学习使用Xcode构建出色的应用程序！
@@ -1346,7 +1353,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [提高iOS开发效率的方法和工具](http://yyny.me/ios/%E6%8F%90%E9%AB%98iOS%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87%E7%9A%84%E6%96%B9%E6%B3%95%E5%92%8C%E5%B7%A5%E5%85%B7/) - 提高iOS开发效率的方法和工具。
 * [禅与 Objective-C 编程艺术](https://github.com/oa414/objc-zen-book-cn) - 禅与 Objective-C 编程艺术 （Zen and the Art of the Objective-C Craftsmanship 中文翻译）。
 * [Objective-C编码规范：26个方面解决iOS开发问题](http://www.imooc.com/article/1216) - 【Objective-C编码规范：26个方面解决iOS开发问题：“我们制定Objective-C编码规范的原因是我们能够在我们的书，教程和初学者工具包的代码保持优雅和一致。”今天分享的规范来自raywenderlich.com团队成员共同完成的，希望对学习OC的朋友们有所指导和帮助。
-
+* [demo](https://github.com/coolnameismy/demo) 刘彦玮的技术博客中文章对应的demo
 
 ###### swift
 * [Swift 开源项目精选－v1.0](http://dev.swiftguide.cn/archive/featured-open-source-projects-in-swift_v1.0.html) - Swift 开源项目精选－v1.0。
