@@ -25,7 +25,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [富文本](#富文本)
 - [图表](#图表)
 - [颜色](#颜色)
-- [表相关与Tabbar](#表相关与Tabbar)
+- [表相关、TabbleView、Tabbar](#表相关、TabbleView、Tabbar)
 - [隐藏与显示](#隐藏与显示)
 - [HUD与Toast](#HUD与Toast)
 - [对话框](#对话框)
@@ -240,7 +240,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 ##### 颜色
 * [Colours](https://github.com/bennyguitar/Colours) Colours–颜色库,包含100种预定义的颜色和方法
 
-##### 表相关与Tabbar
+##### 表相关、TabbleView、Tabbar
 * [VVeboTableViewDemo](https://github.com/johnil/VVeboTableViewDemo) 此项目由VVebo剥离，希望你能通过这个demo看到我是如何进行TableView流畅度优化的。
 * [SWTableViewCell](https://github.com/onevcat/SWTableViewCell) - 国内开源作者，带很多手势的表单元格。
 * [MCSwipeTableViewCell](https://github.com/alikaragoz/MCSwipeTableViewCell) - 带很多手势的表单元格。
@@ -479,6 +479,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [cocos2d-objc](https://github.com/cocos2d/cocos2d-objc) Cocos2d for iOS and OS X, built using Objective-C
 
 ##### 侧滑与右滑返回手势
+* A-[FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture) 非常棒的全屏手势侧滑，只需导入此库，就可以让你的App具备左滑返回功能，不用写一句代码。
 * [SloppySwiper](https://github.com/fastred/SloppySwiper) - iOS系统自带的UINavigationController要7.0才支持，但不过该手势只能从屏幕左侧边缘识别，如果要扩大到整个屏幕范围怎么办？配合一个SloppySwiper无需代码就可以轻松实现。此库支持iOS5.0以上版本（另外：Nav的title滑动不明显，本人写了2个类似的控件），[SloppySwiper-demo](https://github.com/Tim9Liu9/SloppySwiper-Example) ：代码方式与storyboard方式。
 * [SCNavigation](https://github.com/singro/SCNavigation) - UINavigation可以右滑返回，隐藏UINavigationBar。
 * [UINavigationController-YRBackGesture](https://github.com/YueRuo/UINavigationController-YRBackGesture) - 支持右滑返回手势，标题栏不动。
@@ -732,7 +733,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 #### 其他库
 * [DateTimeKit](https://github.com/exsortis/DateTimeKit) - 一个超赞的时间处理的库，Joda-Time ！ 他能帮你轻松处理时区，处理时间加减，计算到期时间等等场景下的问题。
 * [SwiftDate](https://github.com/malcommac/SwiftDate) - 特别完整、强大的日期时间操作管理类库。它几乎涵盖了已知开源日期类库所有优秀特性。 他能帮你轻松处理时区，处理时间加减，计算到期时间等等场景下的问题。
-* [iOS私有API](https://github.com/nst/iOS-Runtime-Headers) - 私有API，绿色 == public，红色 == private，蓝色 == dylib。
+* [iOS私有API](https://github.com/nst/iOS-Runtime-Headers) - 这个仓库可以调取苹果的所有私有方法头文件，相当强大。私有API，绿色 == public，红色 == private，蓝色 == dylib。
 * [iOS源代码](http://opensource.apple.com/source/CF/) - iOS源代码。
 * [libfacedetection](https://github.com/ShiqiYu/libfacedetection) - C++ 人脸识别 包含正面和多视角人脸检测两个算法.优点:速度快(OpenCV haar+adaboost的2-3倍), 准确度高 (FDDB非公开类评测排名第二），能估计人脸角度。
 * [Slidden](https://github.com/Brimizer/Slidden) - 一个老外开源的开发自定义键盘的库，利用这个开源库，可以方便的配置键位、颜色以及键位对应的图片。
@@ -1270,7 +1271,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [tween-o-matic](https://github.com/simonwhitaker/tween-o-matic) 编辑CAMediaTimingFunction动画曲线
 * [iOS-Universal-Framework] (https://github.com/kstenerud/iOS-Universal-Framework) 	编译iOS的Framework的通用模板 支持armv7s
 * [iOS-Framework](https://github.com/jverkoey/iOS-Framework) 编译iOS的Framework的通用模板
-[Xcode-Plugin-Template ](https://github.com/kattrali/Xcode-Plugin-Template）
+[Xcode-Plugin-Template ](https://github.com/kattrali/Xcode-Plugin-Template） 插件开发
 
 
 * [iOS开发进阶，从Xcode开始](http://www.cocoachina.com/special/xcode/) - 学习使用Xcode构建出色的应用程序！
