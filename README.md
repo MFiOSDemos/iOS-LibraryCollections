@@ -3,11 +3,12 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 
 重点说明：此库完全在[TimLiu-iOS](https://github.com/Tim9Liu9/TimLiu-iOS)（大概16-7-9日fork）的基础上面更新，因我没能得到权限跟原作者一起维护他的那个优秀的三方库，同时我也有不同的想法，因此fork了Tim9Liu9的这个项目，并重新发布我的修改版本（初次只有略微修改），希望能对大家有帮助，同时非常感谢Tim9Liu9贡献出这么优秀的库出来，向您致敬。
 
+版本说明：
+
+1.0.0 从[TimLiu-iOS](https://github.com/Tim9Liu9/TimLiu-iOS) fork了代码，并根据自己的想法进行了整理。16-7-9
+
 主要工作说明，国内外iOS的开源项目非常的丰富，所以整理工作简单分步进行。第一步就是利其器。
-
-工作安排
 1. 收集、整理Xcode好用的插件。（进行中。。。）
-
 
 外国人收集的三方库集合（OC版本），非常赞：[awesome-ios](https://github.com/vsouza/awesome-ios)
                   （Swift版本）[Awesome-Swift-Education](https://github.com/hsavit1/Awesome-Swift-Education)
@@ -241,6 +242,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [Colours](https://github.com/bennyguitar/Colours) Colours–颜色库,包含100种预定义的颜色和方法
 
 ##### 表相关、TabbleView、Tabbar
+* [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet) - DZNEmptyDataSet算是一个很标准的iOS内建方式，适合用来处理空的tableview和collection view。会自动将collection view处理完善，并将用户消息以合适美观的方式显示出来。每个iOS项目都可以自动处理。
 * [VVeboTableViewDemo](https://github.com/johnil/VVeboTableViewDemo) 此项目由VVebo剥离，希望你能通过这个demo看到我是如何进行TableView流畅度优化的。
 * [SWTableViewCell](https://github.com/onevcat/SWTableViewCell) - 国内开源作者，带很多手势的表单元格。
 * [MCSwipeTableViewCell](https://github.com/alikaragoz/MCSwipeTableViewCell) - 带很多手势的表单元格。
@@ -281,7 +283,6 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [NavTopImage.swift](https://github.com/itjhDev/NavTopImage) - NavigationController动态缩放titleView。
 * [QuickRearrangeTableView](https://github.com/okla/QuickRearrangeTableView) - 基于 UITableView 的快速重排功能扩展子类。通过长按选定单元格然后滚动移动到指定位置。
 * [uicollectionview-reordering](https://github.com/nshintio/uicollectionview-reordering) - UICollectionViews的拖拽(拖动、移动)效果,[实例教程](http://nshint.io/blog/2015/07/16/uicollectionviews-now-have-easy-reordering/).
-* [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet) - DZNEmptyDataSet算是一个很标准的iOS内建方式，适合用来处理空的table view和collection view。会自动将collection view处理完善，并将用户消息以合适美观的方式显示出来。每个iOS项目都可以自动处理。
 * [LLNoDataView](https://github.com/LvJianfeng/LLNoDataView) - 超简单的空数据提示通用View支持UIScrollView、UITableView、UICollectionView、UIWebView。
 * [MGSwipeTableCell](https://github.com/MortimerGoro/MGSwipeTableCell) - 另一个常见于很多应用中的UI组件，苹果应该考虑在标准的iOS SDK中加入一些类似的内容。Swipeable表格cell是这个pod的最佳描述，也是最好的。
 * [XLPlainFlowLayout](https://github.com/HebeTienCoder/XLPlainFlowLayout) - 可以让UICollectionView的header也支持悬停效果，类似于tableView的Plain风格。
@@ -978,6 +979,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 
 ========
 #### 摄像照相视频音频处理
+* A-[WMPlayer](https://github.com/zhengwenming/WMPlayer) - WMPlayer视频播放器，AVPlayer的封装，继承UIView，想怎么玩就怎么玩。支持播放mp4、m3u8、3gp、mov，网络和本地视频同时支持。全屏和小屏播放同时支持。 cell中播放视频，全屏小屏切换自如。
 * [SCRecorder](https://github.com/rFlex/SCRecorder) - SCRecorder 短视频录制。
 * [VideoPushDemo](https://github.com/zangqilong198812/VideoPushDemo) - 视频剪辑 [视频特效制作1](http://www.jianshu.com/p/3006502912aa) [视频特效制作2](http://www.jianshu.com/p/6313025349a9)。
 * [LLSimpleCamera](https://github.com/omergul123/LLSimpleCamera) - A simple, customizable camera control for iOS， 摄像头。
@@ -1018,7 +1020,6 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [MusicPlayert](https://github.com/liuFangQiang/MusicPlayer) - MusicPlayert音乐播放器，用reveal可以查看层次关系，主要实现了歌词的同步显示。
 * [音乐播放器](http://code.cocoachina.com/view/129435) - 音乐播放器：显示歌词。
 * [TBPlayer](https://github.com/suifengqjn/TBPlayer) - 视频变下变播，把播放器播放过的数据流缓存到本地，支持拖动。采用avplayer。[实现说明](http://www.jianshu.com/p/990ee3db0563)
-* [WMPlayer](https://github.com/zhengwenming/WMPlayer) - WMPlayer视频播放器，AVPlayer的封装，继承UIView，想怎么玩就怎么玩。支持播放mp4、m3u8、3gp、mov，网络和本地视频同时支持。全屏和小屏播放同时支持。 cell中播放视频，全屏小屏切换自如。
 * [IWatch](https://github.com/280772270/IWatch) - 一个视频日报类的app 播放器用到了AVFoudation。
 * [SkfSwiftCammer](https://github.com/wubianxiaoxian/SkfSwiftCammer) - 一个相机demo，在oc里面调用了swift。
 * [ZFPlayer](https://github.com/renzifeng/ZFPlayer) - 基于AVPlayer，支持横屏、竖屏（全屏播放还可锁定屏幕方向），上下滑动调节音量、屏幕亮度，左右滑动调节播放进度。
@@ -1272,7 +1273,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [iOS-Universal-Framework] (https://github.com/kstenerud/iOS-Universal-Framework) 	编译iOS的Framework的通用模板 支持armv7s
 * [iOS-Framework](https://github.com/jverkoey/iOS-Framework) 编译iOS的Framework的通用模板
 [Xcode-Plugin-Template ](https://github.com/kattrali/Xcode-Plugin-Template） 插件开发
-
+[XcodeEditor](https://github.com/appsquickly/XcodeEditor) 解析和操作Xcode工程文件
 
 * [iOS开发进阶，从Xcode开始](http://www.cocoachina.com/special/xcode/) - 学习使用Xcode构建出色的应用程序！
 * 在Xcode启动的时候，Xcode将会寻找位于~/Library/Application Support/Developer/Shared/Xcode/Plug-ins文件夹中的后缀名为.xcplugin的bundle作为插件进行加载（运行其中的可执行文件）。[Xcode5 Plugins 开发简介](http://studentdeng.github.io/blog/2014/02/21/xcode-plugin-fun/)  [写个自己的Xcode4插件](http://joeyio.com/ios/2013/07/25/write_xcode4_plugin_of_your_own/)
