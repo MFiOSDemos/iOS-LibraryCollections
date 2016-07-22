@@ -17,6 +17,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [UI](#UI)
 - [GitHub](#GitHub用法)
 - [FaceBook](#iOS库)
+- [优秀的Cagegory](#优秀的Category)
 - [完整App](#完整App)
 - [App框架](#App框架)
 - [Xcode插件](#Xcode插件)
@@ -91,6 +92,10 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 * [Shimmer](https://github.com/facebook/Shimmer) - BlingBling闪光效果，酷炫的Label的效果，可以用于加载等待提示。
 * [SwiftTweaks](https://github.com/Khan/SwiftTweaks) - 不用重新编译即可调整 UI 配置（按钮颜色、背景、动画延迟，简单布局等）的解决方案库。实现了发布生产版本前 UI 的简单配置，省却反复调试代码的麻烦。类似 OC 版 Facebook Tweats。
 * [pop](https://github.com/facebook/pop) - facebook出品的非常赞的动画引擎。
+
+##### 优秀的Cagegory
+
+[JKCategories](https://github.com/shaojiankui/JKCategories) 非常棒的分类
 
 ##### 完整App
 * [Coding-iOS](https://github.com/Coding/Coding-iOS) - Coding iOS 客户端源代码
