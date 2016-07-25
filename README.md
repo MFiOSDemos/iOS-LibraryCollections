@@ -132,6 +132,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 
 ##### App框架
 * [nimbus](https://github.com/jverkoey/nimbus) Nimbus是一个开源的iOS框架，比起Three20，Nimbus的文档更为全面、丰富，能够实现很多非常炫的界面特效。因此，开发者可以借助Nimbus来降低项目设计的复杂度。
+* [samurai-native](https://github.com/hackers-painters/samurai-native) 是一个基于浏览器内核通过HTML+CSS 开发原生移动应用的iOS框架。
 
 ##### 下拉刷新
 * [EGOTableViewPullRefresh](https://github.com/enormego/EGOTableViewPullRefresh) - 最早的下拉刷新控件。
@@ -1298,22 +1299,15 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [GitDiff](https://github.com/johnno1962/GitDiff) - Xcode的代码编辑器的一个微妙的补强，加上了足够的可见信息以了解上次git提交以来发生了什么变化，设置：xcode-》Edit-》GitDiff。
 * [XToDo](https://github.com/trawor/XToDo) - 这个插件不仅凸显TODO，FIXME，???，以及！！！注释，也在便利列表呈现他们。 菜单：xcode-》view-》snippets;   调出列表显示: xcode-》view-》ToDo List ： ctrl + T 。
 * [Backlight](https://github.com/limejelly/Backlight-for-XCode) - 突出显示当前正在编辑的行。菜单：xcode-》view-》Backlight 。
-
-
-
-
-
-
-
-
-* [Peckham](https://github.com/markohlebar/Peckham) - 添加import语句比较麻烦，此插件 按Command-Control-P，给出的选项列表中选择要的头文件。先要安装[Alcatraz](http://alcatraz.io/) ,在终端输入： **curl -fsSL https://raw.github.com/supermarin/Alcatraz/master/Scripts/install.sh | sh** ； 重启xcode-》window-》Package Manager：搜索 **Peckham** 安装，打开Peckham.xcodeproj，编译 Peckham target，重启Xcode 。
+* [Peckham](https://github.com/markohlebar/Peckham) - 添加import语句比较麻烦，此插件 按Command-Control-P，给出的选项列表中选择要的头文件。先要安装
 * [Auto-Importer](https://github.com/citrusbyte/Auto-Importer-for-Xcode) - Auto-Importer是一个自动导入类对应的头文件的Xcode插件。
-
 * [KSHObjcUML](https://github.com/kimsungwhee/KSHObjcUML) -KSHObjcUML 是一个 Objective-C 类引用关系图的 Xcode 插件。
-* [ColorSense-for-Xcode](https://github.com/omz/ColorSense-for-Xcode) - 颜色插件，安装之后，就不用根据RGB选择颜色，直接从取色板中取颜色，会自动补齐RGB代码。
-* [10款提高iOS开发效率的XCode插件](http://www.codeceo.com/article/10-ios-xcode-plugins.html) - 10款提高iOS开发效率的XCode插件：1. XcodeColors；5. ACCodeSnippetRepository；10. [Dash for Xcode](https://github.com/omz/Dash-Plugin-for-Xcode)。
+* [Dash-Plugin-for-Xcode](https://github.com/omz/Dash-Plugin-for-Xcode)。
 
-* [XcodeSwiftSnippets](https://github.com/burczyk/XcodeSwiftSnippets) - XcodeSwiftSnippets, 提供了很多可在 Xcode 上使用的 Swift 代码片段, 通过自动补全的方式极大的提高了开发效率， [另外还有 Objective-C 版的](https://github.com/Xcode-Snippets/Objective-C)。
+* [XcodeSwiftSnippets](https://github.com/burczyk/XcodeSwiftSnippets) - XcodeSwiftSnippets, 提供了很多可在 Xcode 上使用的 Swift 代码片段, 通过自动补全的方式极大的提高了开发效率。
+* [Objective-C](https://github.com/Xcode-Snippets/Objective-C)提供了很多可在 Xcode 上使用的 Swift 代码片段, 通过自动补全的方式极大的提高了开发效率，
+
+
 * [CoPilot](https://vimeo.com/128713880) - 通过此插件， Xcode 可以协同编程了（采用 WebSocket 通讯）。如此强大的“黑工具”，不爱它能行吗。
 * [ESJsonFormat-Xcode](https://github.com/EnjoySR/ESJsonFormat-Xcode) - 将Json格式化输出为模型的属性。
 * [SCXcodeMiniMap](https://github.com/stefanceriu/SCXcodeMiniMap) - Xcode迷你小地图-SCXcodeMiniMap。
