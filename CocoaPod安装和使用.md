@@ -73,8 +73,9 @@ Installing ri documentation for cocoapods-1.0.0.beta.4
 hyh:qzc.xcodeproj ylgwhyh$ pod --version
 1.0.0.beta.4
 
-安卓更新CocoaPod可能遇到的问题及解决方法
-问题1 路径是系统路径、还是自定义路径。前者是只读路径，命令前需要加上“sudo”。
+安装更新CocoaPod可能遇到的问题及解决方法
+
+问题1 路径是系统路径、还是自定义路径。前者是只读路径，命令前需要加上“sudo”.
 
 Cocoapod其他使用方法
 
