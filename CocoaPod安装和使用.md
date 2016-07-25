@@ -58,16 +58,27 @@ ERROR:  While executing gem ... (Errno::EPERM)
 sudo gem install -n /usr/local/bin cocoapods --pre
 
 Successfully installed xcodeproj-1.0.0.beta.3
+
 Fetching: fourflusher-0.3.0.gem (100%)
+
 Successfully installed fourflusher-0.3.0
+
 Fetching: cocoapods-1.0.0.beta.4.gem (100%)
+
 Successfully installed cocoapods-1.0.0.beta.4
+
 Parsing documentation for xcodeproj-1.0.0.beta.3
+
 Installing ri documentation for xcodeproj-1.0.0.beta.3
+
 Parsing documentation for fourflusher-0.3.0
+
 Installing ri documentation for fourflusher-0.3.0
+
 Parsing documentation for cocoapods-1.0.0.beta.4
+
 Installing ri documentation for cocoapods-1.0.0.beta.4
+
 3 gems installed
 
 hyh:qzc.xcodeproj ylgwhyh$ pod --version
