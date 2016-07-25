@@ -1,6 +1,9 @@
 # iOS-LibraryCollections  持续更新。。。
 
-[github使用方法]（#Github .gitignore忽略指定文件）
+- [github使用方法](#Github .gitignore忽略指定文件)
+- [git中忽略整个文件夹](#git中忽略整个文件夹)
+
+#####github使用方法
 .gitignore
 
 Github提供.gitignore这种功能，可以自己指定哪些文件可以不被管理。具体方法是在版本管理的根目录下（与.git文件夹同级）创建一个.gitignore。
@@ -33,3 +36,20 @@ S2:      vim    .gitignore     #编辑文件，加入指定文件
 配置完.gitignore文件后，执行git status命令，会发现那三个文件不再是Untracked files了，也就完成了忽略指定文件的功能。
 
 来源：[http://www.linuxidc.com/Linux/2015-01/111959.htm](http://www.linuxidc.com/Linux/2015-01/111959.htm)
+
+#### git中忽略整个文件夹
+关键：在项目的根目录（跟.git文件夹所在目录同层）建立.gitignore文件，在里面声明即可。
+譬如我要忽略当前项下的所有dll文件，及runtime文件夹里所有文件：
+#ignore these files
+*.dll
+runtime/*
+
+如果之前文件已提交过，则需要先清除原文件，针对上文做的清理如下：
+$ git rm *.dll
+$ git rm -r runtime
+
+另一种方法：修改git的全局设置，把忽略名单用于所有项目：
+首先，建立一个.gitignore_global文件；
+执行 $ git config --global core.excludesfile .gitignore_global
+
+来源：[http://have-life.iteye.com/blog/1838109](http://have-life.iteye.com/blog/1838109)
