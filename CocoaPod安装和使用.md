@@ -95,3 +95,72 @@ cocoaPod降级
 sudo gem uninstall cocoapods
 安装指定版本
 sudo gem install cocoapods -v 0.25.0
+
+问题2  cocoapods1.0.1版本的使用
+Podfile 文件 需要修改（如下）
+platform :ios, '8.0'
+
+target 'asdsd' do
+
+ pod 'MBProgressHUD', '~> 0.9.1'
+
+end
+
+问题 3  RVM版本过低和安装RVM
+1>安装 ram  
+$ curl -L https://get.rvm.io | bash -s stable
+2>加载文件, 测试是否安装正常(按照提示操作)
+$ source ~/.bashrc  
+$ source ~/.bash_profile  
+$ source ~/.profile
+$ rvm -v
+
+3>如果有下面的提示, 请reload rvm
+
+A RVM version 1.27.0 (latest) is installed yet 1.25.23 (stable) is loaded.
+Please do one of the following:
+  * 'rvm reload'
+  * open a new shell
+  * 'echo rvm_auto_reload_flag=1 >> ~/.rvmrc' # for auto reload with msg.
+  * 'echo rvm_auto_reload_flag=2 >> ~/.rvmrc' # for silent auto reload.
+
+
+输入命令:
+
+$ rvm reload
+$ rvm -v
+
+4>查看当前ruby版本 ,获取rvm 列表
+
+$ ruby -v   
+$ rvm list known
+
+5>安装ruby可能出的错误 (若未出错, 请跳过进入第6步)
+
+$ rvm install 2.3
+
+
+错误1: 在安装ruby的时候, 可能会如下报错, 提示 Updating system[YourMacName] password required for ‘port -dv self update’
+解决:
+进行更新:
+$ sudo port self update
+错误2:
+或者你可能遇到如下错误, 原因是需要安装Homebrew.
+Error running 'requirements_osx_port_libs_install curl-ca-bundle automake libtool libyaml libffi libksba',
+showing last 15 lines of /Users/acewill/.rvm/log/1468253599_ruby-2.3.0/package_install_curl-ca-bundle_automake_libtool_libyaml_libffi_libksba.log
+需要安装Homebrew , 通过以下命令:
+解决：
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+6>重新安装ruby
+安装完成后, 重新执行安装cocoapods的命令.
+
+$ rvm install 2.3
+7>安装rails
+
+$ gem install rails
+8>卸载ruby方法
+获取ruby已安装列表, 然后卸载ruby
+
+$ rvm list
+$ rvm remove 2.3
