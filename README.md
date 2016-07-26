@@ -1,5 +1,5 @@
 # iOS-LibraryCollections  持续更新。。。
-iOS开发常用三方库、插件、知名博客等等，大家可以一览无余了，期待大家和我一起共同维护，同时也期望大家随时能提出宝贵的意见。
+iOS开发常用三方库、插件、知名博客等等，大家可以一览无余了，期待大家和我们一起共同维护，同时也期望大家随时能提出宝贵的意见。
 
 重点说明：此库完全在[TimLiu-iOS](https://github.com/Tim9Liu9/TimLiu-iOS)（大概16-7-9日fork）的基础上面更新，因我没能得到权限跟原作者一起维护他的那个优秀的三方库，同时我也有不同的想法，因此fork了Tim9Liu9的这个项目，并重新发布我的修改版本（初次只有略微修改），希望能对大家有帮助，同时非常感谢Tim9Liu9贡献出这么优秀的库出来，向您致敬。
 
@@ -9,6 +9,8 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 
 主要工作说明，国内外iOS的开源项目非常的丰富，所以整理工作简单分步进行。第一步就是利其器。
 1. 收集、整理Xcode好用的插件。（进行中。。。）
+
+团队成员：Sakya000、mrhyh...
 
 外国人收集的三方库集合（OC版本），非常赞：[awesome-ios](https://github.com/vsouza/awesome-ios)
                   （Swift版本）[Awesome-Swift-Education](https://github.com/hsavit1/Awesome-Swift-Education)
@@ -1303,15 +1305,15 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [Auto-Importer](https://github.com/citrusbyte/Auto-Importer-for-Xcode) - Auto-Importer是一个自动导入类对应的头文件的Xcode插件。
 * [KSHObjcUML](https://github.com/kimsungwhee/KSHObjcUML) -KSHObjcUML 是一个 Objective-C 类引用关系图的 Xcode 插件。
 * [Dash-Plugin-for-Xcode](https://github.com/omz/Dash-Plugin-for-Xcode)。
-
 * [XcodeSwiftSnippets](https://github.com/burczyk/XcodeSwiftSnippets) - XcodeSwiftSnippets, 提供了很多可在 Xcode 上使用的 Swift 代码片段, 通过自动补全的方式极大的提高了开发效率。
 * [Objective-C](https://github.com/Xcode-Snippets/Objective-C)提供了很多可在 Xcode 上使用的 Swift 代码片段, 通过自动补全的方式极大的提高了开发效率，
-
-
-* [CoPilot](https://vimeo.com/128713880) - 通过此插件， Xcode 可以协同编程了（采用 WebSocket 通讯）。如此强大的“黑工具”，不爱它能行吗。
 * [ESJsonFormat-Xcode](https://github.com/EnjoySR/ESJsonFormat-Xcode) - 将Json格式化输出为模型的属性。
 * [SCXcodeMiniMap](https://github.com/stefanceriu/SCXcodeMiniMap) - Xcode迷你小地图-SCXcodeMiniMap。
-* [xTransCodelation](http://code.cocoachina.com/detail/316095/xTransCodelation/) - XCODE中英文翻译插件，提供API查询模式和网页模式，都是利用的百度翻译。另外集成了一个可以一键关闭其他所有APP的实用功能，方便开发者！
+* [xTransCodelation](http://code.cocoachina.com/detail/316095/xTransCodelation/) - XCODE中英文翻译插件，提供API查询模式和网页模式，都是利用的百度翻译。另外集成了一个可以一键关闭其他所有APP的实用功能，方便开发者！目前只有30多颗星。
+
+* [CoPilot](https://vimeo.com/128713880) - 通过此插件， Xcode 可以协同编程了（采用 WebSocket 通讯）。如此强大的“黑工具”，不爱它能行吗。
+
+
 * [SuggestedColors](https://github.com/jwaitzel/SuggestedColors/) - Xcode 插件SuggestedColors，用于 IB颜色设置 辅助插件，非常好用。
 * [Colors](https://github.com/paulot/Colorsp) - 打印彩色字符串，可以修改 Swift 中终端输出的字符串颜色，有趣的小工具。
 * [Crayons](https://github.com/Sephiroth87/Crayons) - Xcode调色板增强插件。
