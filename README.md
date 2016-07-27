@@ -35,6 +35,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [对话框](#对话框)
 - [状态栏](#状态栏)
 - [其他UI](#其他UI)
+- [日历](#日历)
 - [动画](#动画)
 - [游戏](#cocos2d-objc)
 - [侧滑与右滑返回手势](#侧滑与右滑返回手势)
@@ -99,7 +100,10 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 
 ##### 优秀的Cagegory
 
-[JKCategories](https://github.com/shaojiankui/JKCategories) 非常棒的分类
+* [JKCategories](https://github.com/shaojiankui/JKCategories) 非常棒的分类
+* [iOS-Categories](https://github.com/shaojiankui/IOS-Categories) - 收集了许多有助于开发的iOS扩展,各种category分类。
+* [cocoacats](http://cocoacats.com/) - 【分类汇总】里面收集了 iOS 中常用的分类文件，一直在更新。
+* [libextobjc](https://github.com/jspahrsummers/libextobjc Libextobjc是一个非常强大的Objective-C库的扩展,为Objective-C提供诸如Safe categories、Concrete protocols、简单和安全的key paths以及简单使用block中的弱变量等功能。libextobjc非常模块化，只需要一个或者两个依赖就能使用大部分类和模块。
 
 ##### 完整App
 * [Coding-iOS](https://github.com/Coding/Coding-iOS) - Coding iOS 客户端源代码
@@ -373,6 +377,9 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 
 ##### 状态栏
 * [MTStatusBarOverlay](https://github.com/myell0w/MTStatusBarOverlay) MTStatusBarOverlay 是一个定制的 iOS 状态栏，用于覆盖系统默认的状态栏，类似 Reeder, Evernote and Google Mobile App。支持两种点击动作：1. 当用户点击状态栏时，状态栏会收缩，仅仅遮盖住状态栏右方的电池图标；2. 当用户点击状态栏时，一个有详细信息的视图会从系统状态栏中下拉出现。
+##### 日历
+
+* [MSSCalendar](https://github.com/MSS0306/MSSCalendar) A simple iOS Calendar 高性能日历控件（类似去哪网）
 
 ##### 其他UI
 * [AwesomeMenu](https://github.com/levey/AwesomeMenu) - 最多人用的Path菜单。
@@ -660,6 +667,9 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [FastImageCache](https://github.com/path/FastImageCache) - FastImageCache 网络图片获取及缓存处理，[iOS图片加载速度极限优化—FastImageCache解析](http://www.imooc.com/wenda/detail/247239)。
 * [EGOCache](https://github.com/enormego/EGOCache) - 十分知名的第三方缓存类库，可以缓存NSString、UIImage、NSImage以及NSData。除此，如果还可以缓存任何一个实现了<NSCoding>接口的对象。所有缓存的数据都可以自定义过期的时间，默认是1天。EGOCache 支持多线程（thread-safe），[UITableView加载多张照片导致内存上涨的问题](http://www.superqq.com/blog/2014/11/06/ioskai-fa-:uitableviewjia-zai-duo-zhang-zhao-pian-dao-zhi-nei-cun-shang-zhang-de-wen-ti/)。
 * [YYWebImage](https://github.com/ibireme/YYWebImage/) - 一个图片加载库 YYWebImage，支持 APNG、WebP、GIF 播放，支持渐进式图片加载，更高性能的缓存，更多图像处理方法，可以替代 SDWebImage 等开源库，[相关文章](http://blog.ibireme.com/2015/11/02/mobile_image_benchmark/)。
+* [SVGKit](https://github.com/SVGKit/SVGKit) SVGKit是一个非常强大的，可以快速渲染SVG文件的框架。你可以直接把SVG文件加载至app中，并且SVG中的每个图形会变成一个CAShapeLayer，可以方便地进行缩放和动画你的图形。如果你想渲染app中的矢量图形，SVGKit是个不错的解决办法。
+
+
 
 ##### 网络聊天
 * [XMPPFramework](https://github.com/robbiehanson/XMPPFramework) - XMPPFramework openfire聊天。
@@ -781,7 +791,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [Tesseract-OCR-iOS](https://github.com/gali8/Tesseract-OCR-iOS) - 有关OCR文字识别项目。
 * [Screenotate](https://github.com/osnr/Screenotate) - 支持 OCR 文字识别的载屏笔记 Mac 完整应用。
 * [SwiftOCR](https://github.com/garnele007/SwiftOCR) - 识别字母和数字相较于 Tesseract 有压倒性优势（附图）的 OCR 类库。
-* [cocoacats](http://cocoacats.com/) - 【分类汇总】里面收集了 iOS 中常用的分类文件，一直在更新。
+
 * [Olla4iOS](https://github.com/nonstriater/Olla4iOS) - 过去积累的一些方便复用的类和方法，还在整理中。
 * [DKNightVersion](https://github.com/Draveness/DKNightVersion) - 用最快的方式给你的应用加上夜间和白天的切换效果。
 * [TouchVisualizer](https://github.com/morizotter/TouchVisualizer) - 实用的多点触摸可视化组件。扩展并作用于 UIWindows，结构上提供了简单地针对触摸显示定制，比如触摸点的颜色。
@@ -834,7 +844,6 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [SYNQueue.swift](https://github.com/THREDOpenSource/SYNQueue) - 执行队列类库。
 * [DDMathParser.swift](https://github.com/davedelong/DDMathParser) - 相比 NSExpression 和 GCMathPaser，功能更强大的数学表达式解析器。
 * [RateLimit.swift](https://github.com/soffes/RateLimit) - 简单、实用定时执行任务工具类库。
-* [iOS-Categories](https://github.com/shaojiankui/IOS-Categories) - 收集了许多有助于开发的iOS扩展,各种category分类。
 * [YYCategories](https://github.com/ibireme/YYCategories) - 功能丰富的 Category 类型工具库。
 * [YYAsyncLayers](https://github.com/ibireme/YYAsyncLayers) -  iOS 异步绘制与显示的工具。
 * [YYDispatchQueuePool](https://github.com/ibireme/YYDispatchQueuePool) -  iOS 全局并发队列管理工具。
@@ -990,6 +999,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 ========
 #### 摄像照相视频音频处理
 * A-[WMPlayer](https://github.com/zhengwenming/WMPlayer) - WMPlayer视频播放器，AVPlayer的封装，继承UIView，想怎么玩就怎么玩。支持播放mp4、m3u8、3gp、mov，网络和本地视频同时支持。全屏和小屏播放同时支持。 cell中播放视频，全屏小屏切换自如。
+* [HJDanmakuDemo](https://github.com/panghaijiao/HJDanmakuDemo) iOS端视频弹幕
 * [SCRecorder](https://github.com/rFlex/SCRecorder) - SCRecorder 短视频录制。
 * [VideoPushDemo](https://github.com/zangqilong198812/VideoPushDemo) - 视频剪辑 [视频特效制作1](http://www.jianshu.com/p/3006502912aa) [视频特效制作2](http://www.jianshu.com/p/6313025349a9)。
 * [LLSimpleCamera](https://github.com/omergul123/LLSimpleCamera) - A simple, customizable camera control for iOS， 摄像头。
@@ -1285,6 +1295,13 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 [Xcode-Plugin-Template ](https://github.com/kattrali/Xcode-Plugin-Template） 插件开发
 [XcodeEditor](https://github.com/appsquickly/XcodeEditor) 解析和操作Xcode工程文件
 * [fui](https://github.com/dblock/fui) Fui 可以用来查找 Xcode 项目中无用的 import 并予以删除
+* [SCStringsUtility](https://github.com/stefanceriu/SCStringsUtility) 让你在一个清爽的界面编辑不同的语言，简单地输入/输出NSLocalizedString数据。
+* [Lin](https://github.com/questbeat/Lin) 一个开源的Mac基础工具，可以让你在一个清爽的界面编辑不同的语言，简单地输入/输出NSLocalizedString数据。提供了一个非常不错的操作界面，并且为不同的语言提供了不同的区域。
+* [Transformifier](https://github.com/erwinmaza/Transformifier) Transformifier是一款通用的交互式的3D转换调整工具，用于iOS开发。开发者可以通过它以可视化的方式变换各维度上的值，还可以把使用CATransform3D输出的代码导入自己的app中。
+* [UIEffectDesignerView](https://github.com/icanzilb/UIEffectDesignerView)
+iOS和OSX原生粒子系统效果图搭载QuartzCore
+
+
 
 * [iOS开发进阶，从Xcode开始](http://www.cocoachina.com/special/xcode/) - 学习使用Xcode构建出色的应用程序！在Xcode启动的时候，Xcode将会寻找位于~/Library/Application Support/Developer/Shared/Xcode/Plug-ins文件夹中的后缀名为.xcplugin的bundle作为插件进行加载（运行其中的可执行文件）。
 * [Xcode5 Plugins 开发简介](http://studentdeng.github.io/blog/2014/02/21/xcode-plugin-fun/)  [写个自己的Xcode4插件](http://joeyio.com/ios/2013/07/25/write_xcode4_plugin_of_your_own/)
