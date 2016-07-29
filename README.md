@@ -36,7 +36,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [状态栏](#状态栏)
 - [其他UI](#其他UI)
 - [日历](#日历)
-- [动画](#动画)
+- [动画三方库](#动画三方库)
 - [游戏](#cocos2d-objc)
 - [侧滑与右滑返回手势](#侧滑与右滑返回手势)
 - [gif动画](#gif动画)
@@ -492,7 +492,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [JMRoundedCornerSwift](https://github.com/raozhizhen/JMRoundedCornerSwift) - swift版本：UIView设置不触发离屏渲染的圆角！
 
 ========
-#### 动画
+#### 动画三方库
 * [Core Animation笔记，基本的使用方法](http://www.starming.com/index.php?v=index&view=62) - Core Animation笔记，基本的使用方法：1.基本动画，2.多步动画，3.沿路径的动画，4.时间函数，5.动画组。
 * [awesome-ios-animation](https://github.com/sxyx2008/awesome-ios-animation) - [iOS Animation 主流炫酷动画框架(特效)收集整理](https://github.com/sxyx2008/DevArticles/issues/91) 收集整理了下iOS平台下比较主流炫酷的几款动画框架。
 * [awesome-animation](https://github.com/Animatious/awesome-animation) -  在内的十多位童鞋们一起发起的一起动画开源组正式成立啦~Github组织名称：Animatious，这是我们第一期成员先前开源的一些动效库，我们的第一个合作开源项目正在紧锣密鼓的准备~请大家期待设计和代码的碰撞吧。
@@ -1001,6 +1001,12 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [YLFaceuDemo](https://github.com/Guikunzhi/YLFaceuDemo) - 在直播应用中添加Faceu贴纸效果。Faceu贴纸效果其实就是在人脸上贴一些图片，同时这些图片是跟随着人脸的位置改变的。[说明](http://www.jianshu.com/p/ba1f79f8f6fa)
 
 ========
+
+#### 图表
+* [JYRadarChart](https://github.com/johnnywjy/JYRadarChart) 一个很赞的图表库
+
+========
+
 #### 摄像照相视频音频处理
 * A-[WMPlayer](https://github.com/zhengwenming/WMPlayer) - WMPlayer视频播放器，AVPlayer的封装，继承UIView，想怎么玩就怎么玩。支持播放mp4、m3u8、3gp、mov，网络和本地视频同时支持。全屏和小屏播放同时支持。 cell中播放视频，全屏小屏切换自如。
 * [HJDanmakuDemo](https://github.com/panghaijiao/HJDanmakuDemo) iOS端视频弹幕

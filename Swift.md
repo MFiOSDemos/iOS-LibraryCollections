@@ -29,7 +29,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [状态栏](#状态栏)
 - [其他UI](#其他UI)
 - [日历](#日历)
-- [动画](#动画)
+- [动画三方库](#动画三方库)
 - [游戏](#cocos2d-objc)
 - [侧滑与右滑返回手势](#侧滑与右滑返回手势)
 - [gif动画](#gif动画)
@@ -72,3 +72,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [学习笔记、书籍](#学习笔记、书籍)
 - [好用的软件](#好用的软件)
 - [设计](#设计)
+
+
+#### 动画三方库
+* [Ubergang](https://github.com/RobinFalko/Ubergang) Ubergang is a tweening engine for iOS written in Swift.
