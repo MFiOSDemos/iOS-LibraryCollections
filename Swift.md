@@ -15,6 +15,8 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [优秀的Cagegory](#优秀的Category)
 - [完整App](#完整App)
 - [App框架](#App框架)
+- [日历](#日历)
+- [UITableView](#UITableView)
 - [Xcode插件](#Xcode插件)
 - [下拉刷新](#下拉刷新)
 - [模糊效果](#模糊效果)
@@ -49,6 +51,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [缓存处理](#缓存处理)
 - [PDF](#PDF)
 - [图像浏览及处理](#图像浏览及处理)
+- [图表](#图表)
 - [摄像照相视频音频处理](#摄像照相视频音频处理)
 - [响应式框架](#响应式框架)
 - [消息相关](#消息相关)
@@ -73,6 +76,11 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [好用的软件](#好用的软件)
 - [设计](#设计)
 
+#### 日历
+* [FSCalendar](https://github.com/WenchaoD/FSCalendar) 一个包含objective-c和Swift版本的优秀的日历
 
 #### 动画三方库
-* [Ubergang](https://github.com/RobinFalko/Ubergang) Ubergang is a tweening engine for iOS written in Swift.
+* [Ubergang](https://github.com/RobinFalko/Ubergang) 一个动画分类
+
+#### UITableView
+* [ExpandableTableView](https://github.com/SubhiH/ExpandableTableView) 一个可以折叠cell的TableView

@@ -22,6 +22,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [优秀的Cagegory](#优秀的Category)
 - [完整App](#完整App)
 - [App框架](#App框架)
+- [日历三方库](日历三方库)
 - [Xcode插件](#Xcode插件)
 - [下拉刷新](#下拉刷新)
 - [模糊效果](#模糊效果)
@@ -142,6 +143,9 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 * [nimbus](https://github.com/jverkoey/nimbus) Nimbus是一个开源的iOS框架，比起Three20，Nimbus的文档更为全面、丰富，能够实现很多非常炫的界面特效。因此，开发者可以借助Nimbus来降低项目设计的复杂度。
 * [samurai-native](https://github.com/hackers-painters/samurai-native) 是一个基于浏览器内核通过HTML+CSS 开发原生移动应用的iOS框架。
 * [HHRouter](https://github.com/Huohua/HHRouter) 一言以蔽之，URL Router 即将 UIViewController 映射成 URL，从而支持通过 URL 进行界面跳转。是的，就和 Web 一样。当然，这并不是 Web Developer 转职为 iOS Developer 后所做的无聊玩具。URL Router 有着许多切实的好处。
+
+##### 日历三方库
+* [FSCalendar](https://github.com/WenchaoD/FSCalendar) 一个包含objective-c和Swift版本的优秀的日历
 
 
 ##### 下拉刷新
