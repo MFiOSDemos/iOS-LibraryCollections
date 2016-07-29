@@ -30,7 +30,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [富文本](#富文本)
 - [图表](#图表)
 - [颜色](#颜色)
-- [表相关、TabbleView、Tabbar](#表相关、TabbleView、Tabbar)
+- [表相关、TabbleView、Tabbar](#表相关、TabbleView、Tabbar、即时聊天界面)
 - [隐藏与显示](#隐藏与显示)
 - [HUD与Toast](#HUD与Toast)
 - [对话框](#对话框)
@@ -263,7 +263,8 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 ##### 颜色
 * [Colours](https://github.com/bennyguitar/Colours) Colours–颜色库,包含100种预定义的颜色和方法
 
-##### 表相关、TabbleView、Tabbar
+##### 表相关、TabbleView、Tabbar、即时聊天界面
+* [JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController) 一个优秀的即时聊天UI库
 * [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet) - DZNEmptyDataSet算是一个很标准的iOS内建方式，适合用来处理空的tableview和collection view。会自动将collection view处理完善，并将用户消息以合适美观的方式显示出来。每个iOS项目都可以自动处理。
 * [VVeboTableViewDemo](https://github.com/johnil/VVeboTableViewDemo) 此项目由VVebo剥离，希望你能通过这个demo看到我是如何进行TableView流畅度优化的。
 * [SWTableViewCell](https://github.com/onevcat/SWTableViewCell) - 国内开源作者，带很多手势的表单元格。
@@ -1080,7 +1081,6 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 ========
 #### 消息相关
 ##### 消息推送客户端
-* [SGPushDemo](https://github.com/sagiwei/SGPush/tree/master/SGPushDemo) - 消息推送客户端
 * [Orbiter](https://github.com/mattt/Orbiter) - 消息推送客户端:Push Notification Registration for iOS.
 * [PushDemo](https://github.com/ios44first/PushDemo) - 客户端消息接收消息代码，[IOS开发之 ---- IOS8推送消息注册](http://blog.sina.com.cn/s/blog_71715bf80102uy2k.html) ， [分分钟搞定IOS远程消息推送](http://my.oschina.net/u/2340880/blog/413584)。
 
