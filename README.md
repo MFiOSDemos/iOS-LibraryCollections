@@ -4,11 +4,12 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 重点说明：此库完全在[TimLiu-iOS](https://github.com/Tim9Liu9/TimLiu-iOS)（大概16-7-9日fork）的基础上面更新，因我没能得到权限跟原作者一起维护他的那个优秀的三方库，同时我也有不同的想法，因此fork了Tim9Liu9的这个项目，并重新发布我的修改版本（初次只有略微修改），希望能对大家有帮助，同时非常感谢Tim9Liu9贡献出这么优秀的库出来，向您致敬。
 
 版本说明：
-    1.0.0 从[TimLiu-iOS](https://github.com/Tim9Liu9/TimLiu-iOS) fork了代码，并根据自己的想法进行了整理。16-7-9
+    1.0.0 从[TimLiu-iOS] fork了代码，并根据自己的想法进行了整理。16-7-9
 
 主要工作说明：
   国内外iOS的开源项目非常的丰富，所以整理工作简单分步进行。第一步就是利其器。
   1. 收集、整理Xcode好用的插件。（进行中。。。）
+  2. 整理了项目目录，参考了[TimLiu-iOS]的样式
 
 使用方法：直接点击目录（有点慢），推荐直接按照目录关键字搜索
 
@@ -679,8 +680,6 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [EGOCache](https://github.com/enormego/EGOCache) - 十分知名的第三方缓存类库，可以缓存NSString、UIImage、NSImage以及NSData。除此，如果还可以缓存任何一个实现了<NSCoding>接口的对象。所有缓存的数据都可以自定义过期的时间，默认是1天。EGOCache 支持多线程（thread-safe），[UITableView加载多张照片导致内存上涨的问题](http://www.superqq.com/blog/2014/11/06/ioskai-fa-:uitableviewjia-zai-duo-zhang-zhao-pian-dao-zhi-nei-cun-shang-zhang-de-wen-ti/)。
 * [YYWebImage](https://github.com/ibireme/YYWebImage/) - 一个图片加载库 YYWebImage，支持 APNG、WebP、GIF 播放，支持渐进式图片加载，更高性能的缓存，更多图像处理方法，可以替代 SDWebImage 等开源库，[相关文章](http://blog.ibireme.com/2015/11/02/mobile_image_benchmark/)。
 * [SVGKit](https://github.com/SVGKit/SVGKit) SVGKit是一个非常强大的，可以快速渲染SVG文件的框架。你可以直接把SVG文件加载至app中，并且SVG中的每个图形会变成一个CAShapeLayer，可以方便地进行缩放和动画你的图形。如果你想渲染app中的矢量图形，SVGKit是个不错的解决办法。
-
-
 
 ##### 网络聊天
 * [XMPPFramework](https://github.com/robbiehanson/XMPPFramework) - XMPPFramework openfire聊天。
