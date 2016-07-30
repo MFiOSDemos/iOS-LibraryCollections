@@ -42,7 +42,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
   - [其他动画](#其他动画)
 - [网络相关](#网络相关)
   - [网络连接](#网络连接)
-  - [图像获取](#图像获取)
+  - [图像获取@](#图像获取@)
   - [网络聊天](#网络聊天)
   - [网络测试](#网络测试)
   - [网页框架](#网页框架)
@@ -504,6 +504,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [Core Animation笔记，基本的使用方法](http://www.starming.com/index.php?v=index&view=62) - Core Animation笔记，基本的使用方法：1.基本动画，2.多步动画，3.沿路径的动画，4.时间函数，5.动画组。
 * [awesome-ios-animation](https://github.com/sxyx2008/awesome-ios-animation) - [iOS Animation 主流炫酷动画框架(特效)收集整理](https://github.com/sxyx2008/DevArticles/issues/91) 收集整理了下iOS平台下比较主流炫酷的几款动画框架。
 * [awesome-animation](https://github.com/Animatious/awesome-animation) -  在内的十多位童鞋们一起发起的一起动画开源组正式成立啦~Github组织名称：Animatious，这是我们第一期成员先前开源的一些动效库，我们的第一个合作开源项目正在紧锣密鼓的准备~请大家期待设计和代码的碰撞吧。
+* [BCMagicTransition](https://github.com/boycechang/BCMagicTransition)一个动效框架，用于自定义UINavigationController的切换动画，效果类似 Keynote 软件中 Magic Move 切换。它可以用于任意两个UIViewController之间，只需指定两个VC中的相同元素即可。
 
 ##### 游戏
 * [cocos2d-objc](https://github.com/cocos2d/cocos2d-objc) Cocos2d for iOS and OS X, built using Objective-C
@@ -671,7 +672,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [Networking.Swift](https://github.com/3lvis/Networking) - 使用简单、功能惊喜，基于 NSURLSession 的网络封装。
 * [HYBUnicodeReadable](https://github.com/CoderJackyHuang/HYBUnicodeReadable) -解决打印日志对于Unicode编码不能正常显示中文的问题，只需要将文件导入工程，不需要引用，就能达到打印日志显示Unicode编码中文数据
 
-##### 图像获取
+##### 图像获取@
 * [SDWebImage](https://github.com/rs/SDWebImage) - SDWebImage 网络图片获取及缓存处理。
 * [UIActivityIndicator-for-SDWebImage](为SDWebImage显示加载效果)
 * [Kingfisher](https://github.com/onevcat/Kingfisher) - 纯 Swift 实现的类 SDWebImage 库，实现了异步下载和缓存图片。
@@ -680,6 +681,10 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [EGOCache](https://github.com/enormego/EGOCache) - 十分知名的第三方缓存类库，可以缓存NSString、UIImage、NSImage以及NSData。除此，如果还可以缓存任何一个实现了<NSCoding>接口的对象。所有缓存的数据都可以自定义过期的时间，默认是1天。EGOCache 支持多线程（thread-safe），[UITableView加载多张照片导致内存上涨的问题](http://www.superqq.com/blog/2014/11/06/ioskai-fa-:uitableviewjia-zai-duo-zhang-zhao-pian-dao-zhi-nei-cun-shang-zhang-de-wen-ti/)。
 * [YYWebImage](https://github.com/ibireme/YYWebImage/) - 一个图片加载库 YYWebImage，支持 APNG、WebP、GIF 播放，支持渐进式图片加载，更高性能的缓存，更多图像处理方法，可以替代 SDWebImage 等开源库，[相关文章](http://blog.ibireme.com/2015/11/02/mobile_image_benchmark/)。
 * [SVGKit](https://github.com/SVGKit/SVGKit) SVGKit是一个非常强大的，可以快速渲染SVG文件的框架。你可以直接把SVG文件加载至app中，并且SVG中的每个图形会变成一个CAShapeLayer，可以方便地进行缩放和动画你的图形。如果你想渲染app中的矢量图形，SVGKit是个不错的解决办法。
+
+##### 图像获取S@
+
+* [Kingfisher](https://github.com/onevcat/Kingfisher) 一个用于图片缓存的开源库，类似 SDWebImage，但是完全基于 Swift 语言开发。
 
 ##### 网络聊天
 * [XMPPFramework](https://github.com/robbiehanson/XMPPFramework) - XMPPFramework openfire聊天。
@@ -1131,6 +1136,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 ========
 #### 测试及调试
 * [chisel](https://github.com/facebook/chisel) Chisel扩展了一些列的lldb的命令来帮助iOS开发者调试iOS应用程序。
+* [dSYMTools](https://github.com/answer-huang/dSYMTools)友盟 dSYM analyze
 * [HeapInspector](https://github.com/tapwork/HeapInspector-for-iOS) - HeapInspector是一个用于检测应用中的内存泄漏的开源调试工具。
 * [Crashlytics](http://try.crashlytics.com/) - Crashlytics 崩溃报告 崩溃日志   [使用说明](http://www.infoq.com/cn/articles/crashlytics-crash-statistics-tools) 。
 * [UIViewController-Swizzled](https://github.com/RuiAAPeres/UIViewController-Swizzled) - 把你进入的每一个controller的类名打出来,如果看一些特别复杂的项目的时候直接运行demo就可以知道执行次序了。
@@ -1295,6 +1301,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 #### Xcode插件@
 
 * [首先学习使用Xcode](http://www.cocoachina.com/special/xcode/) - 学习使用Xcode构建出色的应用程序！在Xcode启动的时候，Xcode将会寻找位于~/Library/Application Support/Developer/Shared/Xcode/Plug-ins文件夹中的后缀名为.xcplugin的bundle作为插件进行加载（运行其中的可执行文件）。
+* [RPAXU](https://github.com/cikelengfeng/RPAXU) 每当 Xcode 升级之后，都会导致原有的 Xcode 插件不能使用，这是因为每个插件的 Info.plist 中记录了该插件兼容的 Xcode 版本的 DVTPlugInCompatibilityUUID，而每个版本的 Xcode 的 DVTPlugInCompatibilityUUID 都是不同的。如果想让原来的插件继续工作，我们就得将新版 Xcode 的 DVTPlugInCompatibilityUUID 加入到每一个插件的 Info 文件中，手动添加的话比较费时间还可能出错，所以作者写了一个脚本来做这件事。
 * [Alcatraz](http://alcatraz.io/) -使用Alcatraz来管理Xcode插件
 * [Polychromatic](https://github.com/kolinkrewinkel/Polychromatic)  为不同的变量类型赋予不同的颜色
 * [ClangFormat-Xcode](https://github.com/travisjeffery/ClangFormat-Xcode) clang-format 代码格式化
