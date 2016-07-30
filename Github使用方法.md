@@ -41,7 +41,9 @@ S2:      vim    .gitignore     #编辑文件，加入指定文件
 关键：在项目的根目录（跟.git文件夹所在目录同层）建立.gitignore文件，在里面声明即可。
 譬如我要忽略当前项下的所有dll文件，及runtime文件夹里所有文件：
 #ignore these files
+
 *.dll
+
 runtime/*
 
 如果之前文件已提交过，则需要先清除原文件，针对上文做的清理如下：

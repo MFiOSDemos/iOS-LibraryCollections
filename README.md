@@ -4,82 +4,84 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 重点说明：此库完全在[TimLiu-iOS](https://github.com/Tim9Liu9/TimLiu-iOS)（大概16-7-9日fork）的基础上面更新，因我没能得到权限跟原作者一起维护他的那个优秀的三方库，同时我也有不同的想法，因此fork了Tim9Liu9的这个项目，并重新发布我的修改版本（初次只有略微修改），希望能对大家有帮助，同时非常感谢Tim9Liu9贡献出这么优秀的库出来，向您致敬。
 
 版本说明：
+    1.0.0 从[TimLiu-iOS](https://github.com/Tim9Liu9/TimLiu-iOS) fork了代码，并根据自己的想法进行了整理。16-7-9
 
-1.0.0 从[TimLiu-iOS](https://github.com/Tim9Liu9/TimLiu-iOS) fork了代码，并根据自己的想法进行了整理。16-7-9
+主要工作说明：
+  国内外iOS的开源项目非常的丰富，所以整理工作简单分步进行。第一步就是利其器。
+  1. 收集、整理Xcode好用的插件。（进行中。。。）
 
-主要工作说明，国内外iOS的开源项目非常的丰富，所以整理工作简单分步进行。第一步就是利其器。
-1. 收集、整理Xcode好用的插件。（进行中。。。）
+使用方法：直接点击目录（有点慢），推荐直接按照目录关键字搜索
 
 团队成员：Sakya000、mrhyh...
 
-外国人收集的三方库集合（OC版本），非常赞：[awesome-ios](https://github.com/vsouza/awesome-ios)
-                  （Swift版本）[Awesome-Swift-Education](https://github.com/hsavit1/Awesome-Swift-Education)
 
 ###  目录
-- [UI](#UI)
-- [GitHub](#GitHub用法)
-- [FaceBook](#iOS库)
-- [优秀的Cagegory](#优秀的Category)
-- [完整App](#完整App)
+
+- [完整项目](#完整项目)
 - [App框架](#App框架)
-- [日历三方库](日历三方库)
-- [Xcode插件](#Xcode插件)
-- [下拉刷新](#下拉刷新)
-- [模糊效果](#模糊效果)
+  - [响应式框架](#响应式框架)
+- [UI三方库](#UI三方库)
+  - [完整App](#完整App)
+  - [日历三方库](日历三方库)
+  - [下拉刷新](#下拉刷新)
+  - [模糊效果](#模糊效果)
+  - [富文本](#富文本)
+  - [图表](#图表)
+  - [颜色](#颜色)
+  - [表相关、TabbleView、Tabbar](#表相关、TabbleView、Tabbar、即时聊天界面)
+  - [隐藏与显示](#隐藏与显示)
+  - [HUD与Toast](#HUD与Toast)
+  - [对话框@](#对话框@)
+  - [状态栏](#状态栏)
+  - [其他UI](#其他UI)
 - [AutoLayout](#AutoLayout)
-- [富文本](#富文本)
-- [图表](#图表)
-- [颜色](#颜色)
-- [表相关、TabbleView、Tabbar](#表相关、TabbleView、Tabbar、即时聊天界面)
-- [隐藏与显示](#隐藏与显示)
-- [HUD与Toast](#HUD与Toast)
-- [对话框](#对话框)
-- [状态栏](#状态栏)
-- [其他UI](#其他UI)
-- [日历](#日历)
 - [动画三方库](#动画三方库)
-- [游戏](#cocos2d-objc)
-- [侧滑与右滑返回手势](#侧滑与右滑返回手势)
-- [gif动画](#gif动画)
-- [其他动画](#其他动画)
+  - [侧滑与右滑返回手势](#侧滑与右滑返回手势)
+  - [gif动画](#gif动画)
+  - [其他动画](#其他动画)
 - [网络相关](#网络相关)
-- [网络连接](#网络连接)
-- [图像获取](#图像获取)
-- [网络聊天](#网络聊天)
-- [网络测试](#网络测试)
-- [网页框架](#网页框架)
+  - [网络连接](#网络连接)
+  - [图像获取](#图像获取)
+  - [网络聊天](#网络聊天)
+  - [网络测试](#网络测试)
+  - [网页框架](#网页框架)
+- [Model三方库](#Model三方库)
+- [开发资料](#开发资料)
+  - [GitHub](#GitHub用法)
+  - [他人开源总结](#他人开源总结)
+  - [开发博客列表](#开发博客列表)
+  - [学习笔记、书籍](#学习笔记、书籍)
+  - [设计](#设计)
+  - [好的文章](#好的文章)
+  - [美工资源](#美工资源)
+  - [开发资源](#开发资源)
+  - [开发资料](#开发资料)
+- [开发工具](#开发工具)
+  - [Xcode插件@](#Xcode插件@)
+  - [好用的软件](#好用的软件)
+  - [优秀的Cagegory](#优秀的Category)
+- [测试及调试](#测试及调试)
+- [数据存储](#数据存储)
+  - [缓存处理](#缓存处理)
+  - [数据库](#数据库)
 - [WebView与WKWebView](#WebView与WKWebView)
-- [Model](#Model)
+- [游戏](#cocos2d-objc)
+- [FaceBook](#iOS库)
 - [通讯录](#通讯录)
 - [其他库](#其他库)
 - [三方分享、支付、登录等等](#三方分享、支付、登录等等)
-- [数据库](#数据库)
-- [缓存处理](#缓存处理)
 - [PDF](#PDF)
 - [图像浏览及处理](#图像浏览及处理)
 - [摄像照相视频音频处理](#摄像照相视频音频处理)
-- [响应式框架](#响应式框架)
 - [消息相关](#消息相关)
-- [消息推送客户端](#消息推送客户端)
-- [消息推送服务器端](#消息推送服务器端)
-- [通知相关](#通知相关)
+  - [消息推送客户端](#消息推送客户端)
+  - [消息推送服务器端](#消息推送服务器端)
+  - [通知相关](#通知相关)
 - [版本新API的Demo](#版本新API的Demo)
 - [代码安全与密码](#代码安全与密码)
-- [测试及调试](#测试及调试)
 - [动态更新](#动态更新)
 - [AppleWatch](#AppleWatch)
 - [VPN](#VPN)
-- [完整项目](#完整项目)
-- [好的文章](#好的文章)
-- [美工资源](#美工资源)
-- [开发资源](#开发资源)
-- [开发资料](#开发资料)
-- [swift](#swift)
-- [他人开源总结](#他人开源总结)
-- [开发博客列表](#开发博客列表)
-- [学习笔记、书籍](#学习笔记、书籍)
-- [好用的软件](#好用的软件)
-- [设计](#设计)
 
 
 ========
@@ -145,8 +147,10 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 * [HHRouter](https://github.com/Huohua/HHRouter) 一言以蔽之，URL Router 即将 UIViewController 映射成 URL，从而支持通过 URL 进行界面跳转。是的，就和 Web 一样。当然，这并不是 Web Developer 转职为 iOS Developer 后所做的无聊玩具。URL Router 有着许多切实的好处。
 
 ##### 日历三方库
-* [FSCalendar](https://github.com/WenchaoD/FSCalendar) 一个包含objective-c和Swift版本的优秀的日历
 
+* [TEAChart](https://github.com/xhacker/TEAChart) - xhacker/TEAChart 一个简洁的 iOS 图表库，支持柱状图、饼图以及日历等。
+* [FSCalendar](https://github.com/WenchaoD/FSCalendar) -  一个包含objective-c和Swift版本的优秀的日历视图，带有微妙和平滑的滚动效果，可自定义外观--国人。
+* [CVCalendar](https://github.com/Mozharovsky/CVCalendar) - 是一个方便开发者集成自定义日历视图到自己 iOS 应用的项目, 支持 Storyboard 和手动配置, 使用 CocoaPods 进行安装, 提供了丰富的 API 供开发者使用。
 
 ##### 下拉刷新
 * [EGOTableViewPullRefresh](https://github.com/enormego/EGOTableViewPullRefresh) - 最早的下拉刷新控件。
@@ -253,7 +257,6 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [PNChart](https://github.com/kevinzhow/PNChart) - 国内开源作者，动态的图表。
 * [swift-linechart](https://github.com/zemirco/swift-linechart) - 功能完整、实用的折线图组件。使用方便，参数配置简单。是不可多得的优质组件--swift。
 * [ios-charts](https://github.com/danielgindi/Charts) - 一款优秀 Android 图表开源库 MPAndroidChart 的 Swift 语言实现版（支持 Objective-C 和 Swift 调用）。缺省提供的示例代码为 Objective-C。
-* [TEAChart](https://github.com/xhacker/TEAChart) - xhacker/TEAChart 一个简洁的 iOS 图表库，支持柱状图、饼图以及日历等。
 * [YOChartImageKit](https://github.com/yasuoza/YOChartImageKit) - 支持在watchOS上绘制图表，看它最近更新挺勤快的，可以关注一下。
 * [RealtimeGradientText](https://github.com/kevinzhow/RealtimeGradientText) - Fun With CALayer Mask 刚好今天开源了一个有趣的项目 RealtimeGradientText，所以也好聊一下 CALayer 的 Mask，[说明](http://blog.zhowkev.in/2015/07/06/fun-with-mask/)。
 * [XYPieChart](https://github.com/xyfeng/XYPieChart) -XYPieChart:饼状图,  饼图,  数据统计,  数据可视化,可以在图形上标注数据。效果十分漂亮，而且没有用到一张图片。
@@ -355,7 +358,8 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [PreLoader](https://github.com/liuzhiyi1992/PreLoader) - 一个很有意思的HUD loading ，通过运动污点和固定污点之间的粘黏动画吸引用户的眼球跟踪，能有效分散等待注意力。[PreLoader的实现讲解](http://www.cocoachina.com/ios/20160427/16029.html)
 * [Toast-Swift](https://github.com/scalessec/Toast-Swift) - 高可定制易用的 Toast 弹出信息或通知用户界面组件类。
 
-##### 对话框
+##### 对话框@
+* [LCActionSheet](https://github.com/iTofu/LCActionSheet) 一款简约而不失强大的 ActionSheet，微信和微博都采取了极其类似的样式。
 * [WCAlertView](https://github.com/m1entus/WCAlertView) - 自定义的对话框。
 * [IOS7AlertView](https://github.com/wimagguc/ios-custom-alertview) - IOS7AlertView的对话框。
 * [AMSmoothAlert](https://github.com/mtonio91/AMSmoothAlert) - 动画效果不错，最多star，但不支持arm64。
@@ -428,8 +432,6 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [ios-multi-back-button](https://github.com/palmin/ios-multi-back-button) - 可替换内置的UInavigationController返回按钮，长按左上角的返回按钮，实现多层级的快速返回。
 * [ASDayPicker](http://code.cocoachina.com/detail/226543) - 适用于iOS (iPhone)的日期选择器(时间选择器)，类似于Calendar app的周视图。
 * [today extension](http://adad184.com/2014/10/29/2014-10-29-how-to-setup-today-extension-programmatically/) - 用纯代码构建一个Widget(today extension) 。
-* [FSCalendar](https://github.com/WenchaoD/FSCalendar) - 日历视图，带有微妙和平滑的滚动效果，可自定义外观--国人。
-* [CVCalendar](https://github.com/Mozharovsky/CVCalendar) - 是一个方便开发者集成自定义日历视图到自己 iOS 应用的项目, 支持 Storyboard 和手动配置, 使用 CocoaPods 进行安装, 提供了丰富的 API 供开发者使用。
 * [HSDatePickerViewController](https://github.com/EmilYo/HSDatePickerViewController) - 带有Dropbox Mailbox感觉的时间日期选择器(时间选择器)。启动是背景被模糊化。界面也是主流的扁平化风格。
 * [HZQDatePickerView](https://github.com/huzhiqin/HZQDatePickerView) - 自定义时间选择器(日期选择器)，包括开始日期和结束日期两种类型。
 * [CFCityPickerVC](https://github.com/CharlinFeng/CFCityPickerVC) - 城市选取控制器。
@@ -1290,7 +1292,10 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [UITableView 手势延迟导致subview无法完成两次绘制](http://www.jianshu.com/p/b422d92738ac) - UITableView 手势延迟导致subview无法完成两次绘制。
 
 ========
-#### Xcode插件
+
+#### Xcode插件@
+
+* [首先学习使用Xcode](http://www.cocoachina.com/special/xcode/) - 学习使用Xcode构建出色的应用程序！在Xcode启动的时候，Xcode将会寻找位于~/Library/Application Support/Developer/Shared/Xcode/Plug-ins文件夹中的后缀名为.xcplugin的bundle作为插件进行加载（运行其中的可执行文件）。
 * [Alcatraz](http://alcatraz.io/) -使用Alcatraz来管理Xcode插件
 * [Polychromatic](https://github.com/kolinkrewinkel/Polychromatic)  为不同的变量类型赋予不同的颜色
 * [ClangFormat-Xcode](https://github.com/travisjeffery/ClangFormat-Xcode) clang-format 代码格式化
@@ -1315,17 +1320,11 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [Transformifier](https://github.com/erwinmaza/Transformifier) Transformifier是一款通用的交互式的3D转换调整工具，用于iOS开发。开发者可以通过它以可视化的方式变换各维度上的值，还可以把使用CATransform3D输出的代码导入自己的app中。
 * [UIEffectDesignerView](https://github.com/icanzilb/UIEffectDesignerView)
 iOS和OSX原生粒子系统效果图搭载QuartzCore
-
-
-
-* [iOS开发进阶，从Xcode开始](http://www.cocoachina.com/special/xcode/) - 学习使用Xcode构建出色的应用程序！在Xcode启动的时候，Xcode将会寻找位于~/Library/Application Support/Developer/Shared/Xcode/Plug-ins文件夹中的后缀名为.xcplugin的bundle作为插件进行加载（运行其中的可执行文件）。
 * [Xcode5 Plugins 开发简介](http://studentdeng.github.io/blog/2014/02/21/xcode-plugin-fun/)  [写个自己的Xcode4插件](http://joeyio.com/ios/2013/07/25/write_xcode4_plugin_of_your_own/)
 * [Xcode 4 插件制作入门](https://www.onevcat.com/2013/02/xcode-plugin/) - Xcode 4 插件制作入门:Xcode所使用的所有库都包含在Xcode.app/Contents/的Frameworks，SharedFrameworks和OtherFrameworks三个文件夹下。其中和Xcode关系最为直接以及最为重要的是Frameworks中的IDEKit和IDEFoundation，以及SharedFrameworks中的DVTKit和DVTFoundation四个。
 * [RTImageAssets](https://github.com/rickytan/RTImageAssets) - 一个 Xcode 插件，用来生成 @3x 的图片资源对应的 @2x 和 @1x 版本。[Asset Catalog Creator](https://itunes.apple.com/app/asset-catalog-creator-free/id866571115?mt=12) 功能强大，能自动生成全部尺寸：包括App Icons、Image Sets、Launch Screens Generator。
 * [VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode) - 一个Xcode插件，build后，随手打开一个你之前的项目，然后在任意一个方法上面连按三下"/"键盘，就ok了。
 * [Swimat](https://github.com/Jintin/Swimat) - Swimat，是一款Xcode 插件，帮你一键格式化 swift 代码。
-* [Reveal-Plugin-for-XCode](https://github.com/shjborage/Reveal-Plugin-for-XCode) - 一个Reveal插件，可以使工程不作任何修改的情况下使用Reveal，该插件已在Alcatraz上架。
-* [Reveal：分析iOS UI的利器](http://security.ios-wiki.com/issue-3-4/) 。
 * [java2Objective-c](https://github.com/google/j2objc) - Google公司出得java转Obje-C转换工具，转换逻辑，不转换UI。
 * [RegX](https://github.com/kzaher/RegX) - 专治代码强迫症的 Xcode 插件，使用 Swift 和 Objective-C 编写。其用竖向对齐特定源代码的元素，使得代码更易读和易理解。[说明](http://www.cocoachina.com/ios/20141224/10743.html) ； 菜单：xcode——》Edit-》Regx 。
 * [CodePilot](https://github.com/macoscope/CodePilot) Code Pilot是一款在项目中快速方便地查找文件、方法和符号，Xcode 5的扩充开源插件，开发者无需鼠标进行操作。
@@ -1394,20 +1393,9 @@ iOS和OSX原生粒子系统效果图搭载QuartzCore
 * [Objective-C编码规范：26个方面解决iOS开发问题](http://www.imooc.com/article/1216) - 【Objective-C编码规范：26个方面解决iOS开发问题：“我们制定Objective-C编码规范的原因是我们能够在我们的书，教程和初学者工具包的代码保持优雅和一致。”今天分享的规范来自raywenderlich.com团队成员共同完成的，希望对学习OC的朋友们有所指导和帮助。
 * [demo](https://github.com/coolnameismy/demo) 刘彦玮的技术博客中文章对应的demo
 
-###### swift
-* [Swift 开源项目精选－v1.0](http://dev.swiftguide.cn/archive/featured-open-source-projects-in-swift_v1.0.html) - Swift 开源项目精选－v1.0。
-* [Swift开源项目精选](https://github.com/ipader/SwiftGuide/blob/master/Featured.md) - Swift开源项目精选--推荐，每周都有更新。
-* [Swift中文指南](https://github.com/numbbbbb/the-swift-programming-language-in-chinese) - 中文版Apple官方Swift教程《The Swift Programming Language》，[老码版本](https://numbbbbb.gitbooks.io/-the-swift-programming-language-/content/)  [历史版本更新说明](https://numbbbbb.gitbooks.io/-the-swift-programming-language-/content/chapter1/03_revision_history.html)。
-* [The Swift Programming Language 中文版](http://wiki.jikexueyuan.com/project/swift/) - The Swift Programming Language 中文版。
-* [swifttoolbox](http://www.swifttoolbox.io/) -  swifttoolbox swift开发的开源库汇总。
-* [SwiftGuide](https://github.com/ipader/SwiftGuide) -  这份指南汇集了Swift语言主流学习资源，并以开发者的视角整理编排-- 非常不错，值得推荐。
-
-* [Awesome Swift](https://swift.zeef.com/robin.eggenkamp) - 一个收集了很多 Swift 开发资源的网站。
-* [Developing_iOS_8_Apps_With_Swift](https://github.com/CS193P-Translation-Group/Developing_iOS_8_Apps_With_Swift) - Developing iOS 8 Apps with Swift 字幕简体中文翻译项目（斯坦福白胡子老头swift教学视频）。
-* [Swift-On-iOS](https://github.com/johnlui/Swift-On-iOS) - JohnLui 的 Swift On iOS 代码仓库。
-* [30DaysofSwift](https://github.com/allenwong/30DaysofSwiftp) - 30DaysofSwift 自学 iOS - [三十天三十个 Swift 项目](http://weibo.com/ttarticle/p/show?id=2309403942494873235448)。
 
 ##### 他人开源总结
+
 * [awesome-osx](https://github.com/iCHAIT/awesome-osx) - Awesome OS X。
 * [code4app](http://www.code4app.com/) - 最多国人用的代码库。
 * [cocoachina](http://code.cocoachina.com/) - 国内最热门的iOS社区的代码库。
@@ -1488,10 +1476,14 @@ iOS和OSX原生粒子系统效果图搭载QuartzCore
 * A-[iOS-Note](https://github.com/seedante/iOS-Note) 非常好的学习笔记，主要目录1.Core Data 笔记2.Photos 笔记3.转场动画详解4.自定义容器控制器转场5.交互式动画
 * [growth-ebook](https://github.com/phodal/growth-ebook) Growth Engineering: The Definitive Guide。全栈增长工程师指南
 
-#### 好用的软件
+#### 好用的软件@
 * [gitbook](https://github.com/GitbookIO/gitbook) GitBook 是一个基于Node.js 的命令行工具，可使用Github/Git 和Markdown 来制作精美的电子书。 GitBook需要使用markdown格式编写，如果你不了解可以看看这里。
 #### 设计
 * [design-resource](https://github.com/timmy3131/design-resource) 设计师资源列表
+* [Reveal：分析iOS UI的利器](http://revealapp.com/)
+* [Reveal-Plugin-for-XCode](https://github.com/shjborage/Reveal-Plugin-for-XCode) - 一个Reveal插件，可以使工程不作任何修改的情况下使用Reveal，该插件已在Alcatraz上架。
+
+
 
 #### 物联网
 * [awesome-iot](https://github.com/phodal/awesome-iot) - 这份物联网学习参考大全太给力。从物联网协议、嵌入式系统、相关开源库、相关书籍、博客、学习笔记、标准应有尽有。
