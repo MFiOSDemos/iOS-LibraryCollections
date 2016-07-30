@@ -83,6 +83,24 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [动态更新](#动态更新)
 - [AppleWatch](#AppleWatch)
 - [VPN](#VPN)
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+- [完整项目](#完整项目)
+- [好的文章](#好的文章)
+- [美工资源](#美工资源)
+- [开发资源](#开发资源)
+- [开发资料](#开发资料)
+- [swift](#swift)
+- [他人开源总结](#他人开源总结)
+- [开发博客列表](#开发博客列表)
+- [学习笔记、书籍](#学习笔记、书籍)
+- [好用的软件](#好用的软件)
+- [设计](#设计)
+- [视频播放器](#视频播放器)
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 
 
 ========
@@ -1493,3 +1511,7 @@ iOS和OSX原生粒子系统效果图搭载QuartzCore
 
 #### 物联网
 * [awesome-iot](https://github.com/phodal/awesome-iot) - 这份物联网学习参考大全太给力。从物联网协议、嵌入式系统、相关开源库、相关书籍、博客、学习笔记、标准应有尽有。
+
+
+##### 视频播放器
+* [MRVLCPlayer](https://github.com/Maru-zhang/MRVLCPlayer) - 相信Mac用户都很熟悉一款VLC播放器，这款播放器在Mac上表现异常优异，支持的格式几乎涵盖了所有格式（就是这么屌！）。没错，就是它创造者--VideoLAN，开源了一款牛逼的视频播放框架MobileVLCKit！[介绍信息：] (http://gold.xitu.io/entry/578c304b2e958a0054320503?from=singlemessage&isappinstalled=1) 
