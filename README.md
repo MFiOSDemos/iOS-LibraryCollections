@@ -34,6 +34,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
   - [HUD与Toast](#HUD与Toast)
   - [对话框@](#对话框@)
   - [状态栏](#状态栏)
+  - [导航栏@](#导航栏@)
   - [其他UI](#其他UI)
 - [AutoLayout](#AutoLayout)
 - [动画三方库](#动画三方库)
@@ -400,8 +401,14 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [PMAlertController.Swift](https://github.com/Codeido/PMAlertController) - 可定制弹窗组件替代官版不可定制的 UIAlertController。
 * [TBActionSheet.swift](https://github.com/yulingtianxia/TBActionSheet) - 支持Carthage，可自定义度100%的 ActionSheet，支持微信样式。
 
-##### 状态栏
+##### 状态栏@
 * [MTStatusBarOverlay](https://github.com/myell0w/MTStatusBarOverlay) MTStatusBarOverlay 是一个定制的 iOS 状态栏，用于覆盖系统默认的状态栏，类似 Reeder, Evernote and Google Mobile App。支持两种点击动作：1. 当用户点击状态栏时，状态栏会收缩，仅仅遮盖住状态栏右方的电池图标；2. 当用户点击状态栏时，一个有详细信息的视图会从系统状态栏中下拉出现。
+
+##### 导航栏@
+
+* [AMScrollingNavbar](https://github.com/andreamazz/AMScrollingNavbar) 一个可以上拉隐藏导航栏和下拉显示导航栏的框架
+* [JTNavigationController](https://github.com/JNTian/JTNavigationController) 一个拥有更平滑的navigationBar切换动画的NavigationController
+
 ##### 日历
 
 * [MSSCalendar](https://github.com/MSS0306/MSSCalendar) A simple iOS Calendar 高性能日历控件（类似去哪网）
