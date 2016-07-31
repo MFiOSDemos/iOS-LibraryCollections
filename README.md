@@ -1330,6 +1330,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [HOStringSense-for-Xcode](https://github.com/holtwick/HOStringSense-for-Xcode)有图，点进去一看就明白了，代码编辑器里的字符串编辑器，粘贴大段 HTML 字符串之类的很方便，自动转义。
 * [ZLGotoSandboxPlugin](https://github.com/MakeZL/ZLGotoSandboxPlugin) - 支持Xcode快捷键了跳转当前应用沙盒了！快捷键是 Shift+Common+w。
 * [cocoapods-xcode-plugin](https://github.com/kattrali/cocoapods-xcode-plugin) - 该CocoaPods的插件增加了一个CocoaPods菜单到Xcode的产品菜单。如果你不喜欢命令行，那么你一定会喜欢这个插件。
+* [Carthage](https://github.com/Carthage/Carthage)Carthage是一个新的第三方库管理工具，它轻耦合，使用很灵活，不会修改项目文件，使用xcodebuild工具来编译第三方库。跟cocoaPod有些类似。
 * [KSImageNamed](https://github.com/ksuther/KSImageNamed-Xcode) - 自动完成，特别是如果你正在写Objective-C，如果Xcode能自动完成文件名难道不会很伟大吗？比如图像文件的名称。
 * [KFCocoaPodsPlugin](https://github.com/ricobeck/KFCocoaPodsPlugin)	Xcode插件 cocoapod, 方便编辑Podfile，显示构建日志
 * [XCActionBar](https://github.com/pdcgomes/XCActionBar) 是一个用于 Xcoded 的通用生产工具。
@@ -1506,6 +1507,8 @@ iOS和OSX原生粒子系统效果图搭载QuartzCore
 #### 好用的软件@
 * [gitbook](https://github.com/GitbookIO/gitbook) GitBook 是一个基于Node.js 的命令行工具，可使用Github/Git 和Markdown 来制作精美的电子书。 GitBook需要使用markdown格式编写，如果你不了解可以看看这里。
 * [crashlytics](https://www.fabric.io/onboard) Twitter出的一个崩溃分析软件
+* [Knuff](https://github.com/KnuffApp/Knuff)调试iOS App远程推送(APNs)的工具
+
 #### 设计
 * [design-resource](https://github.com/timmy3131/design-resource) 设计师资源列表
 * [Reveal：分析iOS UI的利器](http://revealapp.com/)
