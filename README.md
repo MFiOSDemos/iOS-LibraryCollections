@@ -495,7 +495,6 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [BEMCheckBox](https://github.com/Boris-Em/BEMCheckBox) - BEMCheckBox 是一个用于 iOS 应用上构建漂亮, 高度可定制化动画效果的复选框类库, 最低支持到 iOS 7 系统, 有多种不同风格的动画效果可供选择。
 * [STPopup](https://github.com/kevin0571/STPopup) - 提供了一个可在 iPhone 和 iPad 上使用的具有 UINavigationController 弹出效果的 STPopupController 类, 并能在 Storyboard 上很好的工。
 * [VBFPopFlatButton](https://github.com/victorBaro/VBFPopFlatButton) - 通过几条线段实现的非常Q萌的动画按钮效果。
-* [ZSeatSelector](https://github.com/richzertuche/ZSeatSelector) - 电影院位置排座位。
 * [CustomSearchBar](https://github.com/zangqilong198812/CustomSearchBar) - 自定义searchbar,类似于instagram的搜索框效果。
 * [LNPopupController](https://github.com/LeoNatan/LNPopupController) - AppleMusic式pop up，弹出是页面，可以上下拉动。
 * [DGRunkeeperSwitch](https://github.com/gontovnik/DGRunkeeperSwitch/) - 动画segment，节选器。
@@ -515,6 +514,10 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [StackViewController](https://github.com/seedco/StackViewController) - 方便 iOS 开发者使用 UIStackView 构建表单或其它静态内容视图。
 * [LLBootstrapButton](https://github.com/lilei644/LLBootstrapButton) - Bootstrap 3.0扁平化风格按钮，自带图标，一句代码直接调用！
 * [JMRoundedCorner](https://github.com/raozhizhen/JMRoundedCorner) - UIView设置不触发离屏渲染的圆角！
+
+
+#### 其他UI@ swift版：
+* [ZSeatSelector](https://github.com/richzertuche/ZSeatSelector) - 电影院位置排座位，电影选座。
 * [JMRoundedCornerSwift](https://github.com/raozhizhen/JMRoundedCornerSwift) - swift版本：UIView设置不触发离屏渲染的圆角！
 
 ========
@@ -1502,6 +1505,7 @@ iOS和OSX原生粒子系统效果图搭载QuartzCore
 
 #### 好用的软件@
 * [gitbook](https://github.com/GitbookIO/gitbook) GitBook 是一个基于Node.js 的命令行工具，可使用Github/Git 和Markdown 来制作精美的电子书。 GitBook需要使用markdown格式编写，如果你不了解可以看看这里。
+* [crashlytics](https://www.fabric.io/onboard) Twitter出的一个崩溃分析软件
 #### 设计
 * [design-resource](https://github.com/timmy3131/design-resource) 设计师资源列表
 * [Reveal：分析iOS UI的利器](http://revealapp.com/)
