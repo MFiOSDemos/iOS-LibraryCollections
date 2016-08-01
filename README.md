@@ -945,7 +945,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [GXDatabaseUtils](https://github.com/Gerry1218/GXDatabaseUtils) - 在FMDB基础上的工具。
 * [realm-cocoa](https://github.com/realm/realm-cocoa) - Realm是一个真正为移动设备打造的数据库，同时支持Objective-C和Swfit。Realm宣称其相比Sqlite，在移动设备上有着更好的性能表现,[官方中文](https://realm.io/cn/) ，[iOS：选择 Realm 而不是 CoreData](http://swift.gg/2015/12/08/ios-realm-instead-of-coredata/), [使用 Realm 和 Swift 创建 ToDo 应用](http://swift.gg/2015/12/08/building-a-todo-app-using-realm-and-swift/)。
 * [RealmIncrementalStore.swift](https://github.com/eure/RealmIncrementalStore) - RealmIncrementalStore.swift:集 Realm 数据库和 CoreData 对象模型两者优势的 Realm 数据库访问类库。
-* [GKDatabase](https://github.com/ChrisCaixx/GKDatabase) -基于SQLite3简单封装了下,实现了一行代码解决增删改查等常用的功能!并没有太过高深的知识,主要用了runtime和KVC:请看Demo~ 原理篇请看这里:[]简书地址](http://www.jianshu.com/p/0e598147debc)
+* [GKDatabase](https://github.com/ChrisCaixx/GKDatabase) -基于SQLite3简单封装了下,实现了一行代码解决增删改查等常用的功能!并没有太过高深的知识,主要用了runtime和KVC:请看Demo~ 原理篇请看这里:[简书地址](http://www.jianshu.com/p/0e598147debc)
 
 
 * [Breeze](https://github.com/andrelind/Breeze) - 用Swift写的一个轻量级的CoreData管理工具，并且还支持iCloud 。
