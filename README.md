@@ -76,10 +76,12 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [PDF](#PDF)
 - [图像浏览及处理](#图像浏览及处理)
 - [摄像照相视频音频处理](#摄像照相视频音频处理)
+- [视频播放器](#视频播放器)
 - [消息相关](#消息相关)
   - [消息推送客户端](#消息推送客户端)
   - [消息推送服务器端](#消息推送服务器端)
   - [通知相关](#通知相关)
+- [时间日期@](#时间日期)
 - [版本新API的Demo](#版本新API的Demo)
 - [代码安全与密码](#代码安全与密码)
 - [动态更新](#动态更新)
@@ -96,7 +98,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [学习笔记、书籍](#学习笔记、书籍)
 - [好用的软件](#好用的软件)
 - [设计](#设计)
-- [视频播放器](#视频播放器)
+
 
 ========
 ### 具体内容 =============================
@@ -537,6 +539,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [cocos2d-objc](https://github.com/cocos2d/cocos2d-objc) Cocos2d for iOS and OS X, built using Objective-C
 
 ##### 侧滑与右滑返回手势
+* [ViewDeck](https://github.com/ViewDeck/ViewDeck) 项目需要用到左侧右侧各有一个抽屉视图，而这个类库可以极其简单的实现这个功能，不单单是左右各一个，它可以随意设置上下左右的抽屉视图，简直是360度想怎么抽怎么抽
 * A-[FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture) 非常棒的全屏手势侧滑，只需导入此库，就可以让你的App具备左滑返回功能，不用写一句代码。
 * [SloppySwiper](https://github.com/fastred/SloppySwiper) - iOS系统自带的UINavigationController要7.0才支持，但不过该手势只能从屏幕左侧边缘识别，如果要扩大到整个屏幕范围怎么办？配合一个SloppySwiper无需代码就可以轻松实现。此库支持iOS5.0以上版本（另外：Nav的title滑动不明显，本人写了2个类似的控件），[SloppySwiper-demo](https://github.com/Tim9Liu9/SloppySwiper-Example) ：代码方式与storyboard方式。
 * [SCNavigation](https://github.com/singro/SCNavigation) - UINavigation可以右滑返回，隐藏UINavigationBar。
@@ -1132,6 +1135,13 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [Homeoff](https://github.com/lizyyy/Homeoff) - 用swift写了一个模仿Launcher通知中心快捷方式的应用。支持20个应用，并增加了一个返回到桌面来解放Home键的功能。
 * [JDStatusBarNotification](https://github.com/jaydee3/JDStatusBarNotification) - 在状态栏顶部显示通知。可以自定义颜色字体以及动画。支持进度显示以及显示状态指示器。
 * [SwiftNotificationCenter](https://github.com/100mango/SwiftNotificationCenter) - 一个面向协议的类型安全、线程安全、内存安全的通知中心。
+
+========
+
+#### 时间日期@
+
+* [iso-8601-date-formatter](https://github.com/boredzo/iso-8601-date-formatter)
+cocoaNSFormatter子类日期转换为从ISO- 8601格式的字符串。支持日历，星期，和序格式。
 
 ========
 #### 版本新API的Demo
