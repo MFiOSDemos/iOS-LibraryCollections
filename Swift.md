@@ -58,19 +58,6 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ###  目录
 
 - [完整项目](#完整项目)
@@ -91,6 +78,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
   - [状态栏](#状态栏)
   - [导航栏@](#导航栏@)
   - [设置@](#设置@)
+  - [Switch@](Switch@)
   - [其他UI](#其他UI)
 - [AutoLayout](#AutoLayout)
 - [动画三方库](#动画三方库)
@@ -126,6 +114,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [游戏](#cocos2d-objc)
 - [FaceBook](#iOS库)
 - [通讯录](#通讯录)
+- [Eamil@](#Eamil)
 - [其他库](#其他库)
 - [三方分享、支付、登录等等](#三方分享、支付、登录等等)
 - [PDF](#PDF)
@@ -429,6 +418,8 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [PreLoader](https://github.com/liuzhiyi1992/PreLoader) - 一个很有意思的HUD loading ，通过运动污点和固定污点之间的粘黏动画吸引用户的眼球跟踪，能有效分散等待注意力。[PreLoader的实现讲解](http://www.cocoachina.com/ios/20160427/16029.html)
 * [Toast-Swift](https://github.com/scalessec/Toast-Swift) - 高可定制易用的 Toast 弹出信息或通知用户界面组件类。
 
+
+
 ##### 对话框@
 * [LCActionSheet](https://github.com/iTofu/LCActionSheet) 一款简约而不失强大的 ActionSheet，微信和微博都采取了极其类似的样式。
 * [WCAlertView](https://github.com/m1entus/WCAlertView) - 自定义的对话框。
@@ -471,6 +462,10 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 ##### 设置@
 
 * [InAppSettingsKit](https://github.com/futuretap/InAppSettingsKit) InAppSettingsKit 是一款功能强大的ios设置组件，可以满足各种各样的app设置需求。
+
+##### Switch@
+
+* [DynamicMaskSegmentSwitch](https://github.com/KittenYang/DynamicMaskSegmentSwitch) A segment switcher with dynamic text mask effect
 
 ##### 日历
 
@@ -847,7 +842,13 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [快速查找联系人](http://code.cocoachina.com/view/128245) - 类似微信联系人搜索的界面,快速查找联系人,并支持点击查询结果 。
 
 ========
-###三方分享、支付、登录等等@
+
+========
+#### Email@
+* [mailcore2](https://github.com/MailCore/mailcore2) MailCore 2 provide a simple and asynchronous API to work with e-mail protocols IMAP, POP and SMTP. The API has been redesigned from ground up.
+* [Postal](https://github.com/snipsco/Postal) A swift framework for working with emails,Postal is a swift framework providing simple access to common email providers.
+
+#### 三方分享、支付、登录等等@
 * [openshare](https://github.com/100apps/openshare) - 不用官方SDK，利用社交软件移动客户端(微信/QQ/微博/人人/支付宝)分享/登录/支付。
 
 ========
