@@ -1,4 +1,4 @@
-# iOS-LibraryCollections  持续更新。。。
+# iOS-LibraryCollections Objective-C版 持续更新。。。
 iOS开发常用三方库、插件、知名博客等等，大家可以一览无余了，期待大家和我们一起共同维护，同时也期望大家随时能提出宝贵的意见。
 
 重点说明：此库完全在[TimLiu-iOS](https://github.com/Tim9Liu9/TimLiu-iOS)（大概16-7-9日fork）的基础上面更新，因我没能得到权限跟原作者一起维护他的那个优秀的三方库，同时我也有不同的想法，因此fork了Tim9Liu9的这个项目，并重新发布我的修改版本（初次只有略微修改），希望能对大家有帮助，同时非常感谢Tim9Liu9贡献出这么优秀的库出来，向您致敬。
