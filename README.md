@@ -22,7 +22,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [App框架](#App框架)
   - [响应式框架](#响应式框架)
 - [UI三方库](#UI三方库)
-  - [完整App](#完整App)
+  - [完整App@](#完整App@)
   - [日历三方库](日历三方库)
   - [下拉刷新](#下拉刷新)
   - [模糊效果](#模糊效果)
@@ -49,7 +49,8 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
   - [网络测试](#网络测试)
   - [网页框架](#网页框架)
 - [Model三方库](#Model三方库)
-- [开发资料](#开发资料)
+- [开发资料@](#开发资料@)
+  - [学习资料@](学习资料@)
   - [GitHub](#GitHub用法)
   - [他人开源总结](#他人开源总结)
   - [开发博客列表](#开发博客列表)
@@ -58,7 +59,6 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
   - [好的文章](#好的文章)
   - [美工资源](#美工资源)
   - [开发资源](#开发资源)
-  - [开发资料](#开发资料)
 - [开发工具](#开发工具)
   - [Xcode插件@](#Xcode插件@)
   - [好用的软件](#好用的软件)
@@ -91,7 +91,6 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [好的文章](#好的文章)
 - [美工资源](#美工资源)
 - [开发资源](#开发资源)
-- [开发资料](#开发资料)
 - [他人开源总结](#他人开源总结)
 - [开发博客列表](#开发博客列表)
 - [学习笔记、书籍](#学习笔记、书籍)
@@ -122,7 +121,8 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 * [cocoacats](http://cocoacats.com/) - 【分类汇总】里面收集了 iOS 中常用的分类文件，一直在更新。
 * [libextobjc](https://github.com/jspahrsummers/libextobjc Libextobjc是一个非常强大的Objective-C库的扩展,为Objective-C提供诸如Safe categories、Concrete protocols、简单和安全的key paths以及简单使用block中的弱变量等功能。libextobjc非常模块化，只需要一个或者两个依赖就能使用大部分类和模块。
 
-##### 完整App
+##### 完整App#
+* [WeChat](https://github.com/zhengwenming/WeChat) 实现类似微信朋友圈或者QQ空间，评论回复，九宫格布局。处理键盘弹出后定位到当前点击的被评论人处。另：滑动时候FPS在57-60之间，纵享丝滑！
 * [Coding-iOS](https://github.com/Coding/Coding-iOS) - Coding iOS 客户端源代码
 * [Voice2Note](https://github.com/liaojinxing/Voice2Note) - 懒人笔记iOS客户端
 * [Coding-iOS](https://github.com/Coding/Coding-iOS) - Coding iOS 客户端源代码
@@ -452,7 +452,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 ##### 游戏
 * [cocos2d-objc](https://github.com/cocos2d/cocos2d-objc) Cocos2d for iOS and OS X, built using Objective-C
 
-##### 侧滑与右滑返回手势
+##### 侧滑与右滑返回手势@
 * [ViewDeck](https://github.com/ViewDeck/ViewDeck) 项目需要用到左侧右侧各有一个抽屉视图，而这个类库可以极其简单的实现这个功能，不单单是左右各一个，它可以随意设置上下左右的抽屉视图，简直是360度想怎么抽怎么抽
 * A-[FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture) 非常棒的全屏手势侧滑，只需导入此库，就可以让你的App具备左滑返回功能，不用写一句代码。
 * [SloppySwiper](https://github.com/fastred/SloppySwiper) - iOS系统自带的UINavigationController要7.0才支持，但不过该手势只能从屏幕左侧边缘识别，如果要扩大到整个屏幕范围怎么办？配合一个SloppySwiper无需代码就可以轻松实现。此库支持iOS5.0以上版本（另外：Nav的title滑动不明显，本人写了2个类似的控件），[SloppySwiper-demo](https://github.com/Tim9Liu9/SloppySwiper-Example) ：代码方式与storyboard方式。
@@ -476,6 +476,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [MMDrawerController](https://github.com/mutualmobile/MMDrawerController) - 最多人用的一个有关侧边“抽屉”导航框架，里面还有很多你意想不到的交互效果，侧滑。
 * [UIWebView翻页返回效果](http://code.cocoachina.com/detail/316925/UIWebView%E7%BF%BB%E9%A1%B5%E8%BF%94%E5%9B%9E%E6%95%88%E6%9E%9C%EF%BC%88%E5%8F%98%E9%80%9A%E6%96%B9%E6%B3%95%EF%BC%89/) - UIWebView翻页返回效果（变通方法）。
 * [LLSlideMenu](https://github.com/lilei644/LLSlideMenu) - 一个弹性侧滑菜单,弹性动画原理借鉴该项目中阻尼函数实现。
+* [ScreenShotBack](https://github.com/zhengwenming/ScreenShotBack) 全屏返回，截图手势返回，景深效果，类似斗鱼、天天快报、腾讯新闻等APP的手势返回。
 
 ##### gif动画
 * [UIImageView-PlayGIF](https://github.com/yfme/UIImageView-PlayGIF) - UIImageView-PlayGIF。
@@ -746,6 +747,8 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [XBImageFilters](https://github.com/xissburg/XBImageFilters) - 图像滤镜。
 * [MWPhotoBrowser](https://github.com/mwaterfall/MWPhotoBrowser) - 一个非常不错的照片浏览器，在github的star接近3000个，[解决MWPhotoBrowser中的SDWebImage加载大图导致的内存警告问题](http://www.superqq.com/blog/2015/01/22/jie-jue-mwphotobrowserzhong-de-sdwebimagejia-zai-da-tu-dao-zhi-de-nei-cun-jing-gao-wen-ti/)。
 * [CoreImageShop](https://github.com/rFlex/CoreImageShop) - CoreImageShop图片滤镜处理-- Mac app that let you create a complete Core Image Filter usable on iOS using SCRecorder。
+
+
 * [GPUImage](https://github.com/BradLarson/GPUImage) - 处理图片效果。
 * [RSKImageCropper](https://github.com/ruslanskorb/RSKImageCropper) - 适用于iOS的图片裁剪器，类似Contacts app，可上下左右移动图片选取最合适的区域。
 * [WZRecyclePhotoStackView](http://code.cocoachina.com/detail/232156) - 删除照片交互--WZRecyclePhotoStackView，就是模拟生活中是删除或保留犹豫不决的情形而产生的。 在上滑，下滑的部分，借鉴了[TinderSimpleSwipeCards](https://github.com/cwRichardKim/TinderSimpleSwipeCards)。
@@ -759,6 +762,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [自定义宽高比的相册框 拍照](http://code.cocoachina.com/detail/320603/) - 取出照片时 弹出自定义view。在这个自定义view上创建一个需要的相框大小的view层 把取出的图片赋值给UIImageView按缩放添加到这个层上。对uiimageView添加捏合、移动 手势。添加按钮 选取，最后根据位移和缩放比例 裁剪image。
 * [LGPhotoBrowser](https://github.com/gang544043963/LGPhotoBrowser) - LGPhotoBrowser:相册选择/浏览器/照相机（仿微信）,包含三个模块：照片浏览器，相册选择器，照相机。
 * [PhotoBrowser](https://github.com/oscarWyz/PhotoBrowser) - 一个简单的好用的的图片浏览器。
+* [PhotoBrowser](https://github.com/CharlinFeng/PhotoBrowser) 照片浏览器
 * [BeautyHour](https://github.com/xujingzhou/BeautyHour) - 完整应用，功能与“美图秀秀”雷同。
 * [StitchingImage](https://github.com/zhengjinghua/StitchingImage) - 仿微信群组封面拼接控件, 直接拖进项目就可使用，[教程](http://gold.xitu.io/entry/56395f5360b20b143a9178f6)。
 * [SDECollectionViewAlbumTransition](https://github.com/seedante/SDECollectionViewAlbumTransition) - 用自定义的 push 和 pop 实现了有趣的 iOS 相册翻开动画效果。
@@ -1026,7 +1030,7 @@ FLEX正因为是注入式的，所以不需要在链接LLDB或者Xocde，或者�
 * [BBUncrustifyPlugin-Xcode](https://github.com/benoitsan/BBUncrustifyPlugin-Xcode) 代码格式化
 * [HOStringSense-for-Xcode](https://github.com/holtwick/HOStringSense-for-Xcode)有图，点进去一看就明白了，代码编辑器里的字符串编辑器，粘贴大段 HTML 字符串之类的很方便，自动转义。
 * [ZLGotoSandboxPlugin](https://github.com/MakeZL/ZLGotoSandboxPlugin) - 支持Xcode快捷键了跳转当前应用沙盒了！快捷键是 Shift+Common+w。
-* [cocoapods-xcode-plugin](https://github.com/kattrali/cocoapods-xcode-plugin) - 该CocoaPods的插件增加了一个CocoaPods菜单到Xcode的产品菜单。如果你不喜欢命令行，那么你一定会喜欢这个插件。
+* [cocoapods-xcode-plugin](https://github.com/kattrali/cocoapods-xcode-plugin) - 该CocoaPods的插件增加了一个CocoaPods菜单到Xcode的产品菜单。如果你不喜欢命令行，那么你一定会喜欢这个插件。  
 * [Carthage](https://github.com/Carthage/Carthage)Carthage是一个新的第三方库管理工具，它轻耦合，使用很灵活，不会修改项目文件，使用xcodebuild工具来编译第三方库。跟cocoaPod有些类似。
 * [KSImageNamed](https://github.com/ksuther/KSImageNamed-Xcode) - 自动完成，特别是如果你正在写Objective-C，如果Xcode能自动完成文件名难道不会很伟大吗？比如图像文件的名称。
 * [KFCocoaPodsPlugin](https://github.com/ricobeck/KFCocoaPodsPlugin)	Xcode插件 cocoapod, 方便编辑Podfile，显示构建日志
@@ -1096,7 +1100,15 @@ iOS和OSX原生粒子系统效果图搭载QuartzCore
 
 ========
 #### 开发资源
-##### 开发资料
+######### 开发资料
+
+#### 学习资料@
+
+* [objc-zen-book-cn](https://github.com/oa414/objc-zen-book-cn) 禅与 Objective-C 编程艺术 （Zen and the Art of the Objective-C Craftsmanship 中文翻译）
+* [Show](https://github.com/CharlinFeng/Show) 成都地区一个公司开源项目
+
+
+
 * A-[awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)  GitHub上所有Awesome Awesomeness 系列集合. 这个系列集合收集上GitHub上优秀的开源项目、框架、书籍、网站、类库等实用资源的集合。
 * [豆瓣iOS开源库列表](https://www.douban.com/note/276160185/?type=like) - 豆瓣iOS开源库列表，很多开源项目。
 * [iOS-Core-Animation-Advanced-Techniques](https://github.com/AttackOnDobby/iOS-Core-Animation-Advanced-Techniques) - 中文版iOS 高级动画技术。
