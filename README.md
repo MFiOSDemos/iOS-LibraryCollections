@@ -17,12 +17,10 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 
 
 ###  目录
-
-- [完整项目@](#完整项目@)
+- [完整App@](#完整App@)
 - [App框架@](#App框架@)
   - [响应式框架@](#响应式框架@)
 - [UI三方库@](#UI三方库@)
-  - [完整App@](#完整App@)
   - [日历三方库@](日历三方库@)
   - [下拉刷新@](#下拉刷新@)
   - [模糊效果@](#模糊效果@)
@@ -87,11 +85,8 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [动态更新@](#动态更新@)
 - [AppleWatch@](#AppleWatch@)
 - [VPN@](#VPN@)
-- [完整项目@](#完整项目@)
-- [好的文章@](#好的文章@)
-- [美工资源@](#美工资源@)
-- [开发资源@](#开发资源@)
-- [他人开源总结@](#他人开源总结@)
+
+
 ========
 ### 具体内容 =============================
 ========
@@ -617,7 +612,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 ========
 ###三方分享、支付、登录等等@
 * [openshare](https://github.com/100apps/openshare) - 不用官方SDK，利用社交软件移动客户端(微信/QQ/微博/人人/支付宝)分享/登录/支付。
-
+* [RongCloud-SDK-description](https://github.com/zhengwenming/RongCloud-SDK-description) 介绍融云SDK即时通讯机制和集成步骤，由于国内CSDN博客封杀带有广告性质的文章（其实不是打广告，纯粹的技术分享），所以只能在Github发表了。希望大家支持我，谢谢。Demo地址：https://github.com/zhengwenming/RCIM
 ========
 #### 其他库
 * [DateTimeKit](https://github.com/exsortis/DateTimeKit) - 一个超赞的时间处理的库，Joda-Time ！ 他能帮你轻松处理时区，处理时间加减，计算到期时间等等场景下的问题。
@@ -720,7 +715,11 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [SQLCipher](https://github.com/sqlcipher/sqlcipher) - SQLCipher使用256-bit AES加密，SQLCipher分为收费版本和免费版本。[官方教程](https://www.zetetic.net/sqlcipher/ios-tutorial/)， [加密你的SQLite](http://foggry.com/blog/2014/05/19/jia-mi-ni-de-sqlite/) - 各种sqlite数据库加密介绍。 [SQLCipherDemo下载](http://download.csdn.net/detail/wzzvictory_tjsd/7379055) 。
 
 ========
-#### 缓存处理
+##### 数据存储@
+
+* [CoreModel](https://github.com/CharlinFeng/CoreModel) Replace CoreData
+
+#### 缓存处理@
 * [YTKKeyValueStore](https://github.com/yuantiku/YTKKeyValueStore) - Key-Value存储工具类，[说明](http://tangqiaoboy.gitcafe.io/blog/2014/10/03/opensouce-a-key-value-storage-tool/)。
 * [TMCache](https://github.com/tumblr/TMCache) - TMCache 是 Tumblr 开源的一个基于 key/value 的数据缓存类库,可以用于缓存一些临时数据或者需要频繁加载的数据,比如某些下载的数据或者一些临时处理结果。
 * [JLKeychain](https://github.com/jl322137/JLKeychain) - 快捷使用keychain存储数据的类，使keychain像NSUserDefaults一样工作。
