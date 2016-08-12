@@ -5,11 +5,12 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 
 版本说明：
     1.0.0 从[TimLiu-iOS] fork了代码，并根据自己的想法进行了整理。16-7-9
+    1.0.1 完成初步的整理，Xcode插件的整理，Objective-C和Swift版本的分离.
 
 主要工作说明：
   国内外iOS的开源项目非常的丰富，所以整理工作简单分步进行。第一步就是利其器。
-  1. 收集、整理Xcode好用的插件。（进行中。。。）
-  2. 整理了项目目录，参考了[TimLiu-iOS]的样式
+  1. 收集、整理Xcode好用的插件。（已经完成）
+  2. 整理了项目目录，参考了[TimLiu-iOS]的样式（已经完成）
 
 使用方法：直接点击目录（有点慢），推荐直接按照目录关键字搜索
 
@@ -74,7 +75,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [PDF@](#PDF@)
 - [图像浏览及处理@](#图像浏览及处理@)
 - [摄像照相视频音频处理@](#摄像照相视频音频处理@)
-- [视频播放器@](#视频播放器@)
+- [视频@](#视频@)
 - [消息相关@](#消息相关@)
   - [消息推送客户端@](#消息推送客户端@)
   - [消息推送服务器端@](#消息推送服务器端@)
@@ -613,6 +614,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 ###三方分享、支付、登录等等@
 * [openshare](https://github.com/100apps/openshare) - 不用官方SDK，利用社交软件移动客户端(微信/QQ/微博/人人/支付宝)分享/登录/支付。
 * [RongCloud-SDK-description](https://github.com/zhengwenming/RongCloud-SDK-description) 介绍融云SDK即时通讯机制和集成步骤，由于国内CSDN博客封杀带有广告性质的文章（其实不是打广告，纯粹的技术分享），所以只能在Github发表了。希望大家支持我，谢谢。Demo地址：https://github.com/zhengwenming/RCIM
+* [RCIM](https://github.com/zhengwenming/RCIM) 融云SDK集成即时通讯。单聊，群聊，讨论组，自定义cell,自定义消息等。文章配合代码一起看，效果更佳！文章地址：https://github.com/zhengwenming/RongCloud-SDK-description
 ========
 #### 其他库
 * [DateTimeKit](https://github.com/exsortis/DateTimeKit) - 一个超赞的时间处理的库，Joda-Time ！ 他能帮你轻松处理时区，处理时间加减，计算到期时间等等场景下的问题。
@@ -781,7 +783,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 
 ========
 
-#### 摄像照相视频音频处理
+#### 摄像照相视频音频处理@
 * A-[WMPlayer](https://github.com/zhengwenming/WMPlayer) - WMPlayer视频播放器，AVPlayer的封装，继承UIView，想怎么玩就怎么玩。支持播放mp4、m3u8、3gp、mov，网络和本地视频同时支持。全屏和小屏播放同时支持。 cell中播放视频，全屏小屏切换自如。
 * [HJDanmakuDemo](https://github.com/panghaijiao/HJDanmakuDemo) iOS端视频弹幕
 * [SCRecorder](https://github.com/rFlex/SCRecorder) - SCRecorder 短视频录制。
@@ -1213,5 +1215,7 @@ iOS和OSX原生粒子系统效果图搭载QuartzCore
 * [awesome-iot](https://github.com/phodal/awesome-iot) - 这份物联网学习参考大全太给力。从物联网协议、嵌入式系统、相关开源库、相关书籍、博客、学习笔记、标准应有尽有。
 
 
-##### 视频播放器
+##### 视频@
 * [MRVLCPlayer](https://github.com/Maru-zhang/MRVLCPlayer) - 相信Mac用户都很熟悉一款VLC播放器，这款播放器在Mac上表现异常优异，支持的格式几乎涵盖了所有格式（就是这么屌！）。没错，就是它创造者--VideoLAN，开源了一款牛逼的视频播放框架MobileVLCKit！[介绍信息：] (http://gold.xitu.io/entry/578c304b2e958a0054320503?from=singlemessage&isappinstalled=1)
+
+* [plask](https://github.com/deanm/plask) Plask is a multimedia programming environment.
