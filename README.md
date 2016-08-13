@@ -901,11 +901,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [iso-8601-date-formatter](https://github.com/boredzo/iso-8601-date-formatter)
 cocoaNSFormatter子类日期转换为从ISO- 8601格式的字符串。支持日历，星期，和序格式。
 
-========
-
-#### 设计模式@
-
-* [KVOController] (https://github.com/facebook/KVOController)  是一个简单安全的KVO（Key-value Observing，键-值观察）工具，用于iOS 和OS X 应用开发中，开源自facebook。 在项目中有使用 KVO ，那么 KVOController 绝对是个好选择。
+#### 设计
 
 ========
 #### 版本新API的Demo@
