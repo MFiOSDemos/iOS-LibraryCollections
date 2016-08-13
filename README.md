@@ -25,14 +25,14 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [完整App@](#完整App@)
 - [App框架@](#App框架@)
   - [响应式框架@](#响应式框架@)
-- [UI三方库@](#UI三方库@)
+- [UI@](#UI@)
   - [日历三方库@](日历三方库@)
   - [下拉刷新@](#下拉刷新@)
   - [模糊效果@](#模糊效果@)
   - [富文本@](#富文本@)
   - [图表@](#图表@)
   - [颜色@](#颜色!)
-  - [表相关、TabbleView、Tabbar、即时聊天界面@](#表相关、TabbleView、Tabbar、即时聊天界面@)
+  - [表相关@(TabbleView、Tabbar、即时聊天界面)](#表相关@(TabbleView、Tabbar、即时聊天界面))
   - [隐藏与显示@](#隐藏与显示@)
   - [HUD与Toast@](#HUD与Toast@)
   - [对话框@](#对话框@)
@@ -40,11 +40,11 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
   - [导航栏@](#导航栏@)
   - [设置@](#设置@)
   - [其他UI@](#其他UI@)
-- [AutoLayout@](#AutoLayout@)
-- [动画三方库@](#动画三方库@)
+- [动画@](#动画@)
   - [侧滑与右滑返回手势@](#侧滑与右滑返回手势@)
   - [gif动画@](#gif动画@)
   - [其他动画@](#其他动画@)
+- [AutoLayout@](#AutoLayout@)
 - [网络相关@](#网络相关@)
   - [网络连接@](#网络连接@)
   - [图像获取@](#图像获取@)
@@ -84,17 +84,16 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
   - [消息推送服务器端@](#消息推送服务器端@)
   - [通知相关@](#通知相关@)
 - [时间日期@](#时间日期@)
+- [设计模式@](设计模式@)
 - [版本新API的Demo@](#版本新API的Demo@)
 - [代码安全与密码@](#代码安全与密码@)
 - [动态更新@](#动态更新@)
 - [AppleWatch@](#AppleWatch@)
 - [VPN@](#VPN@)
 
-
 ========
 ### 具体内容 =============================
 ========
-#### UI
 
 ##### Github用法
 
@@ -102,17 +101,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 * [my-git](https://github.com/xirong/my-git)有关 git 的学习资料
 
 ##### FaceBook@
-* [KVOController] (https://github.com/facebook/KVOController)  是一个简单安全的KVO（Key-value Observing，键-值观察）工具，用于iOS 和OS X 应用开发中，开源自facebook。 在项目中有使用 KVO ，那么 KVOController 绝对是个好选择。
-* [Shimmer](https://github.com/facebook/Shimmer) - BlingBling闪光效果，酷炫的Label的效果，可以用于加载等待提示。
-* [pop](https://github.com/facebook/pop) - facebook出品的非常赞的动画引擎。
 
-##### Cagegory@
-
-* [JKCategories](https://github.com/shaojiankui/JKCategories) 非常棒的分类
-* [NullSafe](https://github.com/nicklockwood/NullSafe) NullSafe is a simple category on NSNull that returns nil for any unrecognised messages instead of throwing an exception pod 'NullSafe', '~> 1.2.2'
-* [iOS-Categories](https://github.com/shaojiankui/IOS-Categories) - 收集了许多有助于开发的iOS扩展,各种category分类。
-* [cocoacats](http://cocoacats.com/) - 【分类汇总】里面收集了 iOS 中常用的分类文件，一直在更新。
-* [libextobjc](https://github.com/jspahrsummers/libextobjc Libextobjc是一个非常强大的Objective-C库的扩展,为Objective-C提供诸如Safe categories、Concrete protocols、简单和安全的key paths以及简单使用block中的弱变量等功能。libextobjc非常模块化，只需要一个或者两个依赖就能使用大部分类和模块。
 
 ##### 完整App@
 * [WeChat](https://github.com/zhengwenming/WeChat) 实现类似微信朋友圈或者QQ空间，评论回复，九宫格布局。处理键盘弹出后定位到当前点击的被评论人处。另：滑动时候FPS在57-60之间，纵享丝滑！
@@ -200,6 +189,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 * [samurai-native](https://github.com/hackers-painters/samurai-native) 是一个基于浏览器内核通过HTML+CSS 开发原生移动应用的iOS框架。
 * [HHRouter](https://github.com/Huohua/HHRouter) 一言以蔽之，URL Router 即将 UIViewController 映射成 URL，从而支持通过 URL 进行界面跳转。是的，就和 Web 一样。当然，这并不是 Web Developer 转职为 iOS Developer 后所做的无聊玩具。URL Router 有着许多切实的好处。
 
+######## UI@
 ##### 日历三方库@
 
 * [TEAChart](https://github.com/xhacker/TEAChart) - xhacker/TEAChart 一个简洁的 iOS 图表库，支持柱状图、饼图以及日历等。
@@ -250,6 +240,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 
 ##### 富文本@
 
+* [Shimmer](https://github.com/facebook/Shimmer) - BlingBling闪光效果，酷炫的Label的效果，可以用于加载等待提示。
 * [TFHpple ](https://github.com/topfunky/hpple) - TFHpple
 解析html的轻量级框架
 * [RTLabel](https://github.com/honcheng/RTLabel) - RTLabel 基于UILabel类的拓展,能够支持Html标记的富文本显示，它是基于Core Text,因此也支持Core Text上的一些东西。32位，很久没有更新了。
@@ -295,7 +286,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 ##### 颜色@
 * [Colours](https://github.com/bennyguitar/Colours) Colours–颜色库,包含100种预定义的颜色和方法
 
-##### 表相关、TabbleView、Tabbar、即时聊天界面@
+##### 表相关@、TabbleView、Tabbar、即时聊天界面@
 * [JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController) 一个优秀的即时聊天UI库
 * [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet) - DZNEmptyDataSet算是一个很标准的iOS内建方式，适合用来处理空的tableview和collection view。会自动将collection view处理完善，并将用户消息以合适美观的方式显示出来。每个iOS项目都可以自动处理。
 * [VVeboTableViewDemo](https://github.com/johnil/VVeboTableViewDemo) 此项目由VVebo剥离，希望你能通过这个demo看到我是如何进行TableView流畅度优化的。
@@ -489,13 +480,6 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [LLBootstrapButton](https://github.com/lilei644/LLBootstrapButton) - Bootstrap 3.0扁平化风格按钮，自带图标，一句代码直接调用！
 * [JMRoundedCorner](https://github.com/raozhizhen/JMRoundedCorner) - UIView设置不触发离屏渲染的圆角！
 
-========
-#### 动画三方库@
-* [Core Animation笔记，基本的使用方法](http://www.starming.com/index.php?v=index&view=62) - Core Animation笔记，基本的使用方法：1.基本动画，2.多步动画，3.沿路径的动画，4.时间函数，5.动画组。
-* [awesome-ios-animation](https://github.com/sxyx2008/awesome-ios-animation) - [iOS Animation 主流炫酷动画框架(特效)收集整理](https://github.com/sxyx2008/DevArticles/issues/91) 收集整理了下iOS平台下比较主流炫酷的几款动画框架。
-* [awesome-animation](https://github.com/Animatious/awesome-animation) -  在内的十多位童鞋们一起发起的一起动画开源组正式成立啦~Github组织名称：Animatious，这是我们第一期成员先前开源的一些动效库，我们的第一个合作开源项目正在紧锣密鼓的准备~请大家期待设计和代码的碰撞吧。
-* [BCMagicTransition](https://github.com/boycechang/BCMagicTransition)一个动效框架，用于自定义UINavigationController的切换动画，效果类似 Keynote 软件中 Magic Move 切换。它可以用于任意两个UIViewController之间，只需指定两个VC中的相同元素即可。
-
 ##### 游戏@
 * [cocos2d-objc](https://github.com/cocos2d/cocos2d-objc) Cocos2d for iOS and OS X, built using Objective-C
 
@@ -525,12 +509,19 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [LLSlideMenu](https://github.com/lilei644/LLSlideMenu) - 一个弹性侧滑菜单,弹性动画原理借鉴该项目中阻尼函数实现。
 * [ScreenShotBack](https://github.com/zhengwenming/ScreenShotBack) 全屏返回，截图手势返回，景深效果，类似斗鱼、天天快报、腾讯新闻等APP的手势返回。
 
+################ 动画@
+
 ##### gif动画@
 * [UIImageView-PlayGIF](https://github.com/yfme/UIImageView-PlayGIF) - UIImageView-PlayGIF。
 * [YLGIFImage](https://github.com/liyong03/YLGIFImage) - YLGIFImage。
 * [droptogif](https://github.com/mortenjust/droptogif) -  droptogif视频拖拽到应用窗口后自动转换为 GIF 动画（其转换进程动画效果也超赞）。
 
 ##### 其他动画@
+* [pop](https://github.com/facebook/pop) - facebook出品的非常赞的动画引擎。
+* [Core Animation笔记，基本的使用方法](http://www.starming.com/index.php?v=index&view=62) - Core Animation笔记，基本的使用方法：1.基本动画，2.多步动画，3.沿路径的动画，4.时间函数，5.动画组。
+* [awesome-ios-animation](https://github.com/sxyx2008/awesome-ios-animation) - [iOS Animation 主流炫酷动画框架(特效)收集整理](https://github.com/sxyx2008/DevArticles/issues/91) 收集整理了下iOS平台下比较主流炫酷的几款动画框架。
+* [awesome-animation](https://github.com/Animatious/awesome-animation) -  在内的十多位童鞋们一起发起的一起动画开源组正式成立啦~Github组织名称：Animatious，这是我们第一期成员先前开源的一些动效库，我们的第一个合作开源项目正在紧锣密鼓的准备~请大家期待设计和代码的碰撞吧。
+* [BCMagicTransition](https://github.com/boycechang/BCMagicTransition)一个动效框架，用于自定义UINavigationController的切换动画，效果类似 Keynote 软件中 Magic Move 切换。它可以用于任意两个UIViewController之间，只需指定两个VC中的相同元素即可。
 * [popping](https://github.com/schneiderandre/popping) - popping是一个POP 使用实例工程
 * [PopMenu](https://github.com/xhzengAIB/PopMenu) - 用POP动画引擎写的Sina微博的Menu菜单。
 * [SinaMenuView](https://github.com/xhzengAIB/PopMenu) - 用POP动画引擎写的Sina微博的Menu菜单。
@@ -911,6 +902,12 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 cocoaNSFormatter子类日期转换为从ISO- 8601格式的字符串。支持日历，星期，和序格式。
 
 ========
+
+#### 设计模式@
+
+* [KVOController] (https://github.com/facebook/KVOController)  是一个简单安全的KVO（Key-value Observing，键-值观察）工具，用于iOS 和OS X 应用开发中，开源自facebook。 在项目中有使用 KVO ，那么 KVOController 绝对是个好选择。
+
+========
 #### 版本新API的Demo@
 * [appleSample](https://github.com/WildDylan/appleSample) - iOS 苹果官方Demo合集， [官方demo](https://developer.apple.com/library/ios/navigation/#section=Resource%20Types&topic=Sample%20Code).
 * [iOS7-Sampler](https://github.com/shu223/iOS7-Sampler) - 整合了iOS7.0的一些十分有用的特性，比如：Dynamic Behaviors、碰撞检测、语音合成、视图切换、图像滤镜、三维地图、Sprite Kit（动画精灵）、Motion Effect（Parallax）、附近蓝牙或者wifi搜索连接、AirDrop、运动物体追踪（iPhone 5S以上，需要M7处理器）等等。对于日常的应用开发十分实用。
@@ -935,7 +932,9 @@ cocoaNSFormatter子类日期转换为从ISO- 8601格式的字符串。支持日�
 * [RSAESCryptor](https://github.com/bigsan/RSAESCryptor) - 加密 RSA+AES Encryption/Decryption library for iOS. This library uses 2048-bit RSA and 256-bit key with 128-bit block size AES for encryption/decryption。
 * [TouchID](https://github.com/bringbird/TouchID) - 用法简单的TouchID验证框架：两行代码搞定。
 * [SFHFKeychainUtils] (https://github.com/ldandersen/scifihifi-iphone)iOS中使用SFHFKeychainUtils保存用户密码，比如项目中需要保存用户密码，以实现自动登录的功能可以使用。
+
 ========
+
 #### 测试及调试@
 * [chisel](https://github.com/facebook/chisel) Chisel扩展了一些列的lldb的命令来帮助iOS开发者调试iOS应用程序。
 * [dSYMTools](https://github.com/answer-huang/dSYMTools)友盟 dSYM analyze
@@ -1080,6 +1079,18 @@ iOS和OSX原生粒子系统效果图搭载QuartzCore
 * [FastStub-Xcode](https://github.com/music4kid/FastStub-Xcode) - 一只快速生成代码的Xcode插件，[说明](http://mrpeak.cn/blog/faststub/)。
 * [ESTranslate-Xcode](https://github.com/EnjoySR/ESTranslate-Xcode) - 一个快速翻译Xcode代码里面单词(我主要用于翻译句子～)的插件，快捷键：Ctrl+Shift+T。
 
+#### 好用的软件@
+* [gitbook](https://github.com/GitbookIO/gitbook) GitBook 是一个基于Node.js 的命令行工具，可使用Github/Git 和Markdown 来制作精美的电子书。 GitBook需要使用markdown格式编写，如果你不了解可以看看这里。
+* [crashlytics](https://www.fabric.io/onboard) Twitter出的一个崩溃分析软件
+* [Knuff](https://github.com/KnuffApp/Knuff)调试iOS App远程推送(APNs)的工具
+
+##### Cagegory@
+
+* [JKCategories](https://github.com/shaojiankui/JKCategories) 非常棒的分类
+* [NullSafe](https://github.com/nicklockwood/NullSafe) NullSafe is a simple category on NSNull that returns nil for any unrecognised messages instead of throwing an exception pod 'NullSafe', '~> 1.2.2'
+* [iOS-Categories](https://github.com/shaojiankui/IOS-Categories) - 收集了许多有助于开发的iOS扩展,各种category分类。
+* [cocoacats](http://cocoacats.com/) - 【分类汇总】里面收集了 iOS 中常用的分类文件，一直在更新。
+* [libextobjc](https://github.com/jspahrsummers/libextobjc Libextobjc是一个非常强大的Objective-C库的扩展,为Objective-C提供诸如Safe categories、Concrete protocols、简单和安全的key paths以及简单使用block中的弱变量等功能。libextobjc非常模块化，只需要一个或者两个依赖就能使用大部分类和模块。
 
 ========
 #### 美工资源@
@@ -1200,10 +1211,6 @@ iOS和OSX原生粒子系统效果图搭载QuartzCore
 * A-[iOS-Note](https://github.com/seedante/iOS-Note) 非常好的学习笔记，主要目录1.Core Data 笔记2.Photos 笔记3.转场动画详解4.自定义容器控制器转场5.交互式动画
 * [growth-ebook](https://github.com/phodal/growth-ebook) Growth Engineering: The Definitive Guide。全栈增长工程师指南
 
-#### 好用的软件@
-* [gitbook](https://github.com/GitbookIO/gitbook) GitBook 是一个基于Node.js 的命令行工具，可使用Github/Git 和Markdown 来制作精美的电子书。 GitBook需要使用markdown格式编写，如果你不了解可以看看这里。
-* [crashlytics](https://www.fabric.io/onboard) Twitter出的一个崩溃分析软件
-* [Knuff](https://github.com/KnuffApp/Knuff)调试iOS App远程推送(APNs)的工具
 
 #### 设计@
 * [design-resource](https://github.com/timmy3131/design-resource) 设计师资源列表
