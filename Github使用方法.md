@@ -3,6 +3,7 @@
 - [github使用方法](#Github .gitignore忽略指定文件)
 - [git中忽略整个文件夹](#git中忽略整个文件夹)
 
+
 #####github使用方法
 .gitignore
 
