@@ -7,18 +7,9 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 1. 此版本意在讲swift相关的资料从README.md 文件分离出来。现在是将其完全copy了过来，然后移除其中关于Objective-c的部分。鉴于其内容混合太多，需要一些时间，逐步移除。
 
 
-
-
 * [KYShutterButton](https://github.com/ykyouhei/KYShutterButton) 模拟 iOS 相机按钮
 非常有趣的一个项目，模拟了 iOS 相机按钮，包括慢动作和延时效果，可以自定义颜色。
 
-#### 侧滑与右滑返回手势
-* [SideMenuController](https://github.com/teodorpatras/SideMenuController) 侧边栏控制器，支持自定义位置、配置动画效果和自定义状态栏行为。
-
-支持自定义位置、配置动画效果和自定义状态栏行为。
-
-#### 日历
-* [FSCalendar](https://github.com/WenchaoD/FSCalendar) 一个包含objective-c和Swift版本的优秀的日历
 
 #### 动画三方库
 * [Ubergang](https://github.com/RobinFalko/Ubergang) 一个动画分类
@@ -322,7 +313,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 
 ##### 日历
 
-* [MSSCalendar](https://github.com/MSS0306/MSSCalendar) A simple iOS Calendar 高性能日历控件（类似去哪网）
+* [FSCalendar](https://github.com/WenchaoD/FSCalendar) 一个包含objective-c和Swift版本的优秀的日历
 
 ##### 其他UI
 * [AwesomeMenu](https://github.com/levey/AwesomeMenu) - 最多人用的Path菜单。
