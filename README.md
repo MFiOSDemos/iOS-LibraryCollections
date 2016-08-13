@@ -57,12 +57,11 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
   - [设计@](#设计@)
   - [好的文章@](#好的文章@)
   - [美工资源@](#美工资源@)
-  - [开发资源@](#开发资源@)
 - [开发工具@](#开发工具@)
   - [Xcode插件@](#Xcode插件@)
   - [好用的软件@](#好用的软件@)
   - [Cagegory@](#Category@)
-- [测试及调试](#测试及调试)
+- [测试及调试@](#测试及调试@)
 - [数据存储@](#数据存储@)
   - [缓存处理@](#缓存处理@)
   - [数据库@](#数据库@)
@@ -98,7 +97,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 * [lark](https://github.com/larkjs/lark/wiki/怎样贡献代码) 怎样在Github上面贡献代码
 * [my-git](https://github.com/xirong/my-git)有关 git 的学习资料
 
-##### FaceBook
+##### FaceBook@
 * [KVOController] (https://github.com/facebook/KVOController)  是一个简单安全的KVO（Key-value Observing，键-值观察）工具，用于iOS 和OS X 应用开发中，开源自facebook。 在项目中有使用 KVO ，那么 KVOController 绝对是个好选择。
 * [Shimmer](https://github.com/facebook/Shimmer) - BlingBling闪光效果，酷炫的Label的效果，可以用于加载等待提示。
 * [pop](https://github.com/facebook/pop) - facebook出品的非常赞的动画引擎。
@@ -111,7 +110,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 * [cocoacats](http://cocoacats.com/) - 【分类汇总】里面收集了 iOS 中常用的分类文件，一直在更新。
 * [libextobjc](https://github.com/jspahrsummers/libextobjc Libextobjc是一个非常强大的Objective-C库的扩展,为Objective-C提供诸如Safe categories、Concrete protocols、简单和安全的key paths以及简单使用block中的弱变量等功能。libextobjc非常模块化，只需要一个或者两个依赖就能使用大部分类和模块。
 
-##### 完整App#
+##### 完整App@
 * [WeChat](https://github.com/zhengwenming/WeChat) 实现类似微信朋友圈或者QQ空间，评论回复，九宫格布局。处理键盘弹出后定位到当前点击的被评论人处。另：滑动时候FPS在57-60之间，纵享丝滑！
 * [Coding-iOS](https://github.com/Coding/Coding-iOS) - Coding iOS 客户端源代码
 * [Voice2Note](https://github.com/liaojinxing/Voice2Note) - 懒人笔记iOS客户端
@@ -143,18 +142,66 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 * [TeamTalk](https://github.com/mogujie/TeamTalk) 蘑菇街TeamTalk. 开源IM. 笔者强烈推荐.
 * [MessageDisplayKit](https://github.com/xhzengAIB/MessageDisplayKit)一个类似微信App的IM应用，拥有发送文字、图片、语音、视频、地理位置消息，管理本地通信录、分享朋友 圈、漂流交友、摇一摇和更多有趣的功能。笔者推荐的学习IM的好东西.
 * [shadowsocks-iOS/tree/2.6.3](https://github.com/shadowsocks/shadowsocks-iOS/tree/2.6.3)翻墙工具Shadowsocks. Github目前代码已经被移除, 不过2.6.3的还是保留着.
+========
+#### 完整项目@
+* [GSD_WeiXin](https://github.com/gsdios/GSD_WeiXin) 高仿微信
+* [v2ex](https://github.com/singro/v2ex) - v2ex 的客户端，新闻、论坛。
+* [wikipedia-ios](https://github.com/wikimedia/wikipedia-ios) - wikipedia-ios 客户端。
+* [jetstream-ios](https://github.com/uber/jetstream-ios) - 一款 Uber 的 MVC 框架。它同时提供了多用户实时通讯支持，一旦启动 JetStream 后端服务，通过 WebSocket 协议可以分分钟建立多用户实时通讯应用。
+* [DeckRocket](https://github.com/jpsim/DeckRocket) - 在相同 WiFi 网络环境内，通过iPhone 控制并播放 Mac 中的 PDF 文档。
+* [ScanBook](https://github.com/JayFang1993/ScanBook) - 扫扫图书:可以扫描条形码查询图书，也可以关键字搜索，遇到合乎你口味的书，还可以看看别人的读书笔记，不同角度去体会。
+* [KYWeibo](https://github.com/KittenYang/KYWeibo) - 调用新浪API自己写的第三方微博客户端。
+* [DouQu_IOS](https://github.com/li6185377/DouQu_IOS) - 逗趣IOS手机端（一款笑话软件）,拥有完整的功能的手机应用app 。
+* [IT江湖iOS客户端](https://github.com/itjhDev/itjh) - IT江湖iOS客户端。
+* [CrazyPuzzle](https://github.com/nonstriater/CrazyPuzzle) - 模仿“看图猜成语”App，功能齐全，配有音效，效果很不错。游戏使用cocoa框架完成，没有使用cocos2d的框架。
+* [WhoCall](https://github.com/Tim9Liu9/WhoCall) - 谁CALL我，iOS来电信息语音提醒，无需越狱。（需要iOS 7.0及以上版本。)骚扰电话预警、来电归属地提醒、联系人姓名播报，这些有中国特色人性化的电话功能，iOS上也应该有。电话提醒、私有API。
+* [仿iOS猎豹垃圾清理(实现原理+源码)](http://www.devtf.cn/?p=562) -  仿iOS猎豹垃圾清理(实现原理+源码),用到私有API。
+* [DSLolita](https://github.com/sam408130/DSLolita) - 模仿新浪微博做的一款app，有发送博文，评论，点赞，私聊功能。
+* [STPhotoBrowser](https://github.com/STShenZhaoliang/STPhotoBrowser) - 高仿新浪微博的图片浏览器，极佳的编写方式，易扩展，低耦合。
+* [GSD_ZHIFUBAO](https://github.com/gsdios/GSD_ZHIFUBAO) - 支付宝高仿版。
+* [Tropos](https://github.com/thoughtbot/Tropos) - Tropos, 由 thoughtbot 推出的一款用 Objective-C 写的开源天气类应用, 截至今天, thoughtbot 已在 GitHub 上贡献了 174 个开源项目, 实在令人敬佩。
+* [SmileWeather](https://github.com/liu044100/SmileWeather) -开源天气类应用,天气图标很完整。  
+* [MVVMReactiveCocoa](https://github.com/leichunfeng/MVVMReactiveCocoa) - GitBucket 2.0 通过审核啦，她是我在公司实践了一年多 MVVM 和 RAC 的基础上，利用业余时间开发的第三方 GitHub 客户端，旨在能够对想实践 MVVM 和 RAC 的 iOS 开发者有所帮助。[AppStore地址](https://itunes.apple.com/cn/app/id961330940?mt=8)，欢迎下载使用GitBucket和收藏MVVMReactiveCocoa。
+* [Tomate](https://github.com/dasdom/Tomate) - 这个圆盘式计时器让你更专注于工作或学习。P.S. App Store 上架收费应用（0.99 欧）。
+* [StoveFireiOSMenu](https://github.com/joeshang/StoveFireiOSMenu) - 炉火餐饮系统iPad点餐端。
+* [WNXHuntForCity](https://github.com/ZhongTaoTian/WNXHuntForCity) - iOS高仿城觅项目（开发思路和代码）。
+* [ZYChat](https://github.com/zyprosoft/ZYChat) - 关于聊天界面的可消息类型扩展，响应绑定设计。
+* [NiceAppDemo](https://github.com/minxiaoming/NiceAppDemo) - 仿最美应用-每日最美的钢琴律动效果。
+* [meituan](https://github.com/lookingstars/meituan) - 美团5.7iOS版（高仿），功能包括，团购首页，高德地图搜索附近美食并显示在地图上，上门服务，商家，友盟分享。
+* [MeituanDemo](https://github.com/zangqilong198812/MeituanDemo) - 造美团应用界面构建的 iOS 应用, 第一个是 @叶孤城___ 的 MeituanDemo。
+* [JFMeiTuan](https://github.com/tubie/JFMeiTuan) - 造美团应用界面构建的 iOS 应用, 第二个是 @tubiebutu 的 JFMeiTuan。
+* [chuanke](https://github.com/lookingstars/chuanke) - 高仿百度传课iOS版。
+* [SXNews](https://github.com/dsxNiubility/SXNews) - 模仿网易新闻做的新闻软件，完成了主导航页，新闻详情页，图片浏览页，评论页。效果不错，比网上流传的各种和网易新闻UI架构有关的代码都要完整，都要好。
+* [Monkey](https://github.com/coderyi/Monkey) - Monkey for GitHub是一个GitHub开发者和仓库排名的开源App。这次主要增加了登录GitHub的功能，随手follow和star，并且增加发现模块，包括GitHub的trending，动态，showcases等。
+* [Uther](https://github.com/callmewhy/Uther) -  跟蠢萌的外星人聊天，还能帮你记事”。[itunes下载](https://itunes.apple.com/cn/app/uther/id1024104920) 。
+* [高仿斗鱼TV](http://code.cocoachina.com/view/128246) - 高仿斗鱼TV，点击头部滚动视图可以播放视频。
+* [LXZEALER](https://github.com/LonelyTown/LXZEALER) - 模仿着做了zealer客户端,App里几乎所有请求都是Post,所以内容都是固定的URL加载的,登录功能只做了微博的第三方登录。
+* [ShiXiSeng_ios](https://github.com/pengleelove/ShiXiSeng_ios) - 完整app的UI框架。
+* [Coding-iPad](https://github.com/Coding/Coding-iPad) - Coding-iPad 是@Coding的官方 iPad 客户端, 又是一个完整的开源应用。
+* [WFZhiHu](https://github.com/TigerWf/WFZhiHu) - WFZhiHu仿知乎日报客户端app。
+* [react-native-gitfeed](https://github.com/xiekw2010/react-native-gitfeed) - 目前最实用简洁的github客户端了。
+* [phphub-ios](https://github.com/Aufree/phphub-ios) - PHPHub的iOS客户端，同时兼容iPhone和iPad。
+* [LeagueofLegends](https://github.com/HarrisHan/LeagueofLegends) - 一个关于英雄联盟的完整iOS开源项目，接口均来自多玩，腾讯各大游戏平台。
+* [BTApp](https://github.com/Ryan0520/BTApp) - BTApp 仿半糖 iOS App 的 Demo 应用。
+* [iOS完整App资源收集](http://www.henishuo.com/ios-app-fully-code/) - iOS开发学习者都希望得到实战训练，但是很多资料都是只有一小部分代码，并不能形成完成的App，笔者在此处收集了很多开源的完整的App，都有源代码哦！--标哥的技术博客
+* [XCFApp-1](https://github.com/callmejoejoe/XCFApp) - 高仿下厨房App，Objective-C，Xcode7.2，数据通过Charles抓的，有接口也有本地数据。说明：关于代码被清空，会用git的你肯定明白，[教程](http://www.jianshu.com/p/a8f619a2c622/)
+* [XCFApp-2](https://github.com/STShenZhaoliang/XCFAPP) - 高仿下厨房APP。
+* [YoCelsius](https://github.com/YouXianMing/YoCelsius) - 已经上线的一款天气预报的应用,几乎所有的交互动画效果，想学习动画的开发人员可以作为参考。
+* [XiMaLaYa-by-HansRove-](https://github.com/HansRove/XiMaLaYa-by-HansRove-) - 仿喜马拉雅FM, 对AVFoundation框架的一次尝试，采用MVVM模式，[教程](http://ios.jobbole.com/85275/)。
+* [DayDayNews](https://github.com/gaoyuhang/DayDayNews) 仿网易新闻客户端，实现新闻浏览，视频播放，仿搜狐视频、百思不得姐等当前主流视频播放器，实现流媒体播放，自动监听屏幕转动，实现横屏播放 , 抓取百度图片，瀑布流显示，夜间模式，环信即时通讯
+
 
 ##### App框架
 * [nimbus](https://github.com/jverkoey/nimbus) Nimbus是一个开源的iOS框架，比起Three20，Nimbus的文档更为全面、丰富，能够实现很多非常炫的界面特效。因此，开发者可以借助Nimbus来降低项目设计的复杂度。
 * [samurai-native](https://github.com/hackers-painters/samurai-native) 是一个基于浏览器内核通过HTML+CSS 开发原生移动应用的iOS框架。
 * [HHRouter](https://github.com/Huohua/HHRouter) 一言以蔽之，URL Router 即将 UIViewController 映射成 URL，从而支持通过 URL 进行界面跳转。是的，就和 Web 一样。当然，这并不是 Web Developer 转职为 iOS Developer 后所做的无聊玩具。URL Router 有着许多切实的好处。
 
-##### 日历三方库
+##### 日历三方库@
 
 * [TEAChart](https://github.com/xhacker/TEAChart) - xhacker/TEAChart 一个简洁的 iOS 图表库，支持柱状图、饼图以及日历等。
 * [CVCalendar](https://github.com/Mozharovsky/CVCalendar) - 是一个方便开发者集成自定义日历视图到自己 iOS 应用的项目, 支持 Storyboard 和手动配置, 使用 CocoaPods 进行安装, 提供了丰富的 API 供开发者使用。
 
-##### 下拉刷新
+##### 下拉刷新@
 * [EGOTableViewPullRefresh](https://github.com/enormego/EGOTableViewPullRefresh) - 最早的下拉刷新控件。
 * [SVPullToRefresh](https://github.com/samvermette/SVPullToRefresh) - 下拉刷新控件。
 * [MJRefresh](https://github.com/CoderMJLee/MJRefresh) - 仅需一行代码就可以为UITableView或者CollectionView加上下拉刷新或者上拉刷新功能。可以自定义上下拉刷新的文字说明。具体使用看“使用方法”。 （国人写）
@@ -179,13 +226,13 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 * [SURefresh](https://github.com/DaMingShen/SURefresh) - BOSS直聘APP下拉刷新动画实现，效果展示图－> [实现思路](http://mp.weixin.qq.com/s?__biz=MzA4ODk0NjY4NA==&mid=2701606115&idx=1&sn=98a486103668a30e16a328cbb529fe5e&scene=23&srcid=0728iIHfF3zMvIvdpqrIXCOK#rd)再复杂的动画都可以拆分成许多简单的动画组合起来，这个动画大概可以分成两个主体，我把它分别录制出来给大家看看
 
 
-##### 模糊效果
+##### 模糊效果@
 * [FXBlurView](https://github.com/nicklockwood/FXBlurView) - 是一个UIView子类，支持iOS5.0以上版本，支持静态、动态模糊效果，继承与UIView的模糊特效。
 * [VVBlurPresentation](https://github.com/onevcat/VVBlurPresentation) -很简单易用的在原来viewconntroller基础上做模糊，然后present新的viewcontroller的。
 * [UICustomActionSheet](https://github.com/pchernovolenko/UICustomActionSheet) - 通过模糊背景来着重强调与菜单相关的元素--对话框 里面已经收藏。
 * [SABlurImageView](https://github.com/szk-atmosphere/SABlurImageView) - 支持渐变动画效果的图像模糊化类库。P.S. 与前几天推存类库 SAHistoryNavigationViewController 是同一位作者。
 
-##### AutoLayout
+##### AutoLayout@
 * [Masonry](https://github.com/SnapKit/Masonry) - Masonry是一个轻量级的布局框架，拥有自己的描述语法，采用更优雅的链式语法封装自动布局，简洁明了并具有高可读性（ [使用介绍1](http://adad184.com/2014/09/28/use-masonry-to-quick-solve-autolayout/)  [使用介绍2](http://ios.jobbole.com/81483/)），[iOS自适应前段库-Masonry的使用](http://www.cocoachina.com/ios/20150702/12217.html)），[Masonry、Classy、ClassyLiveLayout介绍](http://www.jianshu.com/p/2ed5f7444900)。[使用DEMO](https://github.com/lcddhr/DDMasonryTest) 视图居中显示、子视图含边距、视图等距离摆放、计算ScrollView的contentsize。
 * [Classy](https://github.com/ClassyKit/Classy) - Classy是一个能与UIKit无缝结合stylesheet(样式)系统。它借鉴CSS的思想，但引入新的语法和命名规则，[Classy官网](http://classy.as/getting-started/)，[Masonry、Classy、ClassyLiveLayout介绍](http://www.jianshu.com/p/2ed5f7444900)。
 * [ClassyLiveLayout](https://github.com/olegam/ClassyLiveLayout) - ClassyLiveLayout通过结合Classy stylesheets与Masonry一起使用，能够在运行的模拟器中微调Auto Layout约束实时显示效果的工具，[Masonry、Classy、ClassyLiveLayout介绍](http://www.jianshu.com/p/2ed5f7444900)。
@@ -196,7 +243,9 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [Autolayout_Demo](https://github.com/luodezhao/Autolayout_Demo) - 在项目中用自动布局实现的类似抽屉效果。
 * [当view隐藏的时候也隐藏其autolayout的NSLayoutAttribute](http://code.cocoachina.com/detail/320405/) - 当view隐藏的时候也隐藏其autolayout的NSLayoutAttribute，从而不用大量的代码工作。
 * [SDAutoLayout](https://github.com/gsdios/SDAutoLayout) - AutoLayout 一行代码搞定自动布局！支持Cell、Label和Tableview高度自适应，致力于做最简单易用的AutoLayout库。
-##### 富文本
+
+##### 富文本@
+
 * [TFHpple ](https://github.com/topfunky/hpple) - TFHpple
 解析html的轻量级框架
 * [RTLabel](https://github.com/honcheng/RTLabel) - RTLabel 基于UILabel类的拓展,能够支持Html标记的富文本显示，它是基于Core Text,因此也支持Core Text上的一些东西。32位，很久没有更新了。
@@ -230,17 +279,19 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [M80AttributedLabel](https://github.com/xiangwangfeng/M80AttributedLabel) - M80AttributedLabel实现文字与表情的混排。一般使用气泡作为背景。
 * [HPGrowingTextView](https://github.com/yatinsns/HPGrowingTextView) - HPGrowingTextView聊天输入文字，可以根据输入文字的多少自动改变输入框的高度。
 
-##### 图表
+##### 图表@
 * [PNChart](https://github.com/kevinzhow/PNChart) - 国内开源作者，动态的图表。
 * [YOChartImageKit](https://github.com/yasuoza/YOChartImageKit) - 支持在watchOS上绘制图表，看它最近更新挺勤快的，可以关注一下。
 * [RealtimeGradientText](https://github.com/kevinzhow/RealtimeGradientText) - Fun With CALayer Mask 刚好今天开源了一个有趣的项目 RealtimeGradientText，所以也好聊一下 CALayer 的 Mask，[说明](http://blog.zhowkev.in/2015/07/06/fun-with-mask/)。
 * [XYPieChart](https://github.com/xyfeng/XYPieChart) -XYPieChart:饼状图,  饼图,  数据统计,  数据可视化,可以在图形上标注数据。效果十分漂亮，而且没有用到一张图片。
 * [ZFChart](https://github.com/Zirkfied/ZFChart) - 模仿PNChart写的一个图表库，用法简单，暂时有柱状图，线状图，饼图三种类型，后续可能会更新新的类型。
+* [ios-charts](https://github.com/danielgindi/Charts) - 一款优秀 Android 图表开源库 MPAndroidChart 的 Swift 语言实现版（支持 Objective-C 和 Swift 调用）。缺省提供的示例代码为 Objective-C。
+* [JYRadarChart](https://github.com/johnnywjy/JYRadarChart) 一个很赞的图表库
 
-##### 颜色
+##### 颜色@
 * [Colours](https://github.com/bennyguitar/Colours) Colours–颜色库,包含100种预定义的颜色和方法
 
-##### 表相关、TabbleView、Tabbar、即时聊天界面
+##### 表相关、TabbleView、Tabbar、即时聊天界面@
 * [JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController) 一个优秀的即时聊天UI库
 * [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet) - DZNEmptyDataSet算是一个很标准的iOS内建方式，适合用来处理空的tableview和collection view。会自动将collection view处理完善，并将用户消息以合适美观的方式显示出来。每个iOS项目都可以自动处理。
 * [VVeboTableViewDemo](https://github.com/johnil/VVeboTableViewDemo) 此项目由VVebo剥离，希望你能通过这个demo看到我是如何进行TableView流畅度优化的。
@@ -253,6 +304,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [RETableViewManager](https://github.com/romaonthego/RETableViewManager) - 可以十分方便地生成各种样式、各种功能的TableView。只要开发者能想到的列表效果或者功能，都可以利用这份代码迅速编写出来。比如，之前要实现一个填写各种资料的列表，可能需要很多代码，现在只需要几行代码就可以实现。
 * [UIScrollSlidingPages](https://github.com/TomThorpe/UIScrollSlidingPages) - 允许添加多视图控件，并且可以横向滚动。有点类似于Groupon app。
 * [HorizontalScrollCell](https://github.com/mcelayir/HorizontalScrollCell) - HorizontalScrollCell是一款使用方便的水平方向可滚动的单元格，适用于UICollectionView中实现水片方向滚动视图。 。
+* [SYJiugonggeTableView](https://github.com/shiyuan17/syTableView) - tableView封装的九宫格。
 * [SYJiugonggeTableView](https://github.com/shiyuan17/syTableView) - tableView封装的九宫格。
 * [UUChatTableView](https://github.com/ZhipingYang/UUChatTableView) - UUChatTableView 气泡聊天界面，支持文本、图片以及音频的气泡聊天界面。[源码推荐说明](http://www.cocoachina.com/ios/20150205/11116.html)。
 * [Atlas-iOS](https://github.com/layerhq/Atlas-iOS) - 快速在iOS里集成聊天功能，类似开源版本的环信。Layer家开源了一套聊天app界面的解决方案.看起来很赞，很多蛮复杂的东西直接都帮封好了。不得不说现在做app开发真是很简单，大部分时间搭积木就可以了。[官方网站](https://atlas.layer.com/)。
@@ -294,7 +346,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [YX_UITableView_IN_UITableView](https://github.com/yixiangboy/YX_UITableView_IN_UITableView) - UITableview嵌套UITableView案例实践（仿淘宝商品详情页实现），[项目讲解](http://blog.csdn.net/yixiangboy/article/details/51009010)。
 * [TYPagerController](https://github.com/12207480/TYPagerController) - 简单，支持定制，页面控制器,可以滚动内容和标题栏,包含多种style。
 
-##### 隐藏与显示
+##### 隐藏与显示@
 * [SlideTapBar](http://d.cocoachina.com/code/detail/286102) - 滚动栏菜单，向上滚动时隐藏tabbar，向下滚动马上显示tabbar。
 * [FoldingTabBar.iOS](https://github.com/Yalantis/FoldingTabBar.iOS) - 可折叠Tab Bar和Tab Bar Controller。
 * [LTNavigationBar](https://github.com/ltebean/LTNavigationBar) - LTNavigationBar为app导航栏添加动态着色效果，可自定义其背景色。Demo包含：1.变换背景色；2.滚动视图，导航栏和状态栏重叠。[实现教程](http://tech.glowing.com/cn/change-uinavigationbar-backgroundcolor-dynamically/)
@@ -305,7 +357,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [NavigationBarScaleViewDemo](https://github.com/CoderJackyHuang/NavigationBarScaleViewDemo) - iOS导航条自由缩放头像效果。[原理剖析](http://www.henishuo.com/nav-photo-scale/)。
 
 
-##### HUD与Toast
+##### HUD与Toast@
 * [MBProgressHUD](https://github.com/jdg/MBProgressHUD) - 最多人用的loading。
 * [EBuyCommon](https://github.com/LvJianfeng/EBuyCommon) - 1.基于MBProgressHUD实现得图形加载提示方式，及其它标题方式提醒。2.弹窗。
 * [SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD) - SVProgressHUD的loading，如果你需要定制化的等待提示器，这个就是了（也许是最好的）。
@@ -353,11 +405,11 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 
 * [InAppSettingsKit](https://github.com/futuretap/InAppSettingsKit) InAppSettingsKit 是一款功能强大的ios设置组件，可以满足各种各样的app设置需求。
 
-##### 日历
+##### 日历@
 
 * [MSSCalendar](https://github.com/MSS0306/MSSCalendar) A simple iOS Calendar 高性能日历控件（类似去哪网）
 
-##### 其他UI
+##### 其他UI@
 * [AwesomeMenu](https://github.com/levey/AwesomeMenu) - 最多人用的Path菜单。
 * [DCPathButton](https://github.com/Tangdixi/DCPathButton) - Path，4.0的弹出菜单，呼出或者关闭菜单时，多个小图标会分别按照逆时针和顺时针的方向进行滚动。
 * [SphereMenu](https://github.com/itouch2/SphereMenu) - 利用UIDynamicAnimator的有趣的菜单，path类似。
@@ -381,8 +433,8 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [类似美团的下拉选项](http://code4app.com/ios/%E7%B1%BB%E4%BC%BC%E7%BE%8E%E5%9B%A2%E7%9A%84%E4%B8%8B%E6%8B%89%E9%80%89%E9%A1%B9/538606d4933bf06e0a8b496e) -  类似于美团、大众点评的下拉菜单选项，code4app代码，评论代码有瑕疵。
 * [CRMediaPickerController](http://code.cocoachina.com/detail/284267) - 一个简单易用的图片/视频选择器。1.可同时选择照片和视频。 2.挑选范围有Camera、Camera Roll、Photo Library以及最近拍摄的照片和视频。3.可自定义UIImagePickerController属性（Camera Overlay、Camera Device、Camera View Transform以及allowsEditing）。4.支持横屏和竖屏5.原生的iOS UI。，[源码推荐说明](http://www.cocoachina.com/ios/20150205/11116.html)。
 * [MDCSwipeToChoose](https://github.com/modocache/MDCSwipeToChoose) - MDCSwipeToChoose可简单地添加滑动手势来调用UIView，并使用该行为提供了一个组件以创建类似Tinder app的like或者dislike界面的轻扫。基于轻扫的方向，你可以决定执行什么样的行为，并且你可以自定义文本颜色和图片。该项目适用于教学用的抽认卡、图片查看器以及其他等。
-* [iOS Material Design库](http://d.cocoachina.com/code/detail/285611) - 该项目借鉴于谷歌的Material Design guideline，用户可自定义背景色。
-* [Material-Controls-For-iOS](https://github.com/fpt-software/Material-Controls-For-iOS) - Material Design风格的各种控件，非常完整全面。
+* [iOS Material Design库](http://code.cocoachina.com/view/126073) - 该项目借鉴于谷歌的Material Design guideline，用户可自定义背景色。
+* [Material-Controls-For-iOS](https://github.com/fpt-software/Material-Controls-For-iOS)  - Material Design风格的各种控件，非常完整全面。
 * [MediumScrollFullScreen](https://github.com/pixyzehn/MediumScrollFullScreen) - Medium的可扩展滚动页面，上下滚动时，全屏显示内容，并自然消隐上下菜单。由此项目感知，作者是一位很注重细节的开发者，他的另外[几个菜单类项目](https://github.com/pixyzehn)也都不错，值得参考，比如：PathMenu, MediumMenu 等。
 * [WZFlashButton](https://github.com/SatanWoo/WZFlashButton) - WZFlashButton，点击后button里面出现水波扩散效果。
 * [ios-multi-back-button](https://github.com/palmin/ios-multi-back-button) - 可替换内置的UInavigationController返回按钮，长按左上角的返回按钮，实现多层级的快速返回。
@@ -395,6 +447,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [PDTSimpleCalendar](https://github.com/jivesoftware/PDTSimpleCalendar) - 是iOS最棒的日历组件了。你可以在各个方面对它进行定制，无论是运行逻辑还是外观方面。
 * [Form](https://github.com/hyperoslo/Form) - JSON 驱动的 Form表单系统，复杂的表单填写类 App 极其需要（比如淘宝呢！）。
 * [ImagePickerSheetController](https://github.com/larcus94/ImagePickerSheetController) - 图片或视频选择器（可多选）组件及其示例项目。
+* [ImagePickerSheet](https://github.com/larcus94/ImagePickerSheetController) - 图片或视频选择器（可多选）组件及其示例项目。
 * [RKNotificationHub](https://github.com/cwRichardKim/RKNotificationHub) - 快速给 UIView 添加上炫酷的通知图标（Badge、红点、提示）。  * [WZLBadge](https://github.com/weng1250/WZLBadge) - Badge，支持横竖屏支持iOS5~iOS8允许高度定制化，包括“红点”的背景颜色，文字(字体大小、颜色)，位置等。[说明](http://code.cocoachina.com/detail/316890/%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0%E5%A4%9A%E9%A3%8E%E6%A0%BC%E7%9A%84%E6%8E%A8%E9%80%81%E5%B0%8F%E7%BA%A2%E7%82%B9/).
 * [BubbleTransition](https://github.com/andreamazz/BubbleTransition) - 以气泡膨胀和缩小的动画效果来显示和移除 controller，Uber的就是这种取消操作的方式。
 * [KYFloatingBubble](https://github.com/KittenYang/KYFloatingBubble) - 类似iOS7中Game Center浮动气泡的效果。
@@ -433,13 +486,13 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [JMRoundedCorner](https://github.com/raozhizhen/JMRoundedCorner) - UIView设置不触发离屏渲染的圆角！
 
 ========
-#### 动画三方库
+#### 动画三方库@
 * [Core Animation笔记，基本的使用方法](http://www.starming.com/index.php?v=index&view=62) - Core Animation笔记，基本的使用方法：1.基本动画，2.多步动画，3.沿路径的动画，4.时间函数，5.动画组。
 * [awesome-ios-animation](https://github.com/sxyx2008/awesome-ios-animation) - [iOS Animation 主流炫酷动画框架(特效)收集整理](https://github.com/sxyx2008/DevArticles/issues/91) 收集整理了下iOS平台下比较主流炫酷的几款动画框架。
 * [awesome-animation](https://github.com/Animatious/awesome-animation) -  在内的十多位童鞋们一起发起的一起动画开源组正式成立啦~Github组织名称：Animatious，这是我们第一期成员先前开源的一些动效库，我们的第一个合作开源项目正在紧锣密鼓的准备~请大家期待设计和代码的碰撞吧。
 * [BCMagicTransition](https://github.com/boycechang/BCMagicTransition)一个动效框架，用于自定义UINavigationController的切换动画，效果类似 Keynote 软件中 Magic Move 切换。它可以用于任意两个UIViewController之间，只需指定两个VC中的相同元素即可。
 
-##### 游戏
+##### 游戏@
 * [cocos2d-objc](https://github.com/cocos2d/cocos2d-objc) Cocos2d for iOS and OS X, built using Objective-C
 
 ##### 侧滑与右滑返回手势@
@@ -468,14 +521,15 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [LLSlideMenu](https://github.com/lilei644/LLSlideMenu) - 一个弹性侧滑菜单,弹性动画原理借鉴该项目中阻尼函数实现。
 * [ScreenShotBack](https://github.com/zhengwenming/ScreenShotBack) 全屏返回，截图手势返回，景深效果，类似斗鱼、天天快报、腾讯新闻等APP的手势返回。
 
-##### gif动画
+##### gif动画@
 * [UIImageView-PlayGIF](https://github.com/yfme/UIImageView-PlayGIF) - UIImageView-PlayGIF。
 * [YLGIFImage](https://github.com/liyong03/YLGIFImage) - YLGIFImage。
 * [droptogif](https://github.com/mortenjust/droptogif) -  droptogif视频拖拽到应用窗口后自动转换为 GIF 动画（其转换进程动画效果也超赞）。
 
-##### 其他动画
+##### 其他动画@
 * [popping](https://github.com/schneiderandre/popping) - popping是一个POP 使用实例工程
 * [PopMenu](https://github.com/xhzengAIB/PopMenu) - 用POP动画引擎写的Sina微博的Menu菜单。
+* [SinaMenuView](https://github.com/xhzengAIB/PopMenu) - 用POP动画引擎写的Sina微博的Menu菜单。
 * [MMTweenAnimation](https://github.com/adad184/MMTweenAnimation) - facebook POP的自定义动画扩展(基于POPCustomAnimation) 提供10种函数式动画。
 * [ZQLRotateMenu](https://github.com/zangqilong198812/ZQLRotateMenu) - 这是一个旋转视图的选择器。
 * [CoolLoadAniamtion](https://github.com/zangqilong198812/CoolLoadAniamtion) - 一个简单但是效果不错的loading动画。
@@ -501,6 +555,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [UnReadBubbleView](https://github.com/heroims/UnReadBubbleView) - UnReadBubbleView是一个能够拖拽并拉长的气泡视图。拖拽到一定的长度会消失，可以通过系数设置来控制拖拽的长度。气泡也支持多种属性设置。
 * [PPDragDropBadgeView](https://github.com/smallmuou/PPDragDropBadgeView) - 实现了类似于QQ 5.0 水滴拖拽效果. 支持iOS 5.0+ ARC，气泡能够带有数字标识，同时支持消失block方法。消失时还带有消失效果动画。
 * [GiftCard-iOS](https://github.com/MartinRGB/GiftCard-iOS) - 礼品卡购买的炫酷动画。
+* [GiftCard-Implementation](https://github.com/MartinRGB/GiftCard-iOS) - 购买的炫酷动画。
 * [SDCycleScrollView](https://github.com/gsdios/SDCycleScrollView) - 无限循环自动图片轮播器(一步设置即可使用)。
 * [HYBLoopScrollView](https://github.com/CoderJackyHuang/HYBLoopScrollView) - HYBLoopScrollView实现自动循环滚动，一般用于展示广告页。微信在贴纸宣传处就使用了轮播。
 * [iCarousel](https://github.com/nicklockwood/iCarousel) - iCarousel是一个类，它继承于UIView。用于简化实现各种类型的旋转木马(分页滚动视图），无限轮播 ，[iOS开发之多图片无缝滚动组件封装与使用](http://www.cocoachina.com/ios/20150828/13198.html)。
@@ -532,8 +587,8 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [WZXJianShuPopDemo](https://github.com/Wzxhaha/WZXJianShuPopDemo) - 仿简书、淘宝等等的View弹出效果，已封装好，使用简单。[实现原理](http://www.jianshu.com/p/a697d2a38b3c)
 
 ========
-#### 网络相关
-##### 网络连接
+#### 网络相关@
+##### 网络连接@
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking) - ASI不升级以后，最多人用的网络连接开源库 [iOS开发下载文件速度计算](http://www.superqq.com/blog/2015/01/29/ioskai-fa-xia-zai-wen-jian-su-du-ji-suan/) , [AFNetworking 3.0迁移指南](http://www.cocoachina.com/ios/20151022/13831.html) , [AFNetworking2.0源码解析<一>](http://www.cocoachina.com/ios/20140829/9480.html) 、[AFNetworking2.0源码解析<二>](http://www.cocoachina.com/ios/20140904/9523.html)、[AFNetworking源码解析<三>](http://www.cocoachina.com/ios/20140916/9632.html)、[AFNetworking源码解析<四>](http://www.cocoachina.com/ios/20141120/10265.html)。
 * [YTKNetwork](https://github.com/yuantiku/YTKNetwork) - 是基于 AFNetworking 封装的 iOS网络库，提供了更高层次的网络访问抽象。相比AFNetworking，YTKNetwork提供了以下更高级的功能：按时间或版本号缓存网络请求内容、检查返回 JSON 内容的合法性、文件的断点续传、批量的网络请求发送、filter和插件机制等。
 * [HYBNetworking](https://github.com/CoderJackyHuang/HYBNetworking) - 基于AFN封装的网络库，可以通用。[基于AFNetworking封装网络库说明](http://www.henishuo.com/base-on-afnetworking-wrapper/)目前已经提供了通用的GET/POST、上传、下载API等。
@@ -560,30 +615,24 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [YYWebImage](https://github.com/ibireme/YYWebImage/) - 一个图片加载库 YYWebImage，支持 APNG、WebP、GIF 播放，支持渐进式图片加载，更高性能的缓存，更多图像处理方法，可以替代 SDWebImage 等开源库，[相关文章](http://blog.ibireme.com/2015/11/02/mobile_image_benchmark/)。
 * [SVGKit](https://github.com/SVGKit/SVGKit) SVGKit是一个非常强大的，可以快速渲染SVG文件的框架。你可以直接把SVG文件加载至app中，并且SVG中的每个图形会变成一个CAShapeLayer，可以方便地进行缩放和动画你的图形。如果你想渲染app中的矢量图形，SVGKit是个不错的解决办法。
 
-##### 图像获取S@
-
-
-##### 网络聊天
+##### 网络聊天@
 * [XMPPFramework](https://github.com/robbiehanson/XMPPFramework) - XMPPFramework openfire聊天。
 * [SXTheQQ](https://github.com/dsxNiubility/SXTheQQ) - 用xmppFramework框架编写QQ程序，主要为了练习通讯的一些原理，界面比较渣 必须要先在本地配置好环境才可以运行。
 * [环信](http://www.easemob.com/) - 给开发者更稳定IM云功能。8200万用户考验，好用！（暂无及时语音、视频通话）
 * [融云](http://www.rongcloud.cn/) - 即时通讯云服务提供商。（暂无及时语音、视频通话）
 * [容联云通讯](http://www.yuntongxun.com) - 提供基于互联网通话,视频会议,呼叫中心/IVR,IM等通讯服务。
 * [ChatSecure-iOS](https://github.com/ChatSecure/ChatSecure-iOS) - 基于XMPP的iphone、android加密式聊天软件， [chatsecure官网](https://chatsecure.org/) 。 [iOS代码1](https://github.com/ChatSecure/ChatSecure-iOS)，[iOS代码2](https://github.com/ChatSecure/ChatSecure-iOS)， [iOS中文版](http://www.cocoachina.com/bbs/read.php?tid=153156)。
+* [chatsecure](https://github.com/ChatSecure/ChatSecure-iOS) - 基于XMPP的iphone、android加密式聊天软件， [chatsecure官网](https://chatsecure.org/) 。 [iOS代码1](https://github.com/ChatSecure/ChatSecure-iOS)，[iOS代码2](https://github.com/ChatSecure/ChatSecure-iOS)， [iOS中文版](http://www.cocoachina.com/bbs/read.php?tid=153156)。
 * [MessageDisplayKit](https://github.com/xhzengAIB/MessageDisplayKit) - 仿微信聊天，参考JSQMessagesViewController。（国人写）
 * [JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController) - 聊天 。
 * [SunFlower](https://github.com/HanYaZhou1990/-SunFlower) - 环信聊天demo，比较多功能 。
 * [BlueTalk蓝牙聊天](http://code4app.com/ios/BlueTalk%E8%93%9D%E7%89%99%E8%81%8A%E5%A4%A9-%E6%89%8B%E6%9C%BA%E4%B9%8B%E9%97%B4/552b8190933bf0291e8b4748) - 以MultipeerConnectivity为基础， 实现了简单的蓝牙聊天。
 
-
-##### 网络测试
+##### 网络测试@
 * [Reachability](https://github.com/tonymillion/Reachability) - 苹果提供过一个Reachability类，用于检测网络状态。但是该类由于年代久远，并不支持ARC。该项目旨在提供一个苹果的Reachability类的替代品，支持ARC和block的使用方式。[iOS网络监测如何区分2、3、4G](http://www.jianshu.com/p/efcfa3c87306)   
 * [SimpleCarrier](https://github.com/crazypoo/SimpleCarrier) - 简单的运营商信息获取!。
 * [NetworkEye](https://github.com/coderyi/NetworkEye) - 一个网络调试库，可以监控App内HTTP请求并显示请求相关的详细信息，方便App开发的网络调试。
 * [RealReachability](https://github.com/dustturtle/RealReachability) - [iOS下的实际网络连接状态检测](http://www.cocoachina.com/ios/20160224/15407.html)，解决“如何判断设备是否真正连上互联网？而不是只有网络连接”的问题。
-
-========
-##### 网页框架
 
 ========
 ##### WebView与WKWebView
@@ -594,7 +643,6 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [js-in-ios](https://github.com/WangXiaoxi/IOSLearing/) - webView与js的交互。
 * [D3Generator](https://github.com/mozhenhau/D3Generator/) - D3Generator根据dict字典生成对象。 适用webview和push推送时，根据后台传回字典实现动态跳转。[实现说明](http://mozhenhau.com/2016/02/07/D3Generator实现万能跳转界面，UIWebview与js随意交互/)
 * [GRMustache] (https://github.com/groue/GRMustache) 一个类似templateEngine的html渲染工具，可以更加有效的帮助大家完成数据生成HTML的过程。
-
 
 ========
 #### Model
@@ -607,7 +655,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [DDModel](https://github.com/openboy2012/DDModel) - 快速搭建项目Model层，支持ORM映射关系，能从JSON/XML直接实例一个Model对象。支持SQLite本地数据持久化，封装了HTTP， 减少HTTP代码与UIViewController的代码耦合，支持Cache；类似RESTKit、Mantle的功能；使用该类库以后简化了网络层的开发工作，把更多的精力放在UI上面；目前只支持GET/POST方法的请求。使用到的第三方库有：1.SQLitePersistentObject; 2.JTObjectMapping; 3.AFNetworking; 4.XMLDictionary;
 
 ========
-#### 通讯录
+#### 通讯录@
 * [快速查找联系人](http://code.cocoachina.com/view/128245) - 类似微信联系人搜索的界面,快速查找联系人,并支持点击查询结果 。
 
 ========
@@ -661,6 +709,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [LocationManager](https://github.com/intuit/LocationManager) - 地理位置管理封装库， CoreLocation使用起来还是比较麻烦的，需要授权，判断系统版本等等，所以推荐使用第三方框架LocationManager，使用Block，十分简单！[iOS-CoreLocation：无论你在哪里，我都要找到你！](http://www.cocoachina.com/ios/20150721/12611.html) 。
 * [pangu.objective-c](https://github.com/Cee/pangu.objective-c) - 有多种语言实现版本～ Pangu.Objective-C：格式化中英文之间的空格（OC）。
 * [objection](https://github.com/atomicobject/objection) - 一个轻量级的依赖注入框架Objection。
+* [ControlOrientation](https://github.com/johnlui/Swift-On-iOS/tree/master/ControlOrientation/ControlOrientation) - 如何用代码控制以不同屏幕方向打开新页面【iOS】， [使用说明](https://lvwenhan.com/ios/458.html)。
 * [iRate](https://github.com/nicklockwood/iRate) - 问卷调查。
 * [GameCenterManager](https://github.com/nihalahmed/GameCenterManager) - 在iOS上管理GameCenter vanilla并不算难，但是有了这个库会更简单也更快。好上加好不是更好么。
 * [SlackTextViewController](https://github.com/slackhq/SlackTextViewController) - 用作极佳、定制的文本输入控制时，自适应文本区域，手势识别、自动填充、多媒体合并，快速drop-in解决方案。
@@ -704,7 +753,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [GCDThrottle](https://github.com/cyanzhong/GCDThrottle) - 限制频率过高的调用GCD多线程。
 
 ========
-#### 数据库
+#### 数据库@
 * [FMDB](https://github.com/ccgus/fmdb) - sqlite的工具， [多线程FMDatabaseQueue实例](https://github.com/tangqiaoboy/FmdbSample)，[FMDB数据库的使用演示和封装工具类](https://github.com/liuchunlao/LVDatabaseDemo)，[基于fmdb 的基本操作](http://code.cocoachina.com/view/128312) 通过 fmdb 进行的数据库的 基本操作(增删改查 )查找是使用 UISearchBar 和UISearchDisplayController 进行混合使用。
 * [GXDatabaseUtils](https://github.com/Gerry1218/GXDatabaseUtils) - 在FMDB基础上的工具。
 * [GKDatabase](https://github.com/ChrisCaixx/GKDatabase) -基于SQLite3简单封装了下,实现了一行代码解决增删改查等常用的功能!并没有太过高深的知识,主要用了runtime和KVC:请看Demo~ 原理篇请看这里:[简书地址](http://www.jianshu.com/p/0e598147debc)
@@ -725,25 +774,24 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [YTKKeyValueStore](https://github.com/yuantiku/YTKKeyValueStore) - Key-Value存储工具类，[说明](http://tangqiaoboy.gitcafe.io/blog/2014/10/03/opensouce-a-key-value-storage-tool/)。
 * [TMCache](https://github.com/tumblr/TMCache) - TMCache 是 Tumblr 开源的一个基于 key/value 的数据缓存类库,可以用于缓存一些临时数据或者需要频繁加载的数据,比如某些下载的数据或者一些临时处理结果。
 * [JLKeychain](https://github.com/jl322137/JLKeychain) - 快捷使用keychain存储数据的类，使keychain像NSUserDefaults一样工作。
+* [UICKeyChainStore](https://github.com/kishikawakatsumi/UICKeyChainStore) - 封装keychain，使keychain像NSUserDefaults一样简单
 * [sskeychain](https://github.com/soffes/sskeychain) - SSKeyChains对苹果安全框架API进行了简单封装,支持对存储在钥匙串中密码、账户进行访问,包括读取、删除和设置。
 * [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess) - 管理Keychain接入的小助手。
 * [YYCache](https://github.com/ibireme/YYCache) - 高性能的 iOS 缓存框架。
 * [RuntimeDemo](https://github.com/CoderJackyHuang/RuntimeDemo) - runtime自动归档/解档,[源码分析](http://www.henishuo.com/runtime-archive-unarchive-automaticly/)。
 
 ========
-#### PDF
+#### PDF@
 * [Reader](https://github.com/vfr/Reader) - Reader可提供类似iBooks的文档导航，支持屏幕旋转和所有方向，并通过密码保护加密PDF文件，支持PDF链接和旋转页面。
 
 ========
-#### 图像浏览及处理
+#### 图像浏览及处理@
 * [FLAnimatedImage](https://github.com/liric28/FLAnimatedImage) - gif播放处理的工具。
 * [CLImageEditor](https://github.com/yackle/CLImageEditor) - 超强的图片编辑库，快速帮你实现旋转，防缩，滤镜等等一系列麻烦的事情。
 * [ios-image-filters](https://github.com/esilverberg/ios-image-filters) - 图像滤镜，库比较旧了，很容易崩溃。
 * [XBImageFilters](https://github.com/xissburg/XBImageFilters) - 图像滤镜。
 * [MWPhotoBrowser](https://github.com/mwaterfall/MWPhotoBrowser) - 一个非常不错的照片浏览器，在github的star接近3000个，[解决MWPhotoBrowser中的SDWebImage加载大图导致的内存警告问题](http://www.superqq.com/blog/2015/01/22/jie-jue-mwphotobrowserzhong-de-sdwebimagejia-zai-da-tu-dao-zhi-de-nei-cun-jing-gao-wen-ti/)。
 * [CoreImageShop](https://github.com/rFlex/CoreImageShop) - CoreImageShop图片滤镜处理-- Mac app that let you create a complete Core Image Filter usable on iOS using SCRecorder。
-
-
 * [GPUImage](https://github.com/BradLarson/GPUImage) - 处理图片效果。
 * [RSKImageCropper](https://github.com/ruslanskorb/RSKImageCropper) - 适用于iOS的图片裁剪器，类似Contacts app，可上下左右移动图片选取最合适的区域。
 * [WZRecyclePhotoStackView](http://code.cocoachina.com/detail/232156) - 删除照片交互--WZRecyclePhotoStackView，就是模拟生活中是删除或保留犹豫不决的情形而产生的。 在上滑，下滑的部分，借鉴了[TinderSimpleSwipeCards](https://github.com/cwRichardKim/TinderSimpleSwipeCards)。
@@ -775,11 +823,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [YUCIHighPassSkinSmoothing](https://github.com/YuAo/YUCIHighPassSkinSmoothing) - 磨皮滤镜！
 * [YUGPUImageHighPassSkinSmoothing](https://github.com/YuAo/YUGPUImageHighPassSkinSmoothing) - 一个基于 GPUImage 的磨皮滤镜！
 * [YLFaceuDemo](https://github.com/Guikunzhi/YLFaceuDemo) - 在直播应用中添加Faceu贴纸效果。Faceu贴纸效果其实就是在人脸上贴一些图片，同时这些图片是跟随着人脸的位置改变的。[说明](http://www.jianshu.com/p/ba1f79f8f6fa)
-
-========
-
-#### 图表
-* [JYRadarChart](https://github.com/johnnywjy/JYRadarChart) 一个很赞的图表库
+* [XHImageViewer] (https://github.com/JackTeam/XHImageViewer) XHImageViewer is images viewer, zoom image.
 
 ========
 
@@ -827,9 +871,12 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [TBPlayer](https://github.com/suifengqjn/TBPlayer) 视频变下变播，把播放器播放过的数据流缓存到本地，支持拖动。采用avplayer
 * [520Linkee](https://github.com/GrayJIAXU/520Linkee) 本项目实现了作为一个直播App的基本功能，比如本地视频流采集、播放、美颜、礼物、点赞出心等。
 
+##### 视频@
+* [MRVLCPlayer](https://github.com/Maru-zhang/MRVLCPlayer) - 相信Mac用户都很熟悉一款VLC播放器，这款播放器在Mac上表现异常优异，支持的格式几乎涵盖了所有格式（就是这么屌！）。没错，就是它创造者--VideoLAN，开源了一款牛逼的视频播放框架MobileVLCKit！[介绍信息：] (http://gold.xitu.io/entry/578c304b2e958a0054320503?from=singlemessage&isappinstalled=1)
+* [plask](https://github.com/deanm/plask) Plask is a multimedia programming environment.
 
 ========
-#### 响应式框架
+#### 响应式框架@
 * [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) - ReactiveCocoa 受函数响应式编程激发。不同于使用可变的变量替换和就地修改，RAC提供Signals来捕获当前值和将来值（ [使用介绍](http://yulingtianxia.com/blog/2014/07/29/reactivecocoa/) ），[不错的例子](http://iiiyu.com/2014/12/26/learning-ios-notes-thirty-six/),入门好教程：[ReactiveCocoa入门教程：第一部分 ](http://www.cocoachina.com/ios/20150123/10994.html)。[Reactive Cocoa 3.0 在 MVVM 中的应用](http://ios.jobbole.com/82232/) ,[小码哥：快速让你上手ReactiveCocoa之基础篇](http://www.jianshu.com/p/87ef6720a096)。
 * [LoginWithReactiveCocoa](https://github.com/CrazySurfBoy/LoginWithReactiveCocoa) - ReactiveCocoa - 登录交互效果的实现。
 * [BeeFramework](https://github.com/gavinkwoe/BeeFramework) -  与ReactiveCocoa类似，[BeeFramework用户指南 v1.0](http://www.lanrenios.com/tutorials/all/2012/1220/641.html)。
@@ -837,17 +884,17 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [MVVMFramework](https://github.com/lovemo/MVVMFramework) - (OC版)总结整理下一个快速开发框架，分离控制器中创建tableView和collectionView的代码，已加入cell自适应高度，降低代码耦合，提高开发效率。
 
 ========
-#### 消息相关
-##### 消息推送客户端
+#### 消息相关@
+##### 消息推送客户端@
 * [Orbiter](https://github.com/mattt/Orbiter) - 消息推送客户端:Push Notification Registration for iOS.
 * [PushDemo](https://github.com/ios44first/PushDemo) - 客户端消息接收消息代码，[IOS开发之 ---- IOS8推送消息注册](http://blog.sina.com.cn/s/blog_71715bf80102uy2k.html) ， [分分钟搞定IOS远程消息推送](http://my.oschina.net/u/2340880/blog/413584)。
 
-##### 消息推送服务端
+##### 消息推送服务端@
 * [javapns源代码](https://code.google.com/p/archive/downloads/list) - 消息推送的java服务端代码，注意：DeviceToken中间不能有空格。
 * [pushMeBaby](https://github.com/stefanhafeneger/PushMeBaby) - Mac端消息推送端代码，注意：DeviceToken中间要有空格。
 
 
-##### 通知相关
+##### 通知相关@
 * [JSQNotificationObserverKit](https://github.com/jessesquires/JSQNotificationObserverKit) - 一款轻量、易用的通知发送及响应框架类库。作者是知名开源项目 JSQMessagesViewController（Objective-C 版即时聊天）的作者 Jesse Squires.
 * [GLPubSub](https://github.com/Glow-Inc/GLPubSub) - 一个简短实用的 NSNotificationCenter 的封装。
 * [JDStatusBarNotification](https://github.com/jaydee3/JDStatusBarNotification) - 在状态栏顶部显示通知。可以自定义颜色字体以及动画。支持进度显示以及显示状态指示器。
@@ -860,7 +907,7 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 cocoaNSFormatter子类日期转换为从ISO- 8601格式的字符串。支持日历，星期，和序格式。
 
 ========
-#### 版本新API的Demo
+#### 版本新API的Demo@
 * [appleSample](https://github.com/WildDylan/appleSample) - iOS 苹果官方Demo合集， [官方demo](https://developer.apple.com/library/ios/navigation/#section=Resource%20Types&topic=Sample%20Code).
 * [iOS7-Sampler](https://github.com/shu223/iOS7-Sampler) - 整合了iOS7.0的一些十分有用的特性，比如：Dynamic Behaviors、碰撞检测、语音合成、视图切换、图像滤镜、三维地图、Sprite Kit（动画精灵）、Motion Effect（Parallax）、附近蓝牙或者wifi搜索连接、AirDrop、运动物体追踪（iPhone 5S以上，需要M7处理器）等等。对于日常的应用开发十分实用。
 * [iOS8-Sampler](https://github.com/shu223/iOS8-Sampler) - 日本的shuさん制作的 iOS8 参考代码集。01.Audio Effects ；02.New Image Filters；03.Custom Filters；04.Metal Basic；05.Metal Uniform Streaming；06.SceneKit；07.HealthKit；08.TouchID；09.Visual Effects；10.WebKit；11.UIAlertController；12.User Notification；13.Pedometer；14.AVKit；15.Histogram；16.Code Generator；17.New Fonts；18.Popover；19.Accordion Fold Transition
@@ -869,7 +916,7 @@ cocoaNSFormatter子类日期转换为从ISO- 8601格式的字符串。支持日�
 * [Search-APIs](https://github.com/fish-yan/Search-APIs) - iOS 9 学习系列: SearchAPIs。[教程](http://blog.csdn.net/fish_yan_/article/details/50635433)
 
 ========
-#### 代码安全与密码
+#### 代码安全与密码@
 * [ios-class-guard](https://github.com/Polidea/ios-class-guard) - 一个用于混淆iOS的类名、方法名以及变量名的开源库--有人反映编译出来的app运行不了。
 * [《Protecting iOS Applications》](https://www.polidea.com/#!heartbeat/blog/Protecting_iOS_Applications)：文章系统地介绍了如何保护iOS程序的代码安全，防止反汇编分析。
 * [fishhook](https://github.com/facebook/fishhook) - fishhook是Facebook开源的一个可以hook系统方法的工具。
@@ -883,9 +930,9 @@ cocoaNSFormatter子类日期转换为从ISO- 8601格式的字符串。支持日�
 * [ICPayPassWordDemo](https://github.com/icoder20150719/ICPayPassWordDemo) - CPayPassWordDemo，一个模仿支付宝支付密码输入对话框小demo。
 * [RSAESCryptor](https://github.com/bigsan/RSAESCryptor) - 加密 RSA+AES Encryption/Decryption library for iOS. This library uses 2048-bit RSA and 256-bit key with 128-bit block size AES for encryption/decryption。
 * [TouchID](https://github.com/bringbird/TouchID) - 用法简单的TouchID验证框架：两行代码搞定。
-
+* [SFHFKeychainUtils] (https://github.com/ldandersen/scifihifi-iphone)iOS中使用SFHFKeychainUtils保存用户密码，比如项目中需要保存用户密码，以实现自动登录的功能可以使用。
 ========
-#### 测试及调试
+#### 测试及调试@
 * [chisel](https://github.com/facebook/chisel) Chisel扩展了一些列的lldb的命令来帮助iOS开发者调试iOS应用程序。
 * [dSYMTools](https://github.com/answer-huang/dSYMTools)友盟 dSYM analyze
 * [HeapInspector](https://github.com/tapwork/HeapInspector-for-iOS) - HeapInspector是一个用于检测应用中的内存泄漏的开源调试工具。
@@ -913,15 +960,17 @@ cocoaNSFormatter子类日期转换为从ISO- 8601格式的字符串。支持日�
 * [FBMemoryProfiler](https://github.com/facebook/FBMemoryProfiler) - Facebook出品,内存检测库。[FBMemoryProfiler 基础教程](http://ifujun.com/fbmemoryprofiler-shi-yong-ji-chu-jiao-cheng/)。
 * [FBAllocationTracker](https://github.com/facebook/FBAllocationTracker) - Facebook出品,跟踪oc对象的分配情况。
 * [xctool](https://github.com/facebook/xctool) - Facebook出的自动化打包工具，它规范了输出的log日志，而且一些错误信息也更为清晰一些。
+* [JxbDebugTool](https://github.com/JxbSir/JxbDebugTool) 一个iOS调试工具，监控所有HTTP请求，自动捕获Crash分析。
+
 
 ========
-#### 动态更新
+#### 动态更新@
 * [waxPatch](https://github.com/mmin18/WaxPatch) - 大众点评的屠毅敏同学在基于[wax](https://github.com/probablycorey/wax)的基础上写了waxPatch，这个工具的主要原理是通过lua来针对objc的方法进行替换，由于lua本身是解释型语言，可以通过动态下载得到，因此具备了一定的动态部署能力。
 * [JSPatch](https://github.com/bang590/JSPatch) - JSPatch 是一个开源项目(Github链接)，只需要在项目里引入极小的引擎文件，就可以使用 JavaScript 调用任何 Objective-C 的原生接口，替换任意 Objective-C 原生方法。目前主要用于下发 JS 脚本替换原生 Objective-C 代码，实时修复线上 bug。[官网](https://github.com/bang590/JSPatch)。(JSPatchX)[https://github.com/bang590/JSPatchX] JSPatch的XCode 代码补全插件。
 * [CTJSBridge](https://github.com/casatwy/CTJSBridge) - JCTJSBridge：a javascript bridge for iOS app to interact with h5 web view。
 
 ========
-#### AppleWatch
+#### AppleWatch@
 * [Tesla汽车AppleWatch app demo演示](https://github.com/eleks/rnd-apple-watch-tesla) - 通过AppleWatch控制特斯拉汽车，同时可以看到汽车的相关信息，比如剩余电量、可续行里程等，以及解锁/上锁车门、调节司机和乘客的四区域空调温度、开启车辆大灯、定位汽车等。[源码推荐说明](http://www.cocoachina.com/ios/20150205/11116.html)。
 * [WatchKit-Apps](https://github.com/kostiakoval/WatchKit-Apps) - WatchKit 开源小项目示例集锦。是不可多得地学习 WatchKit 的示例式教程（1.如何创建一个简单的交互式计数器；2.如何从手表上控制iOS app；3.如何在WatchKit app和iOS app之间共享数据；4.如何创建一个拥有不同背景色的数字时钟；5.展示不同的UI层；6.如何创建支持滑动手势的应用程序。）。
 * [KYVoiceCurve](https://github.com/KittenYang/KYVoiceCurve) - 类似Apple Watch中语音的声音曲线动画。  
@@ -934,61 +983,12 @@ cocoaNSFormatter子类日期转换为从ISO- 8601格式的字符串。支持日�
 * [BeijingAirWatch](https://github.com/diwu/BeijingAirWatch) - 国人的开源项目代码 ！WatchOS 2.0 Complication of Real-time Air Quality for Major Chinese Cities 苹果表盘实时刷新北上广沈蓉空气质量。
 
 ========
-#### VPN
+#### VPN完整项目@
 * [Hydro.network](https://github.com/CatchChat/Hydro.network) - [Hydro.network 的开发旅程](http://blog.zhowkev.in/2015/03/09/hydro-network-de-kai-fa-lu-cheng/), [gitcafe](https://gitcafe.com/Catch/Hydro.network)。
 * [Potatso](https://github.com/shadowsocks/Potatso) 基于iOS 9 的 NetworkExtension 框架实现 Shadowsocks 代理，由国人开发，虽然还有很多问题不过确实值得期待。
 
 ========
-#### 完整项目
-* [GSD_WeiXin](https://github.com/gsdios/GSD_WeiXin) 高仿微信
-* [v2ex](https://github.com/singro/v2ex) - v2ex 的客户端，新闻、论坛。
-* [wikipedia-ios](https://github.com/wikimedia/wikipedia-ios) - wikipedia-ios 客户端。
-* [jetstream-ios](https://github.com/uber/jetstream-ios) - 一款 Uber 的 MVC 框架。它同时提供了多用户实时通讯支持，一旦启动 JetStream 后端服务，通过 WebSocket 协议可以分分钟建立多用户实时通讯应用。
-* [DeckRocket](https://github.com/jpsim/DeckRocket) - 在相同 WiFi 网络环境内，通过iPhone 控制并播放 Mac 中的 PDF 文档。
-* [ScanBook](https://github.com/JayFang1993/ScanBook) - 扫扫图书:可以扫描条形码查询图书，也可以关键字搜索，遇到合乎你口味的书，还可以看看别人的读书笔记，不同角度去体会。
-* [KYWeibo](https://github.com/KittenYang/KYWeibo) - 调用新浪API自己写的第三方微博客户端。
-* [DouQu_IOS](https://github.com/li6185377/DouQu_IOS) - 逗趣IOS手机端（一款笑话软件）,拥有完整的功能的手机应用app 。
-* [IT江湖iOS客户端](https://github.com/itjhDev/itjh) - IT江湖iOS客户端。
-* [CrazyPuzzle](https://github.com/nonstriater/CrazyPuzzle) - 模仿“看图猜成语”App，功能齐全，配有音效，效果很不错。游戏使用cocoa框架完成，没有使用cocos2d的框架。
-* [WhoCall](https://github.com/Tim9Liu9/WhoCall) - 谁CALL我，iOS来电信息语音提醒，无需越狱。（需要iOS 7.0及以上版本。)骚扰电话预警、来电归属地提醒、联系人姓名播报，这些有中国特色人性化的电话功能，iOS上也应该有。电话提醒、私有API。
-* [仿iOS猎豹垃圾清理(实现原理+源码)](http://www.devtf.cn/?p=562) -  仿iOS猎豹垃圾清理(实现原理+源码),用到私有API。
-* [DSLolita](https://github.com/sam408130/DSLolita) - 模仿新浪微博做的一款app，有发送博文，评论，点赞，私聊功能。
-* [STPhotoBrowser](https://github.com/STShenZhaoliang/STPhotoBrowser) - 高仿新浪微博的图片浏览器，极佳的编写方式，易扩展，低耦合。
-* [GSD_ZHIFUBAO](https://github.com/gsdios/GSD_ZHIFUBAO) - 支付宝高仿版。
-* [Tropos](https://github.com/thoughtbot/Tropos) - Tropos, 由 thoughtbot 推出的一款用 Objective-C 写的开源天气类应用, 截至今天, thoughtbot 已在 GitHub 上贡献了 174 个开源项目, 实在令人敬佩。
-* [SmileWeather](https://github.com/liu044100/SmileWeather) -开源天气类应用,天气图标很完整。  
-* [MVVMReactiveCocoa](https://github.com/leichunfeng/MVVMReactiveCocoa) - GitBucket 2.0 通过审核啦，她是我在公司实践了一年多 MVVM 和 RAC 的基础上，利用业余时间开发的第三方 GitHub 客户端，旨在能够对想实践 MVVM 和 RAC 的 iOS 开发者有所帮助。[AppStore地址](https://itunes.apple.com/cn/app/id961330940?mt=8)，欢迎下载使用GitBucket和收藏MVVMReactiveCocoa。
-* [Tomate](https://github.com/dasdom/Tomate) - 这个圆盘式计时器让你更专注于工作或学习。P.S. App Store 上架收费应用（0.99 欧）。
-* [StoveFireiOSMenu](https://github.com/joeshang/StoveFireiOSMenu) - 炉火餐饮系统iPad点餐端。
-* [WNXHuntForCity](https://github.com/ZhongTaoTian/WNXHuntForCity) - iOS高仿城觅项目（开发思路和代码）。
-* [ZYChat](https://github.com/zyprosoft/ZYChat) - 关于聊天界面的可消息类型扩展，响应绑定设计。
-* [NiceAppDemo](https://github.com/minxiaoming/NiceAppDemo) - 仿最美应用-每日最美的钢琴律动效果。
-* [meituan](https://github.com/lookingstars/meituan) - 美团5.7iOS版（高仿），功能包括，团购首页，高德地图搜索附近美食并显示在地图上，上门服务，商家，友盟分享。
-* [MeituanDemo](https://github.com/zangqilong198812/MeituanDemo) - 造美团应用界面构建的 iOS 应用, 第一个是 @叶孤城___ 的 MeituanDemo。
-* [JFMeiTuan](https://github.com/tubie/JFMeiTuan) - 造美团应用界面构建的 iOS 应用, 第二个是 @tubiebutu 的 JFMeiTuan。
-* [chuanke](https://github.com/lookingstars/chuanke) - 高仿百度传课iOS版。
-* [SXNews](https://github.com/dsxNiubility/SXNews) - 模仿网易新闻做的新闻软件，完成了主导航页，新闻详情页，图片浏览页，评论页。效果不错，比网上流传的各种和网易新闻UI架构有关的代码都要完整，都要好。
-* [Monkey](https://github.com/coderyi/Monkey) - Monkey for GitHub是一个GitHub开发者和仓库排名的开源App。这次主要增加了登录GitHub的功能，随手follow和star，并且增加发现模块，包括GitHub的trending，动态，showcases等。
-* [Uther](https://github.com/callmewhy/Uther) -  跟蠢萌的外星人聊天，还能帮你记事”。[itunes下载](https://itunes.apple.com/cn/app/uther/id1024104920) 。
-* [高仿斗鱼TV](http://code.cocoachina.com/view/128246) - 高仿斗鱼TV，点击头部滚动视图可以播放视频。
-* [LXZEALER](https://github.com/LonelyTown/LXZEALER) - 模仿着做了zealer客户端,App里几乎所有请求都是Post,所以内容都是固定的URL加载的,登录功能只做了微博的第三方登录。
-* [ShiXiSeng_ios](https://github.com/pengleelove/ShiXiSeng_ios) - 完整app的UI框架。
-* [Coding-iPad](https://github.com/Coding/Coding-iPad) - Coding-iPad 是@Coding的官方 iPad 客户端, 又是一个完整的开源应用。
-* [WFZhiHu](https://github.com/TigerWf/WFZhiHu) - WFZhiHu仿知乎日报客户端app。
-* [react-native-gitfeed](https://github.com/xiekw2010/react-native-gitfeed) - 目前最实用简洁的github客户端了。
-* [phphub-ios](https://github.com/Aufree/phphub-ios) - PHPHub的iOS客户端，同时兼容iPhone和iPad。
-* [LeagueofLegends](https://github.com/HarrisHan/LeagueofLegends) - 一个关于英雄联盟的完整iOS开源项目，接口均来自多玩，腾讯各大游戏平台。
-* [BTApp](https://github.com/Ryan0520/BTApp) - BTApp 仿半糖 iOS App 的 Demo 应用。
-* [iOS完整App资源收集](http://www.henishuo.com/ios-app-fully-code/) - iOS开发学习者都希望得到实战训练，但是很多资料都是只有一小部分代码，并不能形成完成的App，笔者在此处收集了很多开源的完整的App，都有源代码哦！--标哥的技术博客
-* [XCFApp-1](https://github.com/callmejoejoe/XCFApp) - 高仿下厨房App，Objective-C，Xcode7.2，数据通过Charles抓的，有接口也有本地数据。说明：关于代码被清空，会用git的你肯定明白，[教程](http://www.jianshu.com/p/a8f619a2c622/)
-* [XCFApp-2](https://github.com/STShenZhaoliang/XCFAPP) - 高仿下厨房APP。
-* [YoCelsius](https://github.com/YouXianMing/YoCelsius) - 已经上线的一款天气预报的应用,几乎所有的交互动画效果，想学习动画的开发人员可以作为参考。
-* [XiMaLaYa-by-HansRove-](https://github.com/HansRove/XiMaLaYa-by-HansRove-) - 仿喜马拉雅FM, 对AVFoundation框架的一次尝试，采用MVVM模式，[教程](http://ios.jobbole.com/85275/)。
-* [DayDayNews](https://github.com/gaoyuhang/DayDayNews) 仿网易新闻客户端，实现新闻浏览，视频播放，仿搜狐视频、百思不得姐等当前主流视频播放器，实现流媒体播放，自动监听屏幕转动，实现横屏播放 , 抓取百度图片，瀑布流显示，夜间模式，环信即时通讯
-
-
-========
-#### 好的文章
+#### 好的文章@
 * [自定义转场动画](http://www.jianshu.com/p/38cd35968864) - 3 种方法～ 关于自定义转场动画。
 * [iOS提高效率的方法和工具](https://github.com/icepy/_posts/blob/master/iOS%E6%8F%90%E9%AB%98%E6%95%88%E7%8E%87%E7%9A%84%E6%96%B9%E6%B3%95%E5%92%8C%E5%B7%A5%E5%85%B7.md) - iOS提高效率的方法和工具。
 * [用 JSON 构建 API 的标准指南](http://jsonapi.org.cn/) - 用 JSON 构建 API 的标准指南。
@@ -1068,7 +1068,6 @@ iOS和OSX原生粒子系统效果图搭载QuartzCore
 
 * [CoPilot](https://vimeo.com/128713880) - 通过此插件， Xcode 可以协同编程了（采用 WebSocket 通讯）。如此强大的“黑工具”，不爱它能行吗。
 
-
 * [SuggestedColors](https://github.com/jwaitzel/SuggestedColors/) - Xcode 插件SuggestedColors，用于 IB颜色设置 辅助插件，非常好用。
 * [Crayons](https://github.com/Sephiroth87/Crayons) - Xcode调色板增强插件。
 * [injectionforxcode](https://github.com/johnno1962/injectionforxcode) - Injection for Xcode：成吨的提高开发效率,[使用说明](http://www.jianshu.com/p/27be46d5e5d4)。
@@ -1077,8 +1076,9 @@ iOS和OSX原生粒子系统效果图搭载QuartzCore
 * [FastStub-Xcode](https://github.com/music4kid/FastStub-Xcode) - 一只快速生成代码的Xcode插件，[说明](http://mrpeak.cn/blog/faststub/)。
 * [ESTranslate-Xcode](https://github.com/EnjoySR/ESTranslate-Xcode) - 一个快速翻译Xcode代码里面单词(我主要用于翻译句子～)的插件，快捷键：Ctrl+Shift+T。
 
+
 ========
-#### 美工资源
+#### 美工资源@
 * [TWG_Retina_Icons](https://github.com/markohlebar/Peckham) - 一套支持 Retina 高清屏的 iPhone 免费图标集。
 * [ASCIImage](https://github.com/cparnot/ASCIImage) - 使用 NSString 创建 image，[说明](http://cocoamine.net/blog/2015/03/20/replacing-photoshop-with-nsstring/)。
 * [my-sketch-colors](https://github.com/RayPS/my-sketch-colors) - 配色。
@@ -1087,23 +1087,18 @@ iOS和OSX原生粒子系统效果图搭载QuartzCore
 * [Chameleon](https://github.com/ViccAlexander/Chameleon) - Chameleon是一个iOS的色彩框架。它运用现代化flat color将UIColor扩展地非常美观。我们还可以通过它运用自定义颜色创建调色板。它还有很多功用，请浏览readme。
 * [FontBlaster](https://github.com/ArtSabintsev/FontBlaster) - 载入定制字体时更简单。
 
-#### 其他资源
+#### 其他资源@
 * [githuber](http://githuber.info/#/index) - 最好用的GitHub人才搜索工具。   
 * [codatlas](https://www.codatlas.com) - 源代码搜索利器。
 * [searchcode](https://searchcode.com/) - 源代码搜索利器：来自悉尼的代码搜索引擎汇聚了 Github, Bitbucket, Sourceforge...等多家开源站点超20万个项目、180亿行源代码，能以特殊字符、语言、仓库和源方式从90多种语言找到函数、API的真实代码。
 * [kitematic](https://github.com/docker/kitematic) - Mac 上使用 Docker 最简单的方案。
 
 ========
-#### 开发资源
-######### 开发资料
-
+######### 开发资料@
 #### 学习资料@
 
 * [objc-zen-book-cn](https://github.com/oa414/objc-zen-book-cn) 禅与 Objective-C 编程艺术 （Zen and the Art of the Objective-C Craftsmanship 中文翻译）
 * [Show](https://github.com/CharlinFeng/Show) 成都地区一个公司开源项目目录
-
-
-
 * A-[awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)  GitHub上所有Awesome Awesomeness 系列集合. 这个系列集合收集上GitHub上优秀的开源项目、框架、书籍、网站、类库等实用资源的集合。
 * [豆瓣iOS开源库列表](https://www.douban.com/note/276160185/?type=like) - 豆瓣iOS开源库列表，很多开源项目。
 * [iOS-Core-Animation-Advanced-Techniques](https://github.com/AttackOnDobby/iOS-Core-Animation-Advanced-Techniques) - 中文版iOS 高级动画技术。
@@ -1120,7 +1115,7 @@ iOS和OSX原生粒子系统效果图搭载QuartzCore
 * [demo](https://github.com/coolnameismy/demo) 刘彦玮的技术博客中文章对应的demo
 * [awesome-growth](https://github.com/phodal/awesome-growth) IT技能图谱
 
-##### 他人开源总结
+##### 他人开源总结@
 
 * [awesome-osx](https://github.com/iCHAIT/awesome-osx) - Awesome OS X。
 * [code4app](http://www.code4app.com/) - 最多国人用的代码库。
@@ -1141,7 +1136,7 @@ iOS和OSX原生粒子系统效果图搭载QuartzCore
 * [Github 上的 iOS 开源项目](http://ios.jobbole.com/84684/) - Github 上的 iOS 开源项目总结。
 * [iOS资源大全中文版](https://github.com/jobbole/awesome-ios-cn) - iOS资源大全中文版。
 
-##### 开发博客列表
+##### 开发博客列表@
 * [唐巧整理](https://github.com/tangqiaoboy/iOSBlogCN) - 猿题库唐巧整理。
 * [11个超棒的iOS开发学习国外网站](http://www.cocoachina.com/ios/20150626/11348.html) - 11个超棒的iOS开发学习网站:[objc.io](https://www.objc.io) ;[subjc.com](http://subjc.com) ;[NSHipster](http://nshipster.com) ;[Peter Steinberger](http://petersteinberger.com) ;[Ole Begemann](http://oleb.net) ;[Florian Kugler](http://floriankugler.com) ;[NSBlog](https://www.mikeash.com/pyblog/) ;[Cocoa](http://cocoa.tumblr.com) ;[iOS Dev Weekly](http://iosdevweekly.com) ;[iOS Developer Tips](http://iosdevelopertips.com) ;[iOS Goodies](http://ios-goodies.com) ;[AppCoda](http://www.appcoda.com) 香港人创建;[Krzysztof Zab?ocki](http://merowing.info) ;[iOS Development tips](http://iosdevtips.co) ;
 
@@ -1197,7 +1192,7 @@ iOS和OSX原生粒子系统效果图搭载QuartzCore
 [里脊串的开发随笔](http://adad184.com) | <http://adad184.com/atom.xml>
 [ibireme伽蓝之堂](http://blog.ibireme.com/) | <http://blog.ibireme.com/feed/>
 
-#### 学习笔记
+#### 学习笔记@
 * A-[iOS-Note](https://github.com/seedante/iOS-Note) 非常好的学习笔记，主要目录1.Core Data 笔记2.Photos 笔记3.转场动画详解4.自定义容器控制器转场5.交互式动画
 * [growth-ebook](https://github.com/phodal/growth-ebook) Growth Engineering: The Definitive Guide。全栈增长工程师指南
 
@@ -1206,16 +1201,10 @@ iOS和OSX原生粒子系统效果图搭载QuartzCore
 * [crashlytics](https://www.fabric.io/onboard) Twitter出的一个崩溃分析软件
 * [Knuff](https://github.com/KnuffApp/Knuff)调试iOS App远程推送(APNs)的工具
 
-#### 设计
+#### 设计@
 * [design-resource](https://github.com/timmy3131/design-resource) 设计师资源列表
 * [Reveal：分析iOS UI的利器](http://revealapp.com/)
 * [Reveal-Plugin-for-XCode](https://github.com/shjborage/Reveal-Plugin-for-XCode) - 一个Reveal插件，可以使工程不作任何修改的情况下使用Reveal，该插件已在Alcatraz上架。
 
-#### 物联网
+#### 物联网@
 * [awesome-iot](https://github.com/phodal/awesome-iot) - 这份物联网学习参考大全太给力。从物联网协议、嵌入式系统、相关开源库、相关书籍、博客、学习笔记、标准应有尽有。
-
-
-##### 视频@
-* [MRVLCPlayer](https://github.com/Maru-zhang/MRVLCPlayer) - 相信Mac用户都很熟悉一款VLC播放器，这款播放器在Mac上表现异常优异，支持的格式几乎涵盖了所有格式（就是这么屌！）。没错，就是它创造者--VideoLAN，开源了一款牛逼的视频播放框架MobileVLCKit！[介绍信息：] (http://gold.xitu.io/entry/578c304b2e958a0054320503?from=singlemessage&isappinstalled=1)
-
-* [plask](https://github.com/deanm/plask) Plask is a multimedia programming environment.
