@@ -75,6 +75,7 @@ iOS开发常用三方库、插件、知名博客等等，大家可以一览无�
 - [数据存储@](#数据存储@)
   - [缓存处理@](#缓存处理@)
   - [数据库@](#数据库@)
+  - [数据加密@](#数据加密@)
 - [WebView与WKWebView@](#WebView与WKWebView@)
 - [游戏@](#cocos2d-objc@)
 - [FaceBook@](#iOS库)
@@ -849,6 +850,8 @@ Deprecated in favor of PureLayout, which includes OS X support:https://github.co
 * [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess) - 管理Keychain接入的小助手。
 * [YYCache](https://github.com/ibireme/YYCache) - 高性能的 iOS 缓存框架。
 * [RuntimeDemo](https://github.com/CoderJackyHuang/RuntimeDemo) - runtime自动归档/解档,[源码分析](http://www.henishuo.com/runtime-archive-unarchive-automaticly/)。
+#### 数据加密@
+* [LBAES](https://github.com/AllLuckly/LBAES/tree/master) - iOS 开发之 AES+Base64 数据混合加密与解密.[源码分析](http://www.jianshu.com/p/16930be4dddc)
 
 
 #### PDF@
