@@ -1,16 +1,12 @@
-mei # TimLiu-iOS iOS开发常用三方库、插件、知名博客等等，期待大家和我们一起共同维护，同时也期望大家随时能提出宝贵的意见。 持续更新。。。
-# 版本：Swift
-github排名 [https://github.com/trending](https://github.com/trending),github搜索：[https://github.com/search](https://github.com/search)
+# iOS-LibraryCollections Swift版 iOS开发常用三方库、插件、知名博客等等，期待大家和我们一起共同维护，同时也期望大家随时能提出宝贵的意见。 持续更新。。。
 
+github排名 [https://github.com/trending](https://github.com/trending),github搜索：[https://github.com/search](https://github.com/search)
 
 主要工作说明：
   1. 将Swift从Objective-C混合的md文件中抽出（正在进行...）
   2. 添加了若干细分栏目.
-
 使用方法：根据目录关键字搜索，记得包含@，以保证搜索目录关键字的唯一性。
-
 问题反馈：请广大网友只按照目录结构（即使目录结构有问题）添加三方库，并pull request。目录问题大家提出issues后楼主会及时更改的。
-
 
 ###  目录
 - [Swift学习资料@](#Swift学习资料)
