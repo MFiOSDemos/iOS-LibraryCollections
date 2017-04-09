@@ -1479,6 +1479,7 @@ iOS和OSX原生粒子系统效果图搭载QuartzCore
 * [iOS资源大全中文版](https://github.com/jobbole/awesome-ios-cn) - iOS资源大全中文版。
 * [LearningIOS](https://github.com/zhouhuanqiang/LearningIOS) Learning materials of iOS
 * [AR-Source](https://github.com/GeekLiB/AR-Source) AR 开发资料汇总
+* [百度Hi iOS团队技术周报](https://baiduhidevios.github.io/)
 
 #### 开发博客列表@
 * [唐巧整理](https://github.com/tangqiaoboy/iOSBlogCN) - 猿题库唐巧整理。
