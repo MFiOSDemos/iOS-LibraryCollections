@@ -1,8 +1,6 @@
 # iOS-LibraryCollections Objective-C版
 iOS开发常用三方库、插件、知名博客等等,持续更新。。。
 
-重点说明：此库和[TimLiu-iOS](https://github.com/Tim9Liu9/TimLiu-iOS)完全同步更新.
-
 使用方法：根据目录关键字搜索(Commond + F)，记得包含@，以保证搜索目录关键字的唯一性。
 
 问题反馈：请广大网友只按照目录结构（即使目录结构有问题）添加三方库，并pull request。目录问题大家提出issues后楼主会及时更改的。
